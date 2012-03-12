@@ -1,0 +1,1553 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 2.6.35.11-dag0.43+ (gabe@damothership) (gcc version 4.4.1 (Sourcery G++ Lite 2010q1-188) ) #131 SMP PREEMPT Wed Dec 7 17:42:17 PST 2011
+<4>[    0.000000] CPU: ARMv7 Processor [510f02d2] revision 2 (ARMv7), cr=10c53c7d
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
+<4>[    0.000000] Machine: SGH-I727
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<7>[    0.000000] On node 0 totalpages: 240384
+<7>[    0.000000] free_area_init_node: node 0, pgdat c095b5e0, node_mem_map c10ee000
+<7>[    0.000000]   Normal zone: 992 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 105248 pages, LIFO batch:31
+<7>[    0.000000]   HighMem zone: 1048 pages used for memmap
+<7>[    0.000000]   HighMem zone: 133096 pages, LIFO batch:31
+<6>[    0.000000] allocating 15208448 bytes at c18f1000 (41cf1000 physical) for fb
+<6>[    0.000000] allocating 6291456 bytes at c7d00000 (48100000 physical) for kernel ebi1 pmem arena
+<6>[    0.000000] allocating 6291456 bytes at 38000000 physical for kernel smi pmem arena
+<6>[    0.000000] allocating 33554432 bytes at c8300000 (48700000 physical) for adsp pmem arena
+<6>[    0.000000] allocating 60817408 bytes at 38600000 physical for user smi  pmem arena
+<6>[    0.000000] allocating 2592768 bytes at ca300000 (4a700000 physical) for audio pmem arena
+<6>[    0.000000] allocating 67108864 bytes at ca579000 (4a979000 physical) for sf pmem arena
+<6>[    0.000000] sec_getlog_supply_meminfo: 40000000 40000000 0 0
+<6>[    0.000000] PERCPU: Embedded 8 pages/cpu @ce57e000 s10272 r8192 d14304 u65536
+<6>[    0.000000] pcpu-alloc: s10272 r8192 d14304 u65536 alloc=16*4096
+<6>[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 238344
+<5>[    0.000000] Kernel command line: androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+<0>[    0.000000] (sec_dbg_setup)
+<0>[    0.000000] (sec_dbg_setup) sec_dbg_buf_base = 0x4020400c
+<0>[    0.000000] (sec_dbg_setup) sec_dbg_buf_size = 0x100000
+<4>[    0.000000] hw_rev_setup : HW rev value is intialized first
+<4>[    0.000000] HW rev value : 0xD
+<6>[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] Memory: 43MB 128MB 244MB 524MB = 939MB total
+<5>[    0.000000] Memory: 814560k/814560k available, 146976k reserved, 536576K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+<5>[    0.000000]     vmalloc : 0xdf800000 - 0xfa000000   ( 424 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xdf000000   ( 496 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000]       .init : 0xc0008000 - 0xc0042000   ( 232 kB)
+<5>[    0.000000]       .text : 0xc0042000 - 0xc082a000   (8096 kB)
+<5>[    0.000000]       .data : 0xc0856000 - 0xc095c0e0   (1049 kB)
+<6>[    0.000000] SLUB: Genslabs=11, HWalign=32, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+<6>[    0.000000] Preemptable hierarchical RCU implementation.
+<6>[    0.000000] 	RCU-based detection of stalled CPUs is disabled.
+<6>[    0.000000] 	Verbose stalled-CPUs detection is disabled.
+<6>[    0.000000] NR_IRQS:855
+<6>[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+<4>[    0.000000] Console: colour dummy device 80x30
+<6>[    0.150177] Calibrating delay using timer specific routine.. 13.53 BogoMIPS (lpj=67694)
+<6>[    0.150207] pid_max: default: 32768 minimum: 301
+<4>[    0.150329] Mount-cache hash table entries: 512
+<6>[    0.150817] Initializing cgroup subsys cpuacct
+<6>[    0.150848] Initializing cgroup subsys freezer
+<6>[    0.150878] Initializing cgroup subsys blkio
+<6>[    0.150909] Initializing cgroup subsys bfqio
+<6>[    0.150939] CPU: Testing write buffer coherency: ok
+<6>[    0.221008] Brought up 2 CPUs
+<6>[    0.221008] SMP: Total of 2 processors activated (27.07 BogoMIPS).
+<6>[    0.230407] wake_lock_init, 0xc0e1afd0, deleted_wake_locks
+<6>[    0.230438] wake_lock_init, 0xc0e1b068, main
+<6>[    0.230438] wake_lock_init, 0xc0e1b020, unknown_wakeups
+<6>[    0.230865] regulator: core version 0.5
+<6>[    0.231201] NET: Registered protocol family 16
+<3>[    0.231353] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+<6>[    0.232360] (sec_get_lpm_mode) 1a2b3c00
+<0>[    0.232360] (sec_get_lpm_mode) 0
+<0>[    0.232391] (sec_debug_init)
+<0>[    0.232391] (sec_debug_init) reset_reason : 0x1a2b3c00
+<6>[    0.232421] msm_rpm_init: RPM firmware 2.0.1115
+<6>[    0.232696] socinfo_init: v6, id=86, ver=2.0, raw_id=1697, raw_ver=1697, hw_plat=0,  hw_plat_ver=65536
+<6>[    0.232696]  accessory_chip=0 hw_plat_subtype=0
+<6>[    0.232940] saw_probe: id=0, rc=0
+<6>[    0.233154] saw_probe: id=1, rc=0
+<6>[    0.244354] CPU0: 10 scaling frequencies supported.
+<6>[    0.244354] CPU1: 10 scaling frequencies supported.
+<6>[    0.244750] bt_power_init 
+<6>[    0.244750] bt_gpio_init : low 
+<3>[    0.244750] bt_power_init: gpio_direction_output success (GPIO: 46 , 158)
+<3>[    0.244781] LTE_switch_init!
+<3>[    0.244812] LTE_switch_init end!
+<6>[    0.255920] ram_console: got buffer at 42e00000, size 1000
+<6>[    0.256042] ram_console: uncorrectable error in header
+<6>[    0.256042] ram_console: no valid data in buffer (sig = 0xc3c6c044)
+<6>[    0.257202] console [ram-1] enabled
+<7>[    0.257690] usb_device_init: default luns=1, system_rev=13
+<4>[    0.265655] [MAG] sensor_power_on_vdd: vdd_2p85=1, vdd_1p8=0, vdd_2p_4=0, vdd_2p85_mag=0
+<4>[    0.265899] [TKEY] tkey_device_init: 8901_lvs2 On 
+<4>[    0.266418] [TKEY] tkey_device_init: TKEY_L12 3.3 V Set 
+<4>[    0.266479] motor_power_on: enter
+<4>[    0.266479] motor_power_on: exit
+<6>[    0.266571] hw perfevents: enabled with ARMv7 Scorpion-MP PMU driver, 5 counters available
+<6>[    0.267730] Scorpion registered PMU device
+<5>[    0.268066] pm8058_init: i2c_add_driver: rc = 0
+<5>[    0.268096] pm8901_init: i2c_add_driver: rc = 0
+<6>[    0.269500] pm8058_probe: PMIC revision: E3
+<6>[    0.271240] pm8901_probe: PMIC revision: F4
+<4>[    0.274291] pmic gpio configuration for HW rev
+<6>[    0.274719] pm8058_gpio_probe: gpiochip_add(): rc=0
+<6>[    0.275146] pm8058_mpp_probe: gpiochip_add(): rc=0
+<4>[    0.279724] bio: create slab <bio-0> at 0
+<6>[    0.280242] pm8901_mpp_probe: gpiochip_add(): rc=0
+<5>[    0.281188] pmic8058_pwm_probe: OK
+<5>[    0.281372] SCSI subsystem initialized
+<6>[    0.281463] usbcore: registered new interface driver usbfs
+<6>[    0.281524] usbcore: registered new interface driver hub
+<6>[    0.281677] usbcore: registered new device driver usb
+<6>[    0.282012] i2c-gpio i2c-gpio.15: using pins 107 (SDA) and 101 (SCL)
+<6>[    0.282165] i2c-gpio i2c-gpio.10: using pins 138 (SDA) and 139 (SCL)
+<6>[    0.282287] i2c-gpio i2c-gpio.13: using pins 156 (SDA) and 157 (SCL)
+<6>[    0.282379] i2c-gpio i2c-gpio.11: using pins 38 (SDA) and 39 (SCL)
+<6>[    0.282531] i2c-gpio i2c-gpio.12: using pins 51 (SDA) and 52 (SCL)
+<6>[    0.282653] i2c-gpio i2c-gpio.17: using pins 70 (SDA) and 94 (SCL)
+<6>[    0.282745] i2c-gpio i2c-gpio.9: using pins 155 (SDA) and 154 (SCL)
+<6>[    0.282897] wake_lock_init, 0xc0e362b0, mmc_delayed_work
+<6>[    0.283081] Advanced Linux Sound Architecture Driver Version 1.0.23.
+<6>[    0.283355] Bluetooth: Core ver 2.15
+<6>[    0.283416] NET: Registered protocol family 31
+<6>[    0.283416] Bluetooth: HCI device and connection manager initialized
+<6>[    0.283416] Bluetooth: HCI socket layer initialized
+<6>[    0.283508] Switching to clocksource gp_timer
+<6>[    0.306121] NET: Registered protocol family 2
+<6>[    0.306182] IP route cache hash table entries: 16384 (order: 4, 65536 bytes)
+<6>[    0.306335] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.306915] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.307464] TCP: Hash tables configured (established 65536 bind 65536)
+<6>[    0.307495] TCP reno registered
+<6>[    0.307495] UDP hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.307495] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.307678] NET: Registered protocol family 1
+<6>[    0.326110] RPC: Registered udp transport module.
+<6>[    0.326110] RPC: Registered tcp transport module.
+<6>[    0.326141] RPC: Registered tcp NFSv4.1 backchannel transport module.
+<6>[    0.326263] Trying to unpack rootfs image as initramfs...
+<6>[    0.367462] Freeing initrd memory: 948K
+<6>[    0.367767] PMU: registered new PMU device of type 0
+<6>[    0.367950] sdio_al:SDIO-AL SW version 1.30
+<6>[    0.373565] msm_dsps driver version 1.03.
+<6>[    0.374145] wake_lock_init, 0xc0d69650, rpc_server
+<6>[    0.374908] wake_lock_init, 0xdee7dc20, rpc_read
+<6>[    0.374908] wake_lock_init, 0xdee7dcd0, rpc_reply
+<6>[    0.376312] wake_lock_init, 0xc0d69e80, snddev_tx_idle
+<6>[    0.376312] wake_lock_init, 0xc0d69e38, snddev_rx_idle
+<6>[    0.378845] wake_lock_init, 0xc0d7ae50, audio_mvs_suspend
+<6>[    0.378845] wake_lock_init, 0xc0d7ae98, audio_mvs_idle
+<6>[    0.379089] lpa_if_init: lpa_if_ptr 0xdee6d000   buf_vir 0xff000000   buf_phy 0x5f388000  buf_zise 24576
+<3>[    0.379333] sec_switch_probe enter sec_switch_probe
+<5>[    0.379669] cfg_gpio_low_power: failed to sleep gpio 230: -22
+<5>[    0.379699] cfg_gpio_low_power: failed to sleep gpio 236: -22
+<5>[    0.379699] cfg_gpio_low_power: failed to sleep gpio 237: -22
+<5>[    0.379699] cfg_gpio_low_power: failed to sleep gpio 240: -22
+<5>[    0.379699] cfg_gpio_low_power: failed to sleep gpio 244: -22
+<5>[    0.379699] cfg_gpio_low_power: failed to sleep gpio 245: -22
+<5>[    0.379730] cfg_gpio_low_power: failed to sleep gpio 258: -22
+<5>[    0.379730] cfg_gpio_low_power: failed to sleep gpio 282: -22
+<5>[    0.379730] cfg_gpio_low_power: failed to sleep gpio 291: -22
+<6>[    0.379730] Bluetooth: bluesleep_init:MSM Sleep Mode Driver Ver 1.1
+<6>[    0.379821] wake_lock_init, 0xdee61f70, bluesleep
+<6>[    0.379943] Bluetooth: bluesleep_init : check point 1 : retval - 0
+<6>[    0.379943] Bluetooth: bluesleep_init : check point 2
+<6>[    0.379974] Bluetooth: bluesleep_init : check point 3
+<6>[    0.379974] Bluetooth: bluesleep_init : check point 4
+<6>[    0.380004] Bluetooth: bluesleep_init : check point 5
+<6>[    0.380004] Bluetooth: bluesleep_init : check point 6
+<6>[    0.380004] Bluetooth: bluesleep_init : check point 7
+<6>[    0.380218] wake_lock_init, 0xc0d7f4d8, charm_wakelock
+<6>[    0.380249] charm_wakeup: charm got wakeup interrupt
+<6>[    0.380432] charm_modem_probe: Registering charm modem
+<6>[    0.380645] wake_lock_init, 0xdee6d0f8, rmt_storage
+<5>[    0.382659] msm_rpm_log_probe: OK
+<6>[    0.382995] sec_getlog_supply_kloginfo: 0xc0d87c08
+<4>[    0.392120] highmem bounce pool size: 64 pages
+<6>[    0.392242] ashmem: initialized
+<5>[    0.392822] Slow work thread pool: Starting up
+<5>[    0.392944] Slow work thread pool: Ready
+<6>[    0.392944] msgmni has been set to 544
+<6>[    0.395050] alg: No test for stdrng (krng)
+<6>[    0.395202] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+<6>[    0.395202] io scheduler noop registered (default)
+<6>[    0.395202] io scheduler deadline registered
+<6>[    0.395202] io scheduler cfq registered
+<6>[    0.395233] io scheduler bfq registered
+<4>[    0.403564] ld9040 start lcdc_ld9040_panel_init
+<4>[    0.403656] ld9040 start ld9040_probe: pdev->name:lcdc_ld9040_wvga
+<4>[    0.403656] ld9040 msm_fb_add_device START
+<6>[    0.403656] setting pdata->panel_info.fb_num to 3. type: 0
+<3>[    0.403656] msm_fb_add_device: msm_fb_device_alloc failed!
+<4>[    0.403747] ld9040 msm_fb_add_device end
+<4>[    0.404052] ld9040 platform_driver_register(&this_driver) is done 
+<4>[    0.404052] ld9040 LDI : EA8868, pixelclock 27400000
+<6>[    0.404327] setting pdata->panel_info.fb_num to 3. type: 3
+<6>[    0.407745] FrameBuffer[0] 480x800 size=4608000 bytes is registered successfully!
+<6>[    0.407745] is_lpcharging_state: is_lpm_boot:0
+<3>[    0.407775] pm_runtime: fail to wake up
+<6>[    0.443664] mdp4_overlay_pipe_alloc: pipe=c0915414 ndx=1 num=0
+<6>[    0.443695] mdp_lcdc_on: <ID=0 480x800 (40,2,40), (8,2,8) 27MHz>
+<6>[    0.445709] @LCDINIT@:DOTCLK clock enabled
+<4>[    0.445739] lcdc_LD9040_panel_power:enable:1
+<4>[    0.446685] ld9040 lcdc_ld9040_panel_on  +  (0,0,0)
+<4>[    0.446685] ld9040 : lcdc_config_gpios [1]
+<4>[    0.446685] ld9040 start spi_init
+<4>[    0.446685] ld9040 clk : 103, cs : 104, sdi : 106
+<4>[    0.446716] ld9040 start ld9040_disp_powerup
+<4>[    0.503692] ld9040 start ld9040_disp_on - HW Rev: 13
+<4>[    0.634460] ld9040 ld9040_read_lcd_id: 0 3 22
+<4>[    0.634460] ld9040 lcd EA8868 M3
+<4>[    0.637756] ld9040 ACL_cutoff_set Percentage : 50!!
+<4>[    0.639312] ld9040 ea8868_gamma_ctl 18 18
+<4>[    0.639434] ld9040 lcdc_ld9040_panel_on  -  (1,1,1)
+<4>[    0.639465] load_565rle_image: open OK! /initlogo.rle
+<4>[    0.639465] load_565rle_image: count 27728
+<4>[    0.639526] load_565rle_image: max 384000, n 65535 0xe0000000, w 480, h 800
+<7>[    0.643371] Registered led device: lcd-backlight
+<6>[    0.643402] sec_getlog_supply_fbinfo: 0x418f1000 480 800 32 2
+<4>[    0.643402] ld9040 platform_device_register(&this_device) is done 
+<6>[    0.644256] msm_vidc_dec: Inside vid_dec_init()
+<6>[    0.644378] msm_vidc_dec: Inside vid_dec_vcd_init()
+<6>[    0.644409] 
+<6>[    0.644409]  msm_vidc_enc: Inside vid_enc_init()
+<6>[    0.644470] 
+<6>[    0.644470]  msm_vidc_enc: Inside vid_enc_vcd_init()
+<6>[    0.706787] wake_lock_init, 0xc0920120, kgsl-3d0
+<6>[    0.707763] wake_lock_init, 0xc09205d0, kgsl-2d0
+<6>[    0.708312] wake_lock_init, 0xc0920910, kgsl-2d1
+<6>[    0.708648] wake_lock_init, 0xc0e2c630, msm_serial_hs_rx
+<6>[    0.708648] wake_lock_init, 0xc0e2c748, msm_serial_hs_dma
+<6>[    0.708709] msm_serial_hs.0: ttyHS0 at MMIO 0x16540000 (irq = 188) is a MSM HS UART
+<6>[    0.709289] msm_serial_hs module loaded
+<6>[    0.709381] msm_serial_hsl: detected port #1
+<6>[    0.709442] msm_serial_hsl.1: ttyHSL1 at MMIO 0x19940000 (irq = 221) is a MSM
+<6>[    0.709838] msm_serial_hsl: detected port #0
+<6>[    0.709899] msm_serial_hsl.0: ttyHSL0 at MMIO 0x19c40000 (irq = 227) is a MSM
+<6>[    0.710357] msm_serial_hsl: driver initialized
+<6>[    0.713073] brd: module loaded
+<6>[    0.714508] loop: module loaded
+<6>[    0.714630] pmem: Initializing pmem_kernel_ebi1 (in-kernel)
+<6>[    0.714691] pmem: Initializing pmem_kernel_smi (in-kernel)
+<6>[    0.714721] pmem: Initializing pmem (user-space) as cached
+<6>[    0.715057] pmem: Initializing pmem_adsp (user-space) as non-cached
+<6>[    0.715209] pmem: Initializing pmem_audio (user-space) as non-cached
+<6>[    0.715362] pmem: Initializing pmem_smipool (user-space) as non-cached
+<3>[    0.715484] pmem: Reserving virtual address range e1000000 - e4a00000 for pmem_smipool
+<6>[    0.715850] is_lpcharging_state: is_lpm_boot:0
+<4>[    0.715911] ak8975 probe start!
+<4>[    0.716766] ak8975 probe success!
+<6>[    0.716796] is_lpcharging_state: is_lpm_boot:0
+<4>[    0.716857] k3dh probe start!!
+<4>[    0.717132] k3dh probe success!!
+<6>[    0.717315] sec_jack:sec_jack_probe : Registering jack driver
+<6>[    0.717437] input: sec_jack as /devices/virtual/input/input0
+<6>[    0.717559] wake_lock_init, 0xdefe3608, sec_jack_det
+<5>[    0.718231] pmic8058_upl_probe: OK
+<6>[    0.718536] wake_lock_init, 0xdec13ae8, pmic8058_xoadc_wakelock
+<5>[    0.718841] pmic8058_misc_probe: OK
+<6>[    0.719146] Loading pn544 driver
+<6>[    0.719207] pn544_probe : IRQ num 628
+<6>[    0.719360] pn544_probe : requesting IRQ 628
+<6>[    0.719512] is_lpcharging_state: is_lpm_boot:0
+<6>[    0.719512] a2220_init
+<6>[    0.719879] wake_lock_init, 0xc0e2d788, sec_misc
+<4>[    0.719879] level device init
+<4>[    0.720001] marimba_probe
+<4>[    0.720001] msm_timpani_setup_power
+<4>[    0.724121] ret = 2 , rd_val = 0 
+<4>[    0.724273] cur_adie_type = TIMPANI_ID;
+<4>[    0.725097] audience_a2220a2220_ioctl : lsj:: a2220_firmware_buf = 78664
+<4>[    0.725128] audience_a2220a2220_ioctl: creating thread..
+<4>[    0.725250] init_a2220 - 
+<4>[    0.725250] audience_a2220a2220_init_thread
+<6>[    0.725280] adie_codec_register_codec_operations: codec type 1
+<6>[    0.744384] SCSI Media Changer driver v0.25 
+<6>[    0.744934] PPP generic driver version 2.4.2
+<6>[    0.745178] PPP Deflate Compression module registered
+<6>[    0.745208] PPP BSD Compression module registered
+<6>[    0.745788] PPP MPPE Compression module registered
+<6>[    0.745819] NET: Registered protocol family 24
+<6>[    0.745819] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+<6>[    0.745819] CSLIP: code copyright 1989 Regents of the University of California.
+<6>[    0.746063] tun: Universal TUN/TAP device driver, 1.6
+<6>[    0.746063] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    0.746337] rmnet_init: SMD devices[8]
+<6>[    0.746337] wake_lock_init, 0xdec54c48, DATA5
+<6>[    0.746856] wake_lock_init, 0xdec55448, DATA6
+<6>[    0.747253] wake_lock_init, 0xdec55c48, DATA7
+<6>[    0.747619] wake_lock_init, 0xdec56448, DATA8
+<6>[    0.747985] wake_lock_init, 0xdec56c48, DATA9
+<6>[    0.748352] wake_lock_init, 0xdec57448, DATA12
+<6>[    0.748748] wake_lock_init, 0xdec57c48, DATA13
+<6>[    0.749145] wake_lock_init, 0xde6b0448, DATA14
+<6>[    0.749542] rmnet_init: SDIO devices[8]
+<6>[    0.751586] wake_lock_init, 0xde6d78a8, msm_otg
+<6>[    0.753265] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    0.753387] wake_lock_init, 0xde6d7eac, msm_hsusb_host.0
+<6>[    0.753417] host driver registered w/ tranceiver
+<6>[    0.753601] usbcore: registered new interface driver cdc_acm
+<6>[    0.753601] cdc_acm: v0.26:USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    0.753601] Initializing USB Mass Storage driver...
+<6>[    0.753631] usbcore: registered new interface driver usb-storage
+<6>[    0.753631] USB Mass Storage support registered.
+<6>[    0.753753] wake_lock_init, 0xdec148d0, usb_bus_active
+<6>[    0.753875] peripheral driver registered w/ tranceiver
+<6>[    0.754272] android_usb gadget: android_usb ready
+<6>[    0.754455] f_acm init
+<6>[    0.754516] facm_probe:gport:tty_ports:1 sdio_ports:1 smd_ports:0 nr_ports:2
+<6>[    0.754516] android_register_function: acm1  0, 8
+<6>[    0.754516] android_register_function: acm2  1, 8
+<6>[    0.754669] android_register_function: adb  2, 8
+<6>[    0.754882] android_register_function: usb_mass_storage  3, 8
+<6>[    0.755065] android_register_function: rndis  4, 8
+<6>[    0.755157] android_register_function: diag  5, 8
+<6>[    0.755218] android_register_function: diag_mdm  6, 8
+<6>[    0.755310] android_register_function: rmnet  7, 8
+<6>[    0.755310] android_register_function: rmnet_sdio  7, 8
+<6>[    0.756927] DUN is registerd
+<4>[    0.757202] android_usb gadget: using random self ethernet address
+<4>[    0.757202] android_usb gadget: using random host ethernet address
+<6>[    0.757476] usb0: MAC 8a:44:c0:eb:1d:3a
+<6>[    0.757476] usb0: HOST MAC 3a:b3:40:b1:6f:1f
+<6>[    0.757781] set_product:  2, 1
+<6>[    0.757781] func->name=usb_mass_storage
+<6>[    0.757781] set_enable_functions: usb_mass_storage - usb_mass_storage 0, 2
+<6>[    0.757812] enable usb_mass_storage
+<6>[    0.757812] func->name=acm1
+<6>[    0.757812] set_enable_functions: acm1 - usb_mass_storage 0, 2
+<6>[    0.757812] set_enable_functions: acm1 - acm2 1, 2
+<6>[    0.757843] func->name=acm2
+<6>[    0.757843] set_enable_functions: acm2 - usb_mass_storage 0, 2
+<6>[    0.757843] set_enable_functions: acm2 - acm2 1, 2
+<6>[    0.757873] enable acm2
+<6>[    0.757873] func->name=adb
+<6>[    0.757873] set_enable_functions: adb - usb_mass_storage 0, 2
+<6>[    0.757873] set_enable_functions: adb - acm2 1, 2
+<6>[    0.757904] func->name=rndis
+<6>[    0.757904] set_enable_functions: rndis - usb_mass_storage 0, 2
+<6>[    0.757904] set_enable_functions: rndis - acm2 1, 2
+<6>[    0.757904] func->name=diag
+<6>[    0.757904] set_enable_functions: diag - usb_mass_storage 0, 2
+<6>[    0.757934] set_enable_functions: diag - acm2 1, 2
+<6>[    0.757934] func->name=diag_mdm
+<6>[    0.757934] set_enable_functions: diag_mdm - usb_mass_storage 0, 2
+<6>[    0.757934] set_enable_functions: diag_mdm - acm2 1, 2
+<6>[    0.757965] func->name=rmnet_sdio
+<6>[    0.757965] set_enable_functions: rmnet_sdio - usb_mass_storage 0, 2
+<6>[    0.757965] set_enable_functions: rmnet_sdio - acm2 1, 2
+<6>[    0.757995] Change Device Descriptor : DeviceClass(0xef),SubClass(0x2),Protocol(0x1)
+<6>[    0.757995] Change Label : [1]ACM + UMS (SAMSUNG KIES mode)
+<6>[    0.757995] set function num=2
+<6>[    0.757995] android_register_function: rmnet_smd_sdio  8, 8
+<6>[    0.758514] DIAG registered SDIO device
+<6>[    0.759063] diagchar initialized
+<6>[    0.759918] input: sec_key as /devices/i2c-6/6-0055/pm8058-keypad/input/input1
+<6>[    0.760528] is_lpcharging_state: is_lpm_boot:0
+<3>[    0.760559] [TSP] mxt224_probe   
+<6>[    0.760772] input: sec_touchscreen as /devices/virtual/input/input2
+<4>[    0.760955] mxt224_power_on: enter
+<3>[    0.761352] [TSP POWER ON	L1 3.3 enable
+<3>[    0.761779] [TSP POWER ON  L4 1.8 enable
+<4>[    0.761840] mxt224_power_on: exit
+<4>[    0.823822] mxt224_power_on is finished
+<4>[    0.825408] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init +
+<6>[    0.865051] qt602240_ts 0-004a: family = 0x81, variant = 0x1, version = 0x10, build = 170
+<3>[    0.865081] [TSP] family = 0x81, variant = 0x1, version = 0x10, build = 170
+<4>[    0.883819] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 1
+<4>[    0.883941] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 2
+<4>[    0.885040] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 3
+<4>[    0.885040] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 4
+<6>[    0.885040] a2220_bootup_init: starting to load image (2459 passes)...
+<3>[    0.889465] [TSP] TSP chip is MXT224-E
+<3>[    0.890106] [TSP]user_info_value is 0
+<3>[    0.983856] [TSP] ta_status is 0
+<3>[    0.983947] [TSP] mxt224_ta_probe 
+<3>[    0.986755] [TSP]TA_probe MXT224E T48 Byte2 is 64
+<3>[    0.994110] [TSP]TA_probe MXT224E T48 Byte2 is 96
+<3>[    0.996765] [TSP]calibration success!!!
+<3>[    0.997253] [TSP] mxt224_probe   e
+<6>[    0.998229] input: sec_power_key as /devices/i2c-6/6-0055/pm8058-pwrkey/input/input3
+<3>[    0.998474] [TSP] Calibration!!!!!!
+<6>[    0.998992] wake_lock_init, 0xc0e348a8, alarm_rtc
+<6>[    0.999298] wake_lock_init, 0xc0e349c8, alarm
+<3>[    1.000030] [TSP] Calibration End!!!!!!
+<6>[    1.000274] using rtc device, pm8058_rtc0, for alarms
+<6>[    1.000366] pm8058-rtc pm8058-rtc: rtc core: registered pm8058_rtc0 as rtc0
+<6>[    1.000701] i2c /dev entries driver
+<3>[    1.003234] [TSP] Calibration!!!!!!
+<6>[    1.003295] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.003295] yda165:yda165_init
+<6>[    1.003356] yda165:yda165_probe
+<3>[    1.003356] yda165:yda165_probe
+<5>[    1.003356] yda165_probe: OK
+<6>[    1.003631] yda165:load_ampgain completed
+<6>[    1.003723] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.004089] input: proximity_sensor as /devices/virtual/input/input4
+<6>[    1.004333] wake_lock_init, 0xc0e35050, prx_wake_lock
+<4>[    1.004364] opt_i2c_probe(769): 
+<3>[    1.004394] opt_i2c_probe, 770 : start!!!
+<4>[    1.004486] GP2A opt i2c attach success!!!
+<3>[    1.004486] GP2A opt i2c attach success!!!
+<3>[    1.004669] opt_i2c_probe, 789 : end!!!
+<4>[    1.004791] opt_i2c_client : (0xdedec600)
+<4>[    1.005340] opt_i2c_write(472): : 0x4, 0x2
+<4>[    1.005340] gp2a_opt_probe is OK!!
+<6>[    1.005828] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.006744] input: light_sensor as /devices/virtual/input/input5
+<6>[    1.007263] input: fsa9480 as /devices/i2c-5/5-0025/input/input6
+<6>[    1.010192] fsa9480 5-0025:  fsa9480_reg_init dev ID: 0x0
+<6>[    1.010437] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.010467] [GYRO] k3g_probe start!
+<6>[    1.010955] input: gyro_sensor as /devices/virtual/input/input7
+<6>[    1.012298] input: orientation_sensor as /devices/virtual/input/input8
+<6>[    1.012664] IR NEC protocol handler initialized
+<6>[    1.012664] IR RC5(x) protocol handler initialized
+<6>[    1.012664] IR RC6 protocol handler initialized
+<6>[    1.012664] IR JVC protocol handler initialized
+<6>[    1.012664] IR Sony protocol handler initialized
+<6>[    1.012695] Linux video capture interface: v2.00
+<6>[    1.012847] usbcore: registered new interface driver uvcvideo
+<6>[    1.012847] USB Video Class driver (v0.1.0)
+<6>[    1.013275] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.013336] ############# M5MO probe ##############
+<6>[    1.013366] wake_lock_init, 0xde6dd228, msm_camera
+<7>[    1.013763] [M5MO] m5mo_sensor_probe : E
+<7>[    1.013763] [M5MO] m5mo_i2c_init : E
+<7>[    1.013793] [M5MO] m5mo_i2c_probe : E
+<7>[    1.013824] [M5MO] m5mo_i2c_probe : m5mo_i2c_probe X
+<7>[    1.013824] 
+<6>[    1.015106] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.015228] ############# S5K5BAFX probe ##############
+<6>[    1.015228] wake_lock_init, 0xde6dd628, msm_camera
+<3>[    1.015747] [TSP] Calibration End!!!!!!
+<6>[    1.015899] msm_otg_suspend: usb in low power mode
+<7>[    1.015930] [5BAFX] s5k5bafx_sensor_probe : E
+<7>[    1.015930] [5BAFX] s5k5bafx_i2c_init : E
+<7>[    1.015991] [5BAFX] s5k5bafx_i2c_probe : E
+<7>[    1.015991] [5BAFX] s5k5bafx_i2c_probe : X
+<3>[    1.016052] [5BAFX] s5k5bafx_sensor_probe:1330:rc = 0
+<4>[    1.018157] max17040_probe: MAX17043 driver Loading! 
+<4>[    1.018157] max17040_get_version : 
+<6>[    1.019378] max17040 15-0036: MAX17040 Fuel-Gauge Ver 03
+<6>[    1.020446] max17040_get_rcomp : current rcomp = 0xc71f(199)
+<6>[    1.022064] max17040_get_rcomp : current rcomp = 0xc71f(199)
+<6>[    1.023254] wake_lock_init, 0xde74fc98, power-supply
+<6>[    1.023254] wake_lock_init, 0xde74fce8, fuelgague-lowbat
+<6>[    1.024810] smb328a_probe: SMB328A driver Loading! 
+<6>[    1.024841] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.026428] smb328a_check_bmd_disabled : return ture : reg(0x5)=0x8b (0x80)
+<6>[    1.026458] wake_lock_init, 0xde754298, power-supply
+<6>[    1.031372] smb328a_check_bmd_disabled : return ture : reg(0x5)=0x8b (0x80)
+<6>[    1.031433] msm_adc successfully registered
+<6>[    1.032135] device-mapper: ioctl: 4.17.0-ioctl (2010-03-05) initialised: dm-devel@redhat.com
+<6>[    1.032135] Bluetooth: HCI UART driver ver 2.2
+<6>[    1.032165] Bluetooth: HCI H4 protocol initialized
+<6>[    1.032165] Bluetooth: HCI_IBS protocol initialized
+<6>[    1.032165] bluetooth_power_init 
+<4>[    1.032287] bt_power_probe
+<4>[    1.032287] bluetooth_power_rfkill_probe
+<4>[    1.032409] bluesleep_rfkill_alloc
+<6>[    1.032623] Bluetooth: bluesleep_rfkill_alloc : success! 
+<6>[    1.032623] 
+<6>[    1.033966] cpuidle: using governor ladder
+<6>[    1.033966] cpuidle: using governor menu
+<6>[    1.034423] wake_lock_init, 0xde6b53f8, mmc0
+<3>[    1.034423] mmc0: No card detect facilities available
+<4>[    1.034790]  mmc0: initiated rescan function in mmc_detect_change 
+<6>[    1.034820] mmc0: Qualcomm MSM SDCC-core at 0x0000000012400000 irq 136,0 dma 18 dmacrcri 1
+<6>[    1.034820] mmc0: 8 bit data mode enabled
+<6>[    1.034820] mmc0: 4 bit data mode disabled
+<6>[    1.034820] mmc0: polling status mode disabled
+<6>[    1.034820] mmc0: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.034851] mmc0: Slot eject status = 0
+<6>[    1.034851] mmc0: Power save feature enable = 1
+<6>[    1.034851] mmc0: DM non-cached buffer at ff21e000, dma_addr 0x5eb2e000
+<6>[    1.034851] mmc0: DM cmd busaddr 0x5eb2e000, cmdptr busaddr 0x5eb2ec00
+<6>[    1.035400] wake_lock_init, 0xde6b5bb0, mmc1
+<6>[    1.035522] wake_lock_init, 0xde6b5bf8, mmc1
+<4>[    1.035797]  mmc1: initiated rescan function in mmc_detect_change 
+<6>[    1.035827] mmc1: Qualcomm MSM SDCC-core at 0x0000000012140000 irq 135,0 dma 19 dmacrcri 4
+<6>[    1.035827] mmc1: 8 bit data mode enabled
+<6>[    1.035827] mmc1: 4 bit data mode disabled
+<6>[    1.035827] mmc1: polling status mode disabled
+<6>[    1.035827] mmc1: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.035858] mmc1: Slot eject status = 0
+<6>[    1.035858] mmc1: Power save feature enable = 1
+<6>[    1.035858] mmc1: DM non-cached buffer at ff21f000, dma_addr 0x5eb39000
+<6>[    1.035858] mmc1: DM cmd busaddr 0x5eb39000, cmdptr busaddr 0x5eb39c00
+<6>[    1.036132] wake_lock_init, 0xde6b63f8, mmc2
+<4>[    1.036529]  mmc2: initiated rescan function in mmc_detect_change 
+<6>[    1.036529] mmc2: Qualcomm MSM SDCC-core at 0x0000000012180000 irq 134,642 dma 20 dmacrcri 2
+<6>[    1.036529] mmc2: 8 bit data mode disabled
+<6>[    1.036560] mmc2: 4 bit data mode enabled
+<6>[    1.036560] mmc2: polling status mode disabled
+<6>[    1.036560] mmc2: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.036560] mmc2: Slot eject status = 0
+<6>[    1.036560] mmc2: Power save feature enable = 1
+<6>[    1.036560] mmc2: DM non-cached buffer at ff220000, dma_addr 0x5eb3a000
+<6>[    1.036590] mmc2: DM cmd busaddr 0x5eb3a000, cmdptr busaddr 0x5eb3ac00
+<6>[    1.036865] wake_lock_init, 0xde6b6bb0, mmc3
+<6>[    1.036865] wake_lock_init, 0xde6b6bf8, mmc3
+<3>[    1.036865] mmc3: No card detect facilities available
+<4>[    1.037261]  mmc3: initiated rescan function in mmc_detect_change 
+<6>[    1.037261] mmc3: Qualcomm MSM SDCC-core at 0x00000000121c0000 irq 133,0 dma 21 dmacrcri 5
+<6>[    1.037292] mmc3: 8 bit data mode disabled
+<6>[    1.037292] mmc3: 4 bit data mode enabled
+<6>[    1.037292] mmc3: polling status mode disabled
+<6>[    1.037292] mmc3: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.037292] mmc3: Slot eject status = 0
+<6>[    1.037292] mmc3: Power save feature enable = 1
+<6>[    1.037322] mmc3: DM non-cached buffer at ff221000, dma_addr 0x5eb3d000
+<6>[    1.037322] mmc3: DM cmd busaddr 0x5eb3d000, cmdptr busaddr 0x5eb3dc00
+<6>[    1.037597] wake_lock_init, 0xde6b73b0, mmc4
+<6>[    1.037658] wake_lock_init, 0xde6b73f8, mmc4
+<4>[    1.037994]  mmc4: initiated rescan function in mmc_detect_change 
+<6>[    1.037994] mmc4: Qualcomm MSM SDCC-core at 0x0000000012200000 irq 220,0 dma 21 dmacrcri 14
+<6>[    1.037994] mmc4: 8 bit data mode disabled
+<6>[    1.037994] mmc4: 4 bit data mode enabled
+<6>[    1.037994] mmc4: polling status mode disabled
+<6>[    1.038024] mmc4: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.038024] mmc4: Slot eject status = 0
+<6>[    1.038024] mmc4: Power save feature enable = 1
+<6>[    1.038024] mmc4: DM non-cached buffer at ff222000, dma_addr 0x5eb3e000
+<6>[    1.038024] mmc4: DM cmd busaddr 0x5eb3e000, cmdptr busaddr 0x5eb3ec00
+<4>[    1.038543] =============================================
+<4>[    1.038543] leds-gpio: probe of leds-gpio failed with error -22
+<4>[    1.038543] =============================================
+<7>[    1.038848] Registered led device: camera:flash0
+<7>[    1.038879] Registered led device: camera:flash1
+<6>[    1.039550] usbcore: registered new interface driver usbhid
+<6>[    1.039550] usbhid: USB HID core driver
+<6>[    1.040130] logger: created 512K log 'log_main'
+<6>[    1.040283] logger: created 256K log 'log_events'
+<6>[    1.040405] logger: created 512K log 'log_radio'
+<6>[    1.040496] logger: created 256K log 'log_system'
+<6>[    1.040527] sec_getlog_supply_loggerinfo: 0xc0e37158 0xc0eb7158 0xc0f37158 0xc0f77158
+<6>[    1.041168] usbcore: registered new interface driver snd-usb-audio
+<4>[    1.041442] No device for DAI CODEC_DAI
+<4>[    1.041473] No device for DAI CPU_DAI
+<3>[    1.041809] msm_soc: create pcms
+<6>[    1.041961] asoc: CODEC_DAI <-> CPU_DAI mapping ok
+<4>[    1.043151] No device for DAI MVS_CODEC_DAI
+<4>[    1.043182] No device for DAI MVS_CPU_DAI
+<6>[    1.043487] wake_lock_init, 0xc0fbabb0, audio_mvs_suspend
+<6>[    1.043487] wake_lock_init, 0xc0fbabf8, audio_mvs_idle
+<6>[    1.043579] asoc: MVS_CODEC_DAI <-> MVS_CPU_DAI mapping ok
+<6>[    1.044952] ALSA device list:
+<6>[    1.044982]   #0: msm-audio (MSM-CARD)
+<6>[    1.044982]   #1: msm-voip (MSM-MVS-CARD)
+<6>[    1.045013] u32 classifier
+<6>[    1.045043]     Actions configured
+<6>[    1.045043] Netfilter messages via NETLINK v0.30.
+<6>[    1.045104] nf_conntrack version 0.5.0 (12742 buckets, 50968 max)
+<6>[    1.045288] ctnetlink v0.93: registering with nfnetlink.
+<6>[    1.045349] xt_time: kernel timezone is -0000
+<6>[    1.045471] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.045562] arp_tables: (C) 2002 David S. Miller
+<6>[    1.045593] TCP cubic registered
+<6>[    1.045654] NET: Registered protocol family 10
+<6>[    1.045989] lo: Disabled Privacy Extensions
+<6>[    1.047790] Mobile IPv6
+<6>[    1.047821] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.047882] IPv6 over IPv4 tunneling driver
+<6>[    1.048248] sit0: Disabled Privacy Extensions
+<6>[    1.048461] NET: Registered protocol family 17
+<6>[    1.048492] NET: Registered protocol family 15
+<6>[    1.048706] Bluetooth: L2CAP ver 2.15
+<6>[    1.048736] Bluetooth: L2CAP socket layer initialized
+<6>[    1.048736] Bluetooth: SCO (Voice Link) ver 0.6
+<6>[    1.048736] Bluetooth: SCO socket layer initialized
+<6>[    1.048828] Bluetooth: RFCOMM TTY layer initialized
+<6>[    1.048858] Bluetooth: RFCOMM socket layer initialized
+<6>[    1.048858] Bluetooth: RFCOMM ver 1.11
+<6>[    1.048858] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    1.048858] Bluetooth: BNEP filters: protocol multicast
+<6>[    1.048858] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[    1.048980] ThumbEE CPU extension supported.
+<3>[    1.057342] set_dload_mode <0> ( c0012aa8 )
+<6>[    1.059814] WDOG handled by TZ: dump @0xde78d000 PA:5eb8d000
+<6>[    1.059967] MSM Watchdog Initialized
+<6>[    1.060363] VFP support v0.3: implementor 51 architecture 64 part 2d variant 0 rev 0
+<6>[    1.068511] hdmi_msm hdmi_msm.0: probe
+<6>[    1.069702] hdmi_msm hdmi_msm.1: probe
+<6>[    1.069793] hdmi_msm hdmi_msm.1: Features <val:0x80004481, HDMI:ON, HDCP:ON>
+<6>[    1.070037] setting pdata->panel_info.fb_num to 2. type: 7
+<3>[    1.071197] error: no more framebuffer memory!
+<4>[    1.071594] =============================================
+<4>[    1.071624] msm_fb: probe of msm_fb.458753 failed with error -12
+<4>[    1.071624] =============================================
+<6>[    1.071807] hdmi_msm hdmi_msm.1: external_common_state_create: mfd->fbi->dev not found
+<6>[    1.071838] hdmi_msm hdmi_msm.1: Init FAILED: hdmi_msm_state_create, rc=-19
+<6>[    1.071899] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.072784] [ MHL_DRIVER (SII9234_i2c_probe,382) ] 
+<4>[    1.072814] SII9234 attach success!!!
+<4>[    1.073150] [MHL SII9234] add i2c driver
+<4>[    1.073242] [ MHL_DRIVER (SII9234A_i2c_probe,445) ] 
+<4>[    1.073242] SII9234A attach success!!!
+<4>[    1.073425] [MHL SII9234A] add i2c driver
+<4>[    1.073486] [ MHL_DRIVER (SII9234B_i2c_probe,486) ] 
+<4>[    1.073516] SII9234B attach success!!!
+<4>[    1.073669] [MHL SII9234B] add i2c driver
+<4>[    1.073730] [ MHL_DRIVER (SII9234C_i2c_probe,535) ] 
+<4>[    1.073760] SII9234C attach success!!!
+<6>[    1.073791] Board : get_mhl_int_irq, 13
+<4>[    1.074188] SII9234_i2c_client name = SII9234, device_id = 0x39
+<4>[    1.074218] SII9234A_i2c_client name = SII9234A, device_id = 0x3d
+<4>[    1.074218] SII9234B_i2c_client name = SII9234B, device_id = 0x49
+<4>[    1.074249] SII9234C_i2c_client name = SII9234C, device_id = 0x64
+<4>[    1.074432] [MHL SII9234C] add i2c driver
+<4>[    1.074707] [TKEY] touchkey_init START 
+<6>[    1.074737] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.076477] [TKEY] touchkey_init F/W version: 0x12, Module version:0x22, HW_REV: 0xd
+<4>[    1.076629] [TKEY] melfas i2c_touchkey_probe
+<6>[    1.076965] input: sec_touchkey as /devices/virtual/input/input9
+<4>[    1.077606] [TKEY] enter touchkey_auto_calibration
+<4>[    1.078765] write value 80 to address 32
+<3>[    1.079193] mmc0: Command 52 timeout
+<3>[    1.084716] mmc0: Command 52 timeout
+<3>[    1.093444] mmc0: Command 8 timeout
+<3>[    1.099182] mmc0: Command 5 timeout
+<3>[    1.104888] mmc0: Command 5 timeout
+<3>[    1.110473] mmc0: Command 5 timeout
+<3>[    1.115966] mmc0: Command 5 timeout
+<3>[    1.121612] mmc0: Command 55 timeout
+<4>[    1.127349] after touchkey_auto_calibration result = 1 
+<3>[    1.127441] mmc0: Command 55 timeout
+<6>[    1.127899] wake_lock_init, 0xc0e33fe8, bln_wake_lock
+<4>[    1.128082] [TKEY] touchkey_init END 
+<6>[    1.132904] pm8058-rtc pm8058-rtc: setting system clock to 2012-03-12 18:35:58 UTC (1331577358)
+<3>[    1.132934] mmc0: Command 55 timeout
+<6>[    1.133636] sec-battery sec-battery: sec_bat_probe: SEC Battery Driver Loading
+<6>[    1.133666] wake_lock_init, 0xdee5c9e0, vbus_present
+<6>[    1.133666] wake_lock_init, 0xdee5ca28, sec-battery-monitor
+<6>[    1.133697] wake_lock_init, 0xdee5ca70, sec-battery-cable
+<6>[    1.133728] wake_lock_init, 0xdee5cab8, bat_esus_test
+<6>[    1.133728] wake_lock_init, 0xdee5cb00, sec-battery-measure
+<6>[    1.133758] wake_lock_init, 0xdee5cb48, sec-battery-adc
+<6>[    1.134429] sec_bat_get_lpcharging_state: LP charging:0
+<6>[    1.134735] wake_lock_init, 0xdee5c868, power-supply
+<6>[    1.134948] wake_lock_init, 0xdee5c900, power-supply
+<6>[    1.135101] wake_lock_init, 0xdee5c998, power-supply
+<3>[    1.136596] sec_bat_polling_work: adc work already on a queue
+<4>[    1.136871] Warning: unable to open an initial console.
+<3>[    1.137023] sec_bat_measure_work: adc work already on a queue
+<3>[    1.138305] mmc0: Command 55 timeout
+<4>[    1.140686] [fg] p:126, s1:1, s2:100, v:3421250, t:0
+<6>[    1.147583] sec_bat_get_lpcharging_state: LP charging:0
+<3>[    1.148742] init: /init.rc: 358: ignored duplicate definition of service 'bluetoothd'
+<6>[    1.149353] sec_bat_get_lpcharging_state: LP charging:0
+<3>[    1.149749] init: /init.qcom.rc: 130: ignored duplicate definition of service 'secril-daemon'
+<6>[    1.150268] sec_bat_get_lpcharging_state: LP charging:0
+<3>[    1.150634] init: /init.target.rc: 176: ignored duplicate definition of service 'wpa_supplicant'
+<3>[    1.150878] init: /init.target.rc: 186: ignored duplicate definition of service 'iprenew_eth0'
+<3>[    1.151031] init: /init.target.rc: 189: ignored duplicate definition of service 'notified_event'
+<3>[    1.151184] init: /init.target.rc: 190: ignored duplicate definition of service 'macloader'
+<3>[    1.151336] init: [boot time] processing action 0x42130 (early-init)
+<3>[    1.151641] init: [boot time] processing action 0x55158 (property_init)
+<3>[    1.152374] init: [boot time] processing action 0x551a0 (keychord_init)
+<3>[    1.152465] init: [boot time] processing action 0x551e8 (set_init_properties)
+<3>[    1.152679] init: [boot time] processing action 0x42180 (init)
+<3>[    1.153289] init: SEC_DEVENC ***[none][0]
+<6>[    1.165740] smb328a_check_bmd_disabled : return ture : reg(0x5)=0x8b (0x80)
+<6>[    1.176605] pmic8058_xoadc:The offset for AMUX calibrationwas -686
+<3>[    1.176879] init: SEC_DEVENC ***[tmpfs][0]
+<3>[    1.177307] init: SEC_DEVENC ***[tmpfs][0]
+<3>[    1.178192] init: SEC_DEVENC ***[tmpfs][0]
+<3>[    1.180389] init: SEC_DEVENC ***[none][0]
+<6>[    1.190185] mmc0: new high speed MMC card at address 0001
+<6>[    1.190673] mmcblk0: mmc0:0001 KYL00M 14.6 GiB 
+<6>[    1.191375]  mmcblk0: p1 p2 p3 p4 < p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27 p28 >
+<4>[    1.201232] mmcblk0: p28 size 23609344 extends beyond EOD, truncated
+<4>[    1.211639] ######## bthid_init: ########
+<4>[    1.212310] ######## bthid_init: done ########
+<3>[    1.212615] init: [boot time] processing action 0x53240 (early-fs)
+<3>[    1.213134] init: SEC_DEVENC ***[/dev/block/mmcblk0p24][0]
+<3>[    1.236968] mmc1: Command 52 timeout
+<3>[    1.242767] mmc1: Command 52 timeout
+<3>[    1.251770] mmc1: Command 8 timeout
+<3>[    1.257843] mmc1: Command 5 timeout
+<3>[    1.263305] mmc1: Command 5 timeout
+<6>[    1.268676] EXT4-fs (mmcblk0p24): mounted filesystem with ordered data mode. Opts: barrier=1
+<3>[    1.268707] mmc1: Command 5 timeout
+<3>[    1.274139] mmc1: Command 5 timeout
+<3>[    1.279663] mmc1: Command 55 timeout
+<3>[    1.285156] mmc1: Command 55 timeout
+<3>[    1.290618] mmc1: Command 55 timeout
+<3>[    1.296173] mmc1: Command 55 timeout
+<3>[    1.301635] mmc1: Command 1 timeout
+<3>[    1.354492] mmc2: Command 52 timeout
+<3>[    1.360168] mmc2: Command 52 timeout
+<3>[    1.369873] mmc2: Command 5 timeout
+<3>[    1.375305] mmc2: Command 5 timeout
+<3>[    1.380706] mmc2: Command 5 timeout
+<3>[    1.386169] mmc2: Command 5 timeout
+<3>[    1.398742] init: [boot time] finish coldboot
+<4>[    1.429229] smb328a_int_work_func
+<6>[    1.430114] smb328a_int_work_func : reg (0x37) = 0x0
+<6>[    1.430999] smb328a_int_work_func : reg (0x36) = 0x3
+<6>[    1.431854] sec_bat_set_property: 1
+<6>[    1.431884] sec_bat_set_property: charger inserted!!
+<6>[    1.474700] msm_otg_resume: usb exited from low power mode
+<6>[    1.476287] BSV set
+<7>[    1.476409] usb_do_work USB disconnected  USB_STATE_OFFLINE
+<3>[    1.528320] sec_switch_init_work value = 1 
+<3>[    1.528778] sec_switch_set_vbus_status USB_VBUS_AP_ON 2
+<3>[    1.529571] init: SEC_DEVENC ***[/dev/block/mmcblk0p26][0]
+<6>[    1.554779] EXT4-fs (mmcblk0p26): mounted filesystem with ordered data mode. Opts: barrier=1
+<3>[    1.578399] init: SEC_DEVENC ***[/dev/block/mmcblk0p21][0]
+<3>[    1.594696] msm_sdc3_get_wpswitch:Failed to request GPIO 251
+<4>[    1.595123] mmc2: host does not support reading read-only switch. assuming write-enable.
+<6>[    1.595184] mmc2: new high speed SDHC card at address e624
+<6>[    1.595947] mmcblk1: mmc2:e624 SU08G 7.40 GiB 
+<6>[    1.596832]  mmcblk1: p1
+<3>[    1.637329] mmc3: Command 52 timeout
+<3>[    1.643066] mmc3: Command 52 timeout
+<3>[    1.652099] mmc3: Command 8 timeout
+<3>[    1.657958] mmc3: Command 5 timeout
+<3>[    1.663513] mmc3: Command 5 timeout
+<3>[    1.669433] mmc3: Command 5 timeout
+<3>[    1.675445] mmc3: Command 5 timeout
+<3>[    1.681121] mmc3: Command 55 timeout
+<3>[    1.686889] mmc3: Command 55 timeout
+<6>[    1.687042] EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: barrier=1
+<3>[    1.692718] mmc3: Command 55 timeout
+<7>[    1.698089] usb_reset USB disconnected
+<7>[    1.698120] [composite_disconnect]mute_switch= 0
+<3>[    1.698333] mmc3: Command 55 timeout
+<7>[    1.703643] usb_do_work_check_vbus USB disconnected 2
+<3>[    1.703918] init: SEC_DEVENC ***[/dev/block/mmcblk0p13][0]
+<3>[    1.704437] mmc3: Command 1 timeout
+<3>[    1.720703] init: SEC_DEVENC ***[/dev/block/mmcblk0p17][0]
+<3>[    1.747192] mmc4: Command 52 timeout
+<3>[    1.752716] mmc4: Command 52 timeout
+<3>[    1.761383] mmc4: Command 8 timeout
+<3>[    1.766845] mmc4: Command 5 timeout
+<3>[    1.772308] mmc4: Command 5 timeout
+<3>[    1.777709] mmc4: Command 5 timeout
+<3>[    1.783142] mmc4: Command 5 timeout
+<3>[    1.788726] mmc4: Command 55 timeout
+<3>[    1.793884] [TSP] Calibration!!!!!!
+<3>[    1.794189] mmc4: Command 55 timeout
+<3>[    1.799713] mmc4: Command 55 timeout
+<3>[    1.804962] [TSP] Calibration End!!!!!!
+<3>[    1.805297] mmc4: Command 55 timeout
+<3>[    1.810821] mmc4: Command 1 timeout
+<3>[    1.825653] init: SEC_DEVENC ***[/dev/block/mmcblk0p24][0]
+<6>[    1.868743] EXT4-fs (mmcblk0p24): re-mounted. Opts: barrier=0
+<3>[    1.872528] init: SEC_DEVENC ***[/dev/block/mmcblk0p27][0]
+<3>[    1.873321] init: failed that mount s:'/dev/block/mmcblk0p27', t:'/tombstones', f:ext4 ,op :barrier=1 (No such file or directory)
+<3>[    1.875549] init: SEC_DEVENC use existing dm
+<3>[    1.876129] init: SEC_DEVENC ***[/dev/block/mmcblk0p25][3]
+<3>[    1.877838] init: fn_get_DMDevCryptName ret[/dev/mapper/data]
+<3>[    1.878326] init: failed dm mount s:'/dev/mapper/data', t:'/data', f:ext4 ,op :noauto_da_alloc (No such file or directory)
+<6>[    1.905364] EXT4-fs (mmcblk0p25): mounted filesystem with ordered data mode. Opts: noauto_da_alloc
+<3>[    1.922821] init: [boot time] processing action 0x42cc8 (emmc-fs)
+<3>[    1.923370] init: SEC_DEVENC ***[/dev/block/mmcblk0p24][0]
+<3>[    1.923950] init: failed that mount s:'/dev/block/mmcblk0p24', t:'/system', f:ext4 ,op :barrier=1 (Device or resource busy)
+<3>[    1.924682] init: [disk_config] :::: fsck -> /dev/block/mmcblk0p26 (ext4):::::
+<3>[    1.926269] [TouchKey] interrupt touchkey
+<3>[    1.928863] init: [disk_config] DEVENC : not mormal [0]
+<3>[    1.929260] init: [disk_config] DEVENC : fs_check with original dev_path
+<3>[    1.945922] init: [disk_config] ext_check -> /system/bin/e2fsck -v -y /dev/block/mmcblk0p26 
+<3>[    1.952331] [TSP] t: 22, a: 0
+<3>[    1.963439] init: [disk_config] Error ::execute :: Error in (Status 8)
+<3>[    1.963806] init: [disk_config] Error ::* failed to check -1
+<3>[    1.964111] init: SEC_DEVENC ***[/dev/block/mmcblk0p26][0]
+<3>[    1.964935] init: failed that mount s:'/dev/block/mmcblk0p26', t:'/cache', f:ext4 ,op :barrier=1 (Device or resource busy)
+<3>[    1.965332] init: [disk_config] :::: fsck -> /dev/block/mmcblk0p21 (ext4):::::
+<3>[    1.967651] init: [disk_config] DEVENC : not mormal [0]
+<3>[    1.968078] init: [disk_config] DEVENC : fs_check with original dev_path
+<3>[    1.968780] init: [disk_config] ext_check -> /system/bin/e2fsck -v -y /dev/block/mmcblk0p21 
+<3>[    1.971069] [TouchKey] interrupt touchkey
+<3>[    1.976348] [TSP] t: 25, a: 0
+<7>[    1.978271] [TSP] ID-0,UD:1 
+<7>[    1.978271] [TSP] ID-1,UD:1 
+<3>[    1.988189] init: [disk_config] Error ::execute :: Error in (Status 8)
+<3>[    1.988555] init: [disk_config] Error ::* failed to check -1
+<3>[    1.988861] init: SEC_DEVENC ***[/dev/block/mmcblk0p21][0]
+<3>[    1.989593] init: failed that mount s:'/dev/block/mmcblk0p21', t:'/efs', f:ext4 ,op :barrier=1 (Device or resource busy)
+<3>[    2.000213] [TSP] t: 27, a: 0
+<3>[    2.024139] [TSP] t: 25, a: 0
+<3>[    2.048614] [TSP] t: 13, a: 0
+<7>[    2.050567] [TSP] ID-2,UD:1 
+<7>[    2.050567] [TSP] Clear G-Touch at Boot/Wake-up 
+<3>[    2.051025] [TSP]calibration success!!!
+<3>[    2.099395] [TSP] t: 4, a: 4
+<3>[    2.100128] [TSP] calibration was not decided yet
+<3>[    2.112701] init: [disk_config] :::: fsck -> /dev/block/mmcblk0p25 (ext4):::::
+<3>[    2.114715] init: [disk_config] DEVENC : not mormal [0]
+<3>[    2.115142] init: [disk_config] DEVENC : fs_check with original dev_path
+<3>[    2.115875] init: [disk_config] ext_check -> /system/bin/e2fsck -v -y /dev/block/mmcblk0p25 
+<3>[    2.124267] [TSP] t: 13, a: 7
+<3>[    2.124847] [TSP] calibration was bad
+<3>[    2.125244] init: [disk_config] Error ::execute :: Error in (Status 8)
+<3>[    2.125396] init: [disk_config] Error ::* failed to check -1
+<3>[    2.125488] init: SEC_DEVENC check crypt status 
+<3>[    2.125701] init: SEC_DEVENC ***[/dev/block/mmcblk0p25][1]
+<3>[    2.125793] init: SEC_DEVENC checkCrypt main
+<3>[    2.148468] [TSP] t: 23, a: 7
+<3>[    2.149017] [TSP] calibration was bad
+<3>[    2.150482] [TSP] Calibration End!!!!!!
+<3>[    2.176940] [TSP] t: 23, a: 7
+<3>[    2.177520] [TSP] calibration was bad
+<3>[    2.178222] [TSP]calibration success!!!
+<6>[    2.183685] android_usb gadget: high speed config #1: ACM + UMS (SAMSUNG KIES mode)
+<3>[    2.194274] init: [boot time] processing action 0x42fc8 (post-fs)
+<3>[    2.194641] init: [disk_config] :::: /dev/block/mmcblk0p28 (vfat)(opt (null)):::::
+<3>[    2.196746] init: [disk_config] vfat_identify -> ok
+<3>[    2.200775] init: [disk_config] vfat_identify -> ok
+<3>[    2.201354] init: SEC_DEVENC ***[rootfs][0]
+<3>[    2.202331] [TSP] t: 0, a: 0
+<3>[    2.202819] [TSP] calibration was not decided yet
+<7>[    2.204406] [TSP] ID-0,UD:0 
+<7>[    2.204406] [TSP] ID-1,UD:0 
+<7>[    2.204437] [TSP] ID-3,UD:1 
+<7>[    2.204437] [TSP] Clear G-Touch at Boot/Wake-up 
+<3>[    2.221954] [TouchKey] interrupt touchkey
+<7>[    2.222686] touchkey pressed but don't send event because touch is pressed. 
+<3>[    2.249786] [TSP] t: 10, a: 11
+<3>[    2.250518] [TSP] calibration was bad
+<3>[    2.259368] [TouchKey] interrupt touchkey
+<3>[    2.274719] [TSP] t: 8, a: 18
+<3>[    2.275238] [TSP] calibration was bad
+<3>[    2.278228] [TSP] Calibration End!!!!!!
+<3>[    2.294250] init: [boot time] processing action 0x53a80 (post-fs)
+<3>[    2.294647] init: SEC_DEVENC ***[rootfs][0]
+<3>[    2.301879] [TSP] t: 1, a: 25
+<3>[    2.302368] [TSP] calibration was bad
+<3>[    2.302886] [TSP]calibration success!!!
+<3>[    2.303802] init: [boot time] processing action 0x54790 (post-fs)
+<7>[    2.304473] [TSP] ID-0,UD:1 
+<7>[    2.304504] [TSP] ID-3,UD:0 
+<7>[    2.304504] [TSP] Clear G-Touch at Boot/Wake-up 
+<3>[    2.311767] init: [boot time] processing action 0x55230 (wait_for_coldboot_done)
+<3>[    2.312194] init: [boot time] processing action 0x55278 (console_init)
+<3>[    2.312500] init: [boot time] processing action 0x552c0 (property_service_init)
+<3>[    2.323272] init: [boot time] processing action 0x55308 (signal_init)
+<3>[    2.323760] init: [boot time] processing action 0x55350 (check_startup)
+<3>[    2.324005] init: [boot time] processing action 0x43f90 (boot)
+<3>[    2.350341] init: cannot find '/system/bin/wiperiface', disabling 'wiperiface'
+<3>[    2.351196] init: [boot time] processing action 0x4ceb8 (boot)
+<3>[    2.360229] [TSP] t: 0, a: 2
+<3>[    2.360900] [TSP] calibration was not decided yet
+<3>[    2.364379] [TSP] Calibration End!!!!!!
+<7>[    2.367736] [TSP] ID-0,UD:0 
+<7>[    2.367858] [TSP] ID-2,UD:0 
+<7>[    2.367858] [TSP] ID-1,UD:0 
+<3>[    2.391906] [TSP] t: 4, a: 4
+<3>[    2.392425] [TSP] calibration was not decided yet
+<7>[    2.394042] [TSP] ID-0,UD:1 
+<3>[    2.401214] init: [boot time] processing action 0x530b0 (boot)
+<6>[    2.416870] tspdrv: init_module.
+<4>[    2.417449] [VIBETONZ:WJYOO] MISC_REGISTER nRet = 0
+<4>[    2.417877] THNAK YOU!!
+<6>[    2.417938] vibrator I2C attach success!!!
+<4>[    2.418060] [VIBETONZ] ImmVibeSPI_ForceOut_Initialize 
+<4>[    2.427520] sec_bat_measure_work : dcin ok, but not charging, set cable type again!
+<3>[    2.435272] [TSP] t: 4, a: 5
+<3>[    2.435791] [TSP] calibration was bad
+<3>[    2.436340] [TSP]calibration success!!!
+<3>[    2.445953] init: [boot time] processing action 0x55398 (queue_propety_triggers)
+<3>[    2.446685] init: [boot time] processing action 0x45e48 (property:ro.secure=0)
+<3>[    2.446899] init: service 'console' requires console
+<3>[    2.448486] init: [boot time] processing action 0x45ff8 (property:persist.service.adb.enable=1)
+<3>[    2.448883] init: [boot time] processing action 0x4e9e8 (property:ro.emmc=1)
+<3>[    2.449249] init: [boot time] processing action 0x4fa90 (property:ro.hdmi.enable=true)
+<3>[    2.449615] init: [boot time] processing action 0x50090 (property:persist.timed.enable=true)
+<3>[    2.449859] init: cannot find '/system/bin/time_daemon', disabling 'time_daemon'
+<6>[    2.452484] set_product:  3, 16
+<6>[    2.452484] func->name=usb_mass_storage
+<6>[    2.452484] set_enable_functions: usb_mass_storage - usb_mass_storage 0, 3
+<6>[    2.452606] enable usb_mass_storage
+<6>[    2.452606] func->name=acm1
+<6>[    2.452606] set_enable_functions: acm1 - usb_mass_storage 0, 3
+<6>[    2.452606] set_enable_functions: acm1 - acm2 1, 3
+<6>[    2.452636] set_enable_functions: acm1 - adb 2, 3
+<6>[    2.452667] func->name=acm2
+<6>[    2.452697] set_enable_functions: acm2 - usb_mass_storage 0, 3
+<6>[    2.452697] set_enable_functions: acm2 - acm2 1, 3
+<6>[    2.452728] enable acm2
+<6>[    2.452758] func->name=adb
+<6>[    2.452758] set_enable_functions: adb - usb_mass_storage 0, 3
+<6>[    2.452758] set_enable_functions: adb - acm2 1, 3
+<6>[    2.452758] set_enable_functions: adb - adb 2, 3
+<6>[    2.452819] enable adb
+<6>[    2.452819] func->name=rndis
+<6>[    2.452819] set_enable_functions: rndis - usb_mass_storage 0, 3
+<6>[    2.452850] set_enable_functions: rndis - acm2 1, 3
+<6>[    2.452850] set_enable_functions: rndis - adb 2, 3
+<6>[    2.452880] func->name=diag
+<6>[    2.452911] set_enable_functions: diag - usb_mass_storage 0, 3
+<6>[    2.452911] set_enable_functions: diag - acm2 1, 3
+<6>[    2.452911] set_enable_functions: diag - adb 2, 3
+<6>[    2.452972] func->name=diag_mdm
+<6>[    2.452972] set_enable_functions: diag_mdm - usb_mass_storage 0, 3
+<6>[    2.452972] set_enable_functions: diag_mdm - acm2 1, 3
+<6>[    2.452972] set_enable_functions: diag_mdm - adb 2, 3
+<6>[    2.453002] func->name=rmnet_sdio
+<6>[    2.453033] set_enable_functions: rmnet_sdio - usb_mass_storage 0, 3
+<6>[    2.453033] set_enable_functions: rmnet_sdio - acm2 1, 3
+<6>[    2.453094] set_enable_functions: rmnet_sdio - adb 2, 3
+<6>[    2.453216] Change Device Descriptor : DeviceClass(0xef),SubClass(0x2),Protocol(0x1)
+<6>[    2.453247] Change Label : [0]ACM + UMS + ADB (Debugging mode)
+<6>[    2.453247] set function num=3
+<3>[    2.459808] [TSP] t: 4, a: 5
+<3>[    2.460388] [TSP] calibration was bad
+<7>[    2.461975] [TSP] ID-1,UD:1 
+<7>[    2.461975] [TSP] Clear G-Touch at Boot/Wake-up 
+<6>[    2.476013] otgsc = 9202f20
+<7>[    2.476043] usb_interrupt USB disconnected  otgsc = 9202f20
+<7>[    2.476043] [composite_disconnect]mute_switch= 1
+<7>[    2.477111] diag: USB disconnected
+<7>[    2.477325] diag: USB disconnected
+<3>[    2.516967] [TSP] t: 3, a: 2
+<3>[    2.517456] [TSP] calibration was not decided yet
+<3>[    2.519012] [TSP] Calibration End!!!!!!
+<7>[    2.520568] [TSP] ID-1,UD:1 
+<7>[    2.520629] [TSP] Reboot-Touch S
+<4>[    2.520629] mxt224_power_off: enter
+<3>[    2.520874] [TSP POWER OFF	 L4 1.8 disable
+<3>[    2.521148] [TSP POWER OFF	 L1 3.3 disable
+<4>[    2.521331] mxt224_power_off is finished
+<7>[    2.521362] [TSP] ID-0,UD:0 
+<7>[    2.521392] [TSP] ID-1,UD:0 
+<6>[    2.538146] charm_modem_ioctl: Entering ioctl cmd = 1
+<6>[    2.538177] charm_modem_ioctl: Powering on
+<6>[    2.615264] warning: `rild' uses 32-bit capabilities (legacy support in use)
+<4>[    2.634674] mxt224_power_on: enter
+<3>[    2.634918] [TSP POWER ON	L1 3.3 enable
+<3>[    2.635192] [TSP POWER ON  L4 1.8 enable
+<4>[    2.635284] mxt224_power_on: exit
+<4>[    2.694549] mxt224_power_on is finished
+<3>[    2.714599] [TSP] ta_status in (mxt224_late_resume) is 0
+<3>[    2.714813] [TSP] mxt224_ta_probe 
+<3>[    2.718597] [TSP]TA_probe MXT224E T48 Byte2 is 64
+<6>[    2.722015] sec_jack:sec_jack_det_irq_handler : ready = 1.
+<6>[    2.722076] sec_jack: ear micbias off
+<3>[    2.726654] [TSP]TA_probe MXT224E T48 Byte2 is 96
+<3>[    2.727172] [TSP]calibration success!!!
+<7>[    2.727264] [TSP] Reboot-Touch E 
+<3>[    2.728668] [TSP] Calibration!!!!!!
+<7>[    2.730224] [TSP] ID-0,UD:0 
+<3>[    2.735382] [TouchKey] interrupt touchkey
+<3>[    2.752349] [TSP] t: 15, a: 15
+<3>[    2.752868] [TSP] calibration was bad
+<3>[    2.772674] [TouchKey] interrupt touchkey
+<3>[    2.776824] [TSP] t: 0, a: 0
+<3>[    2.777343] [TSP] calibration was not decided yet
+<3>[    2.780395] [TSP] Calibration End!!!!!!
+<7>[    2.782073] [TSP] ID-0,UD:1 
+<7>[    2.782196] [TSP] ID-1,UD:1 
+<3>[    2.960662] [TouchKey] interrupt touchkey
+<7>[    2.961395] touchkey pressed but don't send event because touch is pressed. 
+<6>[    3.144866] android_usb gadget: high speed config #1: ACM + UMS + ADB (Debugging mode)
+<3>[    3.232879] init: sys_prop: permission denied uid:1013  name:audioflinger.bootsnd
+<3>[    3.304565] [TouchKey] interrupt touchkey
+<3>[    3.404846] [TSP] t: 6, a: 5
+<3>[    3.405670] [TSP] calibration was bad
+<3>[    3.406311] [TSP]calibration success!!!
+<7>[    3.407958] [TSP] ID-1,UD:1 
+<7>[    3.407958] [TSP] Clear G-Touch at Boot/Wake-up 
+<4>[    3.427124] tsp_set_unknown_charging_cable 1
+<3>[    3.427124] [TSP] mxt224_ta_probe 
+<3>[    3.428649] [TSP]TA_probe MXT224E T48 Byte2 is 80
+<3>[    3.436065] [TSP]TA_probe MXT224E T48 Byte2 is 112
+<6>[    3.436157] smb328a 15-0034: smb328a_set_charging_current : 
+<6>[    3.436614] smb328a 15-0034: smb328a_set_command_reg : reg (0x31) = 0x0
+<6>[    3.437530] smb328a_set_command_reg : => reg (0x31) = 0xad
+<6>[    3.438476] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x0) = 0x31
+<6>[    3.439300] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x0) = 0x17
+<6>[    3.439788] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x1) = 0x5
+<6>[    3.440612] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x1) = 0x10
+<6>[    3.441101] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x2) = 0xca
+<6>[    3.441558] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x3) = 0x1a
+<6>[    3.442382] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x3) = 0xda
+<6>[    3.442840] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x4) = 0x44
+<6>[    3.443664] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x4) = 0x4f
+<6>[    3.444152] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x5) = 0x8b
+<6>[    3.444976] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x5) = 0x0
+<6>[    3.445434] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x6) = 0x5c
+<6>[    3.446258] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x6) = 0x4d
+<6>[    3.446716] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x7) = 0x36
+<6>[    3.453765] charm_modem_ioctl: Entering ioctl cmd = 2
+<6>[    3.453796] charm_modem_ioctl: reset charm start
+<6>[    3.457672] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x7) = 0xf6
+<6>[    3.458129] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x8) = 0x0
+<6>[    3.458618] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x9) = 0x0
+<6>[    3.459442] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x9) = 0x1
+<6>[    3.459442] smb328a 15-0034: smb328a_get_input_current_limit : 
+<6>[    3.459930] smb328a 15-0034: smb328a_get_input_current_limit : reg (0x1) = 0x10
+<6>[    3.459930] smb328a 15-0034: smb328a_get_input_current_limit : get icl = 450, data = 0
+<6>[    3.460418] smb328a 15-0034: smb328a_get_float_voltage : reg (0x2) = 0xca, float vol = 4200
+<6>[    3.461395] smb328a 15-0034: smb328a_set_top_off : reg (0x0) = 0x17
+<6>[    3.462219] smb328a 15-0034: smb328a_set_top_off : => reg (0x0) = 0x17
+<6>[    3.462707] smb328a 15-0034: smb328a_set_top_off : reg (0x7) = 0xf6
+<6>[    3.463531] smb328a 15-0034: smb328a_set_top_off : => reg (0x7) = 0xf6
+<6>[    3.464477] smb328a 15-0034: smb328a_ldo_disable : 
+<6>[    3.465454] smb328a 15-0034: smb328a_ldo_disable : reg (0x6) = 0x4d
+<6>[    3.466278] smb328a 15-0034: smb328a_ldo_disable : => reg (0x6) = 0x6d
+<6>[    3.466278] smb328a 15-0034: smb328a_enable_charging : 
+<3>[    3.466735] [TSP] t: 0, a: 0
+<6>[    3.466766] smb328a 15-0034: smb328a_enable_charging : reg (0x31) = 0xad
+<3>[    3.467346] [TSP] calibration was not decided yet
+<3>[    3.474517] [TSP] Calibration End!!!!!!
+<7>[    3.476135] [TSP] ID-1,UD:0 
+<7>[    3.476196] [TSP] ID-2,UD:0 
+<7>[    3.476226] [TSP] ID-3,UD:0 
+<7>[    3.476226] [TSP] ID-0,UD:0 
+<6>[    3.477661] smb328a_enable_charging : => reg (0x31) = 0xad
+<6>[    3.594604] BSV clear
+<7>[    3.595153] msm_hsusb_set_vbus_state USB disconnected
+<7>[    3.595153] usb_do_work USB disconnected 4
+<7>[    3.595153] [composite_disconnect]mute_switch= 0
+<7>[    3.596252] diag: USB disconnected
+<7>[    3.596466] diag: USB disconnected
+<7>[    3.597564] usb_do_work_check_vbus USB disconnected 4
+<4>[    3.624908] smb328a_int_work_func
+<6>[    3.625701] smb328a_int_work_func : reg (0x37) = 0x0
+<6>[    3.626464] smb328a_int_work_func : reg (0x36) = 0x5
+<6>[    3.627471] sec_bat_set_property: 1
+<6>[    3.627502] sec_bat_set_property: charger inserted!!
+<6>[    3.826080] msm_otg_suspend: usb in low power mode
+<3>[    4.064422] [TSP] t: 7, a: 12
+<3>[    4.064971] [TSP] calibration was bad
+<3>[    4.065551] [TSP]calibration success!!!
+<7>[    4.065643] [TSP] ID-0,UD:1 
+<4>[    4.096771] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 5
+<4>[    4.097045] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 6
+<4>[    4.097045] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 7
+<3>[    4.099060] [TSP] t: 0, a: 0
+<3>[    4.099578] [TSP] calibration was not decided yet
+<3>[    4.101226] [TSP] Calibration!!!!!!
+<7>[    4.104370] [TSP] ID-0,UD:0 
+<7>[    4.104461] [TSP] ID-1,UD:1 
+<3>[    4.106414] [TSP] Calibration End!!!!!!
+<7>[    4.106689] [TSP] ID-1,UD:0 
+<6>[    4.124664] a2220_bootup_init: firmware loaded successfully
+<3>[    4.210662] [TSP] t: 6, a: 8
+<3>[    4.211242] [TSP] calibration was bad
+<3>[    4.211730] [TSP]calibration success!!!
+<3>[    4.235229] [TSP] t: 8, a: 9
+<3>[    4.235900] [TSP] calibration was bad
+<7>[    4.238647] [TSP] ID-0,UD:1 
+<7>[    4.238677] [TSP] ID-1,UD:1 
+<3>[    4.240142] [TSP] Calibration End!!!!!!
+<7>[    4.246368] [TSP] ID-0,UD:0 
+<7>[    4.246582] [TSP] ID-1,UD:0 
+<3>[    4.333770] [TSP] t: 11, a: 8
+<3>[    4.334320] [TSP] calibration was bad
+<3>[    4.334808] [TSP]calibration success!!!
+<7>[    4.336303] [TSP] ID-0,UD:1 
+<4>[    4.347503] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 8
+<4>[    4.347534] audience_a2220a2220_bootup_init : get_hw_rev of Target = 13
+<4>[    4.347564] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 9
+<4>[    4.347747] audience_a2220execute_cmdmsg : ...go to suspend first
+<4>[    4.347778] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 10
+<3>[    4.359649] [TSP] t: 12, a: 11
+<3>[    4.360198] [TSP] calibration was bad
+<3>[    4.361694] [TSP] Calibration!!!!!!
+<7>[    4.361785] [TSP] ID-0,UD:1 
+<7>[    4.361877] [TSP] ID-1,UD:1 
+<3>[    4.363555] [TSP] Calibration End!!!!!!
+<7>[    4.372985] [TSP] ID-0,UD:0 
+<7>[    4.373199] [TSP] ID-1,UD:0 
+<3>[    4.419952] [TSP] t: 6, a: 4
+<3>[    4.420593] [TSP] calibration was not decided yet
+<7>[    4.422363] [TSP] ID-0,UD:1 
+<4>[    4.477203] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 11
+<6>[    4.477264] a2220_bootup_init: initialized!
+<4>[    4.477294] audience_a2220a2220_bootup_init : a2220_bootup_init - finish
+<3>[    4.532073] [TSP] t: 7, a: 7
+<3>[    4.532867] [TSP] calibration was bad
+<3>[    4.533538] [TSP]calibration success!!!
+<3>[    4.557250] [TSP] t: 8, a: 8
+<3>[    4.557739] [TSP] calibration was bad
+<3>[    4.599700] [TSP] Diagnostic Data did not update!!
+<3>[    4.609924] [TSP] Calibration End!!!!!!
+<7>[    4.611572] [TSP] ID-0,UD:0 
+<3>[    4.682464] [TSP] t: 1, a: 4
+<3>[    4.683044] [TSP] calibration was not decided yet
+<7>[    4.683227] [TSP] ID-0,UD:1 
+<3>[    4.722900] [TSP] t: 9, a: 8
+<3>[    4.723602] [TSP] calibration was bad
+<3>[    4.724487] [TSP]calibration success!!!
+<7>[    4.727996] [TSP] ID-0,UD:1 
+<7>[    4.728057] [TSP] ID-1,UD:1 
+<3>[    4.751983] [TSP] t: 0, a: 0
+<3>[    4.753173] [TSP] calibration was not decided yet
+<3>[    4.755065] [TSP] Calibration!!!!!!
+<7>[    4.756805] [TSP] ID-1,UD:1 
+<7>[    4.757080] [TSP] Clear G-Touch at Boot/Wake-up 
+<3>[    4.792205] [TSP] Calibration End!!!!!!
+<7>[    4.792327] [TSP] ID-0,UD:0 
+<7>[    4.792388] [TSP] ID-1,UD:0 
+<3>[    4.880798] [TSP] t: 5, a: 7
+<3>[    4.881347] [TSP] calibration was bad
+<3>[    4.881835] [TSP]calibration success!!!
+<7>[    4.883392] [TSP] ID-0,UD:1 
+<3>[    4.909057] [TSP] t: 0, a: 0
+<3>[    4.909606] [TSP] calibration was not decided yet
+<3>[    4.911102] [TSP] Calibration!!!!!!
+<3>[    4.914154] [TSP] Calibration End!!!!!!
+<7>[    4.914367] [TSP] ID-0,UD:0 
+<3>[    4.957702] [TouchKey] interrupt touchkey
+<3>[    5.013397] [TouchKey] interrupt touchkey
+<3>[    5.062255] [TSP] t: 9, a: 15
+<3>[    5.062896] [TouchKey] interrupt touchkey
+<3>[    5.063140] [TSP] calibration was bad
+<3>[    5.063598] [TSP]calibration success!!!
+<3>[    5.087585] [TSP] t: 5, a: 18
+<3>[    5.088226] [TSP] calibration was bad
+<7>[    5.089904] [TSP] ID-0,UD:1 
+<7>[    5.089965] [TSP] ID-1,UD:1 
+<3>[    5.113433] [TSP] t: 0, a: 3
+<3>[    5.113922] [TSP] calibration was not decided yet
+<3>[    5.115814] [TSP] Calibration End!!!!!!
+<7>[    5.117370] [TSP] ID-0,UD:0 
+<7>[    5.117462] [TSP] ID-1,UD:0 
+<3>[    5.147735] [TSP] t: 17, a: 5
+<3>[    5.148254] [TSP] calibration was bad
+<3>[    5.148834] [TSP]calibration success!!!
+<7>[    5.150390] [TSP] ID-0,UD:1 
+<3>[    5.166229] [TSP] Calibration!!!!!!
+<3>[    5.174072] [TSP] Calibration End!!!!!!
+<7>[    5.181976] [TSP] ID-0,UD:0 
+<3>[    5.251739] [TSP] t: 6, a: 0
+<7>[    5.253723] [TSP] ID-0,UD:1 
+<3>[    5.299804] [TSP] t: 12, a: 1
+<3>[    5.300323] [TSP] calibration was not decided yet
+<7>[    5.300537] [TSP] ID-0,UD:1 
+<7>[    5.300567] [TSP] ID-1,UD:1 
+<3>[    5.353088] [TSP] t: 14, a: 4
+<3>[    5.353759] [TSP] calibration was not decided yet
+<7>[    5.355529] [TSP] ID-0,UD:1 
+<7>[    5.355590] [TSP] Clear G-Touch at Boot/Wake-up 
+<3>[    5.356079] [TSP]calibration success!!!
+<3>[    5.400115] [TSP] t: 0, a: 4
+<3>[    5.400604] [TSP] calibration was not decided yet
+<7>[    5.403564] [TSP] ID-0,UD:1 
+<7>[    5.403594] [TSP] Clear G-Touch at Boot/Wake-up 
+<3>[    5.430084] [TSP] Calibration End!!!!!!
+<7>[    5.431762] [TSP] ID-0,UD:0 
+<7>[    5.431854] [TSP] ID-1,UD:0 
+<3>[    5.498291] [TSP] t: 5, a: 9
+<3>[    5.498901] [TSP] calibration was bad
+<3>[    5.499450] [TSP]calibration success!!!
+<7>[    5.499755] [TSP] ID-0,UD:1 
+<3>[    5.512969] [TSP] Calibration!!!!!!
+<3>[    5.520904] [TSP] Calibration End!!!!!!
+<7>[    5.528839] [TSP] ID-0,UD:0 
+<3>[    5.612304] [TSP] t: 5, a: 4
+<3>[    5.612976] [TSP] calibration was not decided yet
+<7>[    5.614868] [TSP] ID-0,UD:1 
+<3>[    5.670043] [TSP] t: 12, a: 6
+<3>[    5.670684] [TSP] calibration was bad
+<3>[    5.671325] [TSP]calibration success!!!
+<7>[    5.671722] [TSP] ID-0,UD:1 
+<7>[    5.671783] [TSP] ID-1,UD:1 
+<3>[    5.688659] [TSP] Calibration!!!!!!
+<3>[    5.696533] [TSP] Calibration End!!!!!!
+<7>[    5.706420] [TSP] ID-0,UD:0 
+<7>[    5.706634] [TSP] ID-1,UD:0 
+<3>[    5.821685] [TSP] t: 9, a: 10
+<3>[    5.822479] [TSP] calibration was bad
+<3>[    5.823089] [TSP]calibration success!!!
+<7>[    5.824798] [TSP] ID-0,UD:1 
+<3>[    5.848144] [TSP] t: 15, a: 10
+<3>[    5.848693] [TSP] calibration was bad
+<3>[    5.865905] [TouchKey] interrupt touchkey
+<3>[    5.872161] [TSP] t: 0, a: 0
+<3>[    5.872741] [TSP] calibration was not decided yet
+<3>[    5.874267] [TSP] Calibration!!!!!!
+<7>[    5.877502] [TSP] ID-0,UD:0 
+<7>[    5.877777] [TSP] ID-1,UD:1 
+<7>[    5.877807] [TSP] ID-2,UD:1 
+<3>[    5.880737] [TSP] Calibration End!!!!!!
+<7>[    5.880889] [TSP] ID-1,UD:0 
+<7>[    5.880950] [TSP] ID-2,UD:0 
+<3>[    5.976654] [TSP] t: 10, a: 11
+<3>[    5.977142] [TSP] calibration was bad
+<3>[    5.977630] [TSP]calibration success!!!
+<3>[    6.001159] [TSP] t: 6, a: 23
+<3>[    6.001678] [TSP] calibration was bad
+<3>[    6.025207] [TSP] t: 0, a: 0
+<3>[    6.025726] [TSP] calibration was not decided yet
+<3>[    6.027343] [TSP] Calibration End!!!!!!
+<7>[    6.028900] [TSP] ID-0,UD:1 
+<7>[    6.029022] [TSP] ID-1,UD:1 
+<7>[    6.029052] [TSP] ID-2,UD:1 
+<7>[    6.031951] [TSP] ID-0,UD:0 
+<7>[    6.031951] [TSP] ID-1,UD:0 
+<7>[    6.031951] [TSP] ID-2,UD:0 
+<3>[    6.073608] [TSP] t: 3, a: 10
+<3>[    6.074249] [TSP] calibration was bad
+<3>[    6.075073] [TSP]calibration success!!!
+<7>[    6.075286] [TSP] ID-0,UD:1 
+<3>[    6.088043] [TSP] Calibration!!!!!!
+<7>[    6.089904] [TSP] ID-0,UD:0 
+<3>[    6.095489] [TSP] Calibration End!!!!!!
+<3>[    6.136627] [TSP] t: 13, a: 3
+<3>[    6.137207] [TSP] calibration was not decided yet
+<7>[    6.138824] [TSP] ID-0,UD:1 
+<3>[    6.162231] [TSP] t: 15, a: 2
+<3>[    6.162780] [TSP] calibration was not decided yet
+<3>[    6.186523] [TSP] t: 14, a: 3
+<3>[    6.187194] [TSP] calibration was not decided yet
+<3>[    6.211456] [TSP] t: 13, a: 3
+<3>[    6.212097] [TSP] calibration was not decided yet
+<3>[    6.236022] [TSP] t: 13, a: 3
+<3>[    6.236511] [TSP] calibration was not decided yet
+<3>[    6.260101] [TSP] t: 13, a: 2
+<3>[    6.260742] [TSP] calibration was not decided yet
+<3>[    6.284515] [TSP] t: 13, a: 2
+<3>[    6.285064] [TSP] calibration was not decided yet
+<3>[    6.308959] [TSP] t: 11, a: 0
+<3>[    6.332946] [TSP] t: 11, a: 0
+<3>[    6.357147] [TSP] t: 9, a: 0
+<3>[    6.381164] [TSP] t: 11, a: 2
+<3>[    6.381744] [TSP] calibration was not decided yet
+<3>[    6.405364] [TSP] t: 10, a: 3
+<3>[    6.406005] [TSP] calibration was not decided yet
+<3>[    6.429870] [TSP] t: 20, a: 2
+<3>[    6.430419] [TSP] calibration was not decided yet
+<3>[    6.453918] [TSP] t: 26, a: 2
+<3>[    6.454498] [TSP] calibration was not decided yet
+<7>[    6.456451] [TSP] ID-1,UD:1 
+<7>[    6.456481] [TSP] Reboot-Touch S
+<4>[    6.456481] mxt224_power_off: enter
+<3>[    6.457031] [TSP POWER OFF	 L4 1.8 disable
+<3>[    6.457885] [TSP POWER OFF	 L1 3.3 disable
+<4>[    6.458129] mxt224_power_off is finished
+<7>[    6.458160] [TSP] ID-0,UD:0 
+<7>[    6.458190] [TSP] ID-1,UD:0 
+<3>[    6.486236] [TouchKey] interrupt touchkey
+<3>[    6.529815] [TouchKey] interrupt touchkey
+<4>[    6.564605] mxt224_power_on: enter
+<3>[    6.564819] [TSP POWER ON	L1 3.3 enable
+<3>[    6.565155] [TSP POWER ON  L4 1.8 enable
+<4>[    6.565216] mxt224_power_on: exit
+<4>[    6.624603] mxt224_power_on is finished
+<3>[    6.644653] [TSP] ta_status in (mxt224_late_resume) is 1
+<3>[    6.644775] [TSP] mxt224_ta_probe 
+<3>[    6.646362] [TSP]TA_probe MXT224E T48 Byte2 is 80
+<3>[    6.653686] [TSP]TA_probe MXT224E T48 Byte2 is 112
+<3>[    6.654235] [TSP]calibration success!!!
+<7>[    6.654327] [TSP] Reboot-Touch E 
+<3>[    6.676239] [TSP] t: 0, a: 0
+<3>[    6.676727] [TSP] calibration was not decided yet
+<3>[    6.678314] [TSP] Calibration!!!!!!
+<3>[    6.681213] [TSP] Calibration End!!!!!!
+<6>[    7.014617] fsa9480 5-0025: fsa9480_init_detect 
+<6>[    7.015258] fsa9480 5-0025: dev1: 0x4, dev2: 0x0
+<6>[    7.015258] fsa9480 5-0025: usb connect
+<3>[    7.015258] fsa9480_usb_cb attached 1
+<7>[    7.015411] usb_do_work USB disconnected  USB_STATE_OFFLINE
+<6>[    7.016235] msm_otg_resume: usb exited from low power mode
+<7>[    7.244689] usb_reset USB disconnected
+<7>[    7.244689] [composite_disconnect]mute_switch= 0
+<7>[    7.244903] usb_do_work_check_vbus USB disconnected 2
+<3>[    7.244934] [TSP] mxt224_ta_probe 
+<3>[    7.246429] [TSP]TA_probe MXT224E T48 Byte2 is 80
+<3>[    7.254058] [TSP]TA_probe MXT224E T48 Byte2 is 112
+<6>[    7.254180] sec-battery sec-battery: sec_bat_set_property: cable was changed(3)
+<6>[    7.255737] fsa9480 5-0025: fsa9480_Check_AVDock intr: 0x1
+<6>[    7.255737] fsa9480 5-0025: fsa9480_Check_AVDock enter Av charing 
+<3>[    7.256195] [TSP] Calibration!!!!!!
+<6>[    7.256347] fsa9480 5-0025: dev1: 0x4, dev2: 0x0
+<6>[    7.256530] fsa9480 5-0025: usb connect
+<3>[    7.256591] fsa9480_usb_cb attached 1
+<3>[    7.256774] [TSP] mxt224_ta_probe 
+<3>[    7.258666] [TSP]TA_probe MXT224E T48 Byte2 is 80
+<3>[    7.267303] [TSP] Calibration End!!!!!!
+<3>[    7.269470] [TSP] Calibration!!!!!!
+<3>[    7.270050] [TSP]TA_probe MXT224E T48 Byte2 is 112
+<6>[    7.270202] sec-battery sec-battery: sec_bat_set_property: cable was changed(3)
+<3>[    7.272430] [TSP] Calibration End!!!!!!
+<3>[    7.274291] [TSP] Calibration!!!!!!
+<3>[    7.284332] [TSP] Calibration End!!!!!!
+<6>[    7.455902] charm_modem_ioctl: reset charm ok
+<6>[    7.744659] smb328a 15-0034: smb328a_set_charging_current : 
+<6>[    7.745147] smb328a 15-0034: smb328a_set_command_reg : reg (0x31) = 0xad
+<6>[    7.745941] smb328a_set_command_reg : => reg (0x31) = 0xa9
+<6>[    7.746856] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x0) = 0x17
+<6>[    7.747314] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x1) = 0x10
+<6>[    7.747772] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x2) = 0xca
+<6>[    7.748260] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x3) = 0xda
+<6>[    7.748718] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x4) = 0x4f
+<6>[    7.749176] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x5) = 0x0
+<6>[    7.749633] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x6) = 0x6d
+<6>[    7.750427] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x6) = 0x4d
+<6>[    7.750885] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x7) = 0xf6
+<6>[    7.751342] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x8) = 0x0
+<6>[    7.751800] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x9) = 0x1
+<6>[    7.751800] smb328a 15-0034: smb328a_get_input_current_limit : 
+<6>[    7.752288] smb328a 15-0034: smb328a_get_input_current_limit : reg (0x1) = 0x10
+<6>[    7.752288] smb328a 15-0034: smb328a_get_input_current_limit : get icl = 450, data = 0
+<6>[    7.752746] smb328a 15-0034: smb328a_get_float_voltage : reg (0x2) = 0xca, float vol = 4200
+<6>[    7.753662] smb328a 15-0034: smb328a_set_top_off : reg (0x0) = 0x17
+<6>[    7.754455] smb328a 15-0034: smb328a_set_top_off : => reg (0x0) = 0x17
+<6>[    7.756225] smb328a 15-0034: smb328a_set_top_off : reg (0x7) = 0xf6
+<6>[    7.757537] smb328a 15-0034: smb328a_set_top_off : => reg (0x7) = 0xf6
+<6>[    7.758880] smb328a 15-0034: smb328a_enable_charging : 
+<6>[    7.759552] smb328a 15-0034: smb328a_enable_charging : reg (0x31) = 0xa9
+<6>[    7.760711] smb328a_enable_charging : => reg (0x31) = 0xa9
+<6>[    7.798583] BSV set
+<3>[    8.098052] [TSP] t: 2, a: 6
+<3>[    8.098571] [TSP] calibration was bad
+<3>[    8.099121] [TSP]calibration success!!!
+<7>[    8.099243] [TSP] ID-0,UD:1 
+<3>[    8.112884] [TSP] Calibration!!!!!!
+<3>[    8.120697] [TSP] Calibration End!!!!!!
+<7>[    8.128631] [TSP] ID-0,UD:0 
+<3>[    8.219909] [TSP] t: 5, a: 6
+<3>[    8.220581] [TSP] calibration was bad
+<3>[    8.221191] [TSP]calibration success!!!
+<7>[    8.221618] [TSP] ID-0,UD:1 
+<3>[    8.234710] [TSP] Calibration!!!!!!
+<3>[    8.242492] [TSP] Calibration End!!!!!!
+<7>[    8.250457] [TSP] ID-0,UD:0 
+<6>[    8.285278] android_usb gadget: high speed config #1: ACM + UMS + ADB (Debugging mode)
+<3>[    9.383697] [TSP] Calibration!!!!!!
+<3>[    9.390899] [TSP] Calibration End!!!!!!
+<3>[    9.913879] kgsl kgsl-3d0: |_load_firmware| request_firmware(leia_pfp_470.fw) failed: -2
+<6>[    9.937011] input: compass_sensor as /devices/virtual/input/input10
+<3>[    9.939178] [ACC] k3dh_open_calibration: Can't open calibration file
+<3>[    9.939392] [ACC] k3dh_open: k3dh_open_calibration() failed
+<4>[    9.942047] akm8975_ecs_set_mode: ak8975 set AK8975_MODE_POWER_DOWN
+<4>[    9.943145] akm8975_ecs_set_mode: ak8975 set AK8975_MODE_FUSE_ACCESS
+<4>[    9.945617] akm8975_ecs_set_mode: ak8975 set AK8975_MODE_POWER_DOWN
+<6>[    9.949005] wake_lock_init, 0xde391c20, event10-262
+<4>[    9.951232] akm8975_ecs_set_mode: ak8975 set AK8975_MODE_POWER_DOWN
+<6>[    9.977600] wake_lock_init, 0xde392420, event10-262
+<6>[   10.027252] wake_lock_dest, 0xde392420
+<6>[   10.027343] wake_lock_init, 0xde392420, event3-262
+<6>[   10.087188] wake_lock_dest, 0xde392420
+<6>[   10.107269] wake_lock_init, 0xde392420, event1-262
+<6>[   10.167205] wake_lock_dest, 0xde392420
+<6>[   10.197265] wake_lock_init, 0xde392420, event6-262
+<6>[   10.257202] wake_lock_dest, 0xde392420
+<6>[   10.277282] wake_lock_init, 0xde392420, event9-262
+<6>[   10.337219] wake_lock_dest, 0xde392420
+<6>[   10.357269] wake_lock_init, 0xde392420, event8-262
+<6>[   10.417205] wake_lock_dest, 0xde392420
+<3>[   10.431335] kgsl kgsl-3d0: |_load_firmware| request_firmware(leia_pfp_470.fw) failed: -2
+<6>[   10.438934] wake_lock_init, 0xde392420, event7-262
+<6>[   10.507232] wake_lock_dest, 0xde392420
+<6>[   10.527435] wake_lock_init, 0xde392420, event5-262
+<6>[   10.568176] wake_lock_init, 0xde392c20, event10-262
+<6>[   10.619079] wake_lock_dest, 0xde392c20
+<6>[   10.619201] wake_lock_init, 0xde392c20, event3-262
+<6>[   10.678985] wake_lock_dest, 0xde392c20
+<6>[   10.697204] wake_lock_init, 0xde392c20, event1-262
+<6>[   10.757141] wake_lock_dest, 0xde392c20
+<6>[   10.787200] wake_lock_init, 0xde392c20, event6-262
+<6>[   10.847167] wake_lock_dest, 0xde392c20
+<6>[   10.877227] wake_lock_init, 0xde392c20, event9-262
+<6>[   10.917633] wake_lock_dest, 0xde392c20
+<6>[   10.954956] wake_lock_init, 0xde371c20, event8-262
+<6>[   11.024688] wake_lock_dest, 0xde371c20
+<6>[   11.044677] wake_lock_init, 0xde371c20, event7-262
+<6>[   11.104614] wake_lock_dest, 0xde371c20
+<6>[   11.144744] wake_lock_init, 0xde371c20, event5-262
+<6>[   11.227203] wake_lock_dest, 0xde371c20
+<6>[   11.227325] wake_lock_init, 0xde392c20, event4-262
+<6>[   11.257720] 16498
+<4>[   11.257751] LED_onoff: LED_onff = 1
+<4>[   11.275421] opt_i2c_write(472): : 0x1, 0x8
+<4>[   11.276123] opt_i2c_write(472): : 0x2, 0x40
+<4>[   11.276855] opt_i2c_write(472): : 0x3, 0x4
+<4>[   11.277587] opt_i2c_write(472): : 0x4, 0x3
+<4>[   11.278320] opt_i2c_write(472): : 0x4, 0x1
+<4>[   11.334808] proximity_enable_store(237): [PROX] Start proximity = 1
+<4>[   11.335540] opt_i2c_write(472): : 0x4, 0x3
+<6>[   11.335845] wake_lock_init, 0xde372420, event10-262
+<6>[   11.414703] wake_lock_dest, 0xde372420
+<6>[   11.414794] wake_lock_init, 0xde372420, event3-262
+<6>[   11.494750] wake_lock_dest, 0xde372420
+<6>[   11.534790] wake_lock_init, 0xde372420, event1-262
+<6>[   11.604675] wake_lock_dest, 0xde372420
+<6>[   11.624664] wake_lock_init, 0xde372420, event6-262
+<6>[   11.674621] wake_lock_dest, 0xde372420
+<6>[   11.704772] wake_lock_init, 0xde372420, event9-262
+<4>[   11.737182] SDCC CH 0 : msmsdcc_runtime_suspend WLAN SKIP Suspend 
+<6>[   11.775421] wake_lock_dest, 0xde372420
+<6>[   11.804809] wake_lock_init, 0xde372420, event8-262
+<6>[   11.887725] wake_lock_dest, 0xde372420
+<6>[   11.917327] wake_lock_init, 0xde394420, event7-262
+<3>[   11.947509] [GYRO] k3g_set_enable: dps = 0 CTRL_REG4 = 0x90 
+<4>[   11.987670] opt_i2c_write(472): : 0x4, 0x2
+<6>[   11.987701] 16498
+<4>[   11.987701] LED_onoff: LED_onff = 0
+<6>[   12.447296] charm_modem_ioctl: Entering ioctl cmd = 5
+<6>[   12.447326] charm_modem_ioctl: check if charm is booted up
+<6>[   12.447326] charm_modem_ioctl: Entering ioctl cmd = 7
+<6>[   12.447326] charm_modem_ioctl: wait for charm to need images reloaded
+<4>[   14.666503] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   14.666534] [VIBETONZ] DISABLE
+<4>[   14.675048] ld9040 brightness!!! bl_level=0, tune_level=0 curr=18
+<4>[   14.675384] ld9040 ACL_cutoff_set Percentage : off!!
+<4>[   14.676910] ld9040 ea8868_gamma_ctl 0 0
+<6>[   14.677062] request_suspend_state: wakeup (3->0) at 14662493035 (2012-03-12 18:36:12.033555006 UTC)
+<3>[   14.678100] [TouchKey] system calling LED Notification control
+<4>[   14.678497] write value 16 to address 32
+<4>[   14.699920] ld9040 brightness!!! bl_level=102, tune_level=8 curr=0
+<4>[   14.703613] ld9040 ACL_cutoff_set Percentage : 40!!
+<4>[   14.715393] ld9040 ea8868_gamma_ctl 8 8
+<6>[   14.733062] wake_lock_init, 0xdd9cff10, KeyEvents
+<6>[   14.792663] wake_lock_init, 0xde395420, event10-262
+<6>[   14.827148] wake_lock_dest, 0xde395420
+<6>[   14.827239] wake_lock_init, 0xde395420, event3-262
+<6>[   14.866058] wake_lock_init, 0xde395c20, event1-262
+<6>[   14.894073] wake_lock_init, 0xde396420, event6-262
+<6>[   14.927185] wake_lock_init, 0xde396c20, event9-262
+<6>[   14.962768] wake_lock_init, 0xde397420, event8-262
+<6>[   15.017211] wake_lock_dest, 0xde397420
+<6>[   15.047210] wake_lock_init, 0xde397420, event7-262
+<6>[   15.107147] wake_lock_dest, 0xde397420
+<6>[   15.107208] wake_lock_init, 0xde397420, event5-262
+<6>[   15.167205] wake_lock_dest, 0xde397420
+<6>[   15.167266] wake_lock_init, 0xde397420, event4-262
+<6>[   15.227142] wake_lock_dest, 0xde397420
+<6>[   15.227203] wake_lock_init, 0xde397420, event2-262
+<6>[   15.269805] wake_lock_init, 0xde397c20, event0-262
+<6>[   16.115325] binder: release 154:250 transaction 777 in, still active
+<6>[   16.115356] binder: send failed reply for transaction 777 to 262:299
+<4>[   16.445404] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   16.445465] [VIBETONZ] DISABLE
+<6>[   16.446990] wake_lock_init, 0xdd8eca90, PowerManagerService
+<4>[   16.469573] [VIBETONZ] enable_vibetonz_from_user : time = 1 msec 
+<4>[   16.469635] [VIBETONZ] ENABLE
+<4>[   16.472290] [VIBETONZ] DISABLE
+<4>[   16.490997] [VIBETONZ] enable_vibetonz_from_user : time = 21 msec 
+<4>[   16.491699] [VIBETONZ] ENABLE
+<4>[   16.512115] [VIBETONZ] DISABLE
+<3>[   17.888702] kgsl kgsl-3d0: |_load_firmware| request_firmware(leia_pfp_470.fw) failed: -2
+<3>[   18.602294] init: [boot time] processing action 0x48b48 (property:sys.boot_completed=1)
+<3>[   18.665740] init: [boot time] processing action 0x4f8f8 (property:init.svc.bootanim=stopped)
+<6>[   18.818756] CPUFREQ: Per core ondemand sysfs interface is deprecated - sampling_rate
+<6>[   18.818939] CPUFREQ: Per core ondemand sysfs interface is deprecated - up_threshold
+<3>[   19.064697] init: cannot find '/system/bin/mpdecision', disabling 'mpdecision'
+<6>[   19.093261] binder: release 361:361 transaction 1704 in, still active
+<6>[   19.093292] binder: send failed reply for transaction 1704 to 262:359
+<3>[   24.644195] [TouchKey] system calling LED Notification control
+<4>[   24.644714] write value 32 to address 32
+<3>[   49.244628] [TSP] t: 4, a: 0
+<7>[   49.245269] [TSP] ID-0,UD:1 
+<4>[   49.250946] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   49.250976] [VIBETONZ] DISABLE
+<4>[   49.251586] [VIBETONZ] enable_vibetonz_from_user : time = 20 msec 
+<4>[   49.251617] [VIBETONZ] ENABLE
+<3>[   49.253906] [TouchKey] system calling LED Notification control
+<4>[   49.255249] write value 16 to address 32
+<4>[   49.273284] [VIBETONZ] DISABLE
+<4>[   49.284790] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   49.284881] [VIBETONZ] DISABLE
+<3>[   49.309387] [TSP] t: 4, a: 0
+<3>[   49.333343] [TSP] t: 4, a: 0
+<3>[   49.357360] [TSP] t: 4, a: 0
+<3>[   49.381408] [TSP] t: 3, a: 0
+<3>[   49.405364] [TSP] t: 4, a: 0
+<3>[   49.429382] [TSP] t: 2, a: 0
+<3>[   49.453430] [TSP] t: 0, a: 0
+<3>[   49.453979] [TSP] calibration was not decided yet
+<3>[   49.477539] [TSP] t: 0, a: 0
+<3>[   49.478027] [TSP] calibration was not decided yet
+<7>[   49.479888] [TSP] ID-0,UD:0 
+<4>[   49.484802] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   49.485504] [VIBETONZ] DISABLE
+<4>[   49.486389] [VIBETONZ] enable_vibetonz_from_user : time = 20 msec 
+<4>[   49.486419] [VIBETONZ] ENABLE
+<4>[   49.509155] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   49.509460] [VIBETONZ] DISABLE
+<4>[   49.589569] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   49.589599] [VIBETONZ] DISABLE
+<4>[   49.590240] [VIBETONZ] enable_vibetonz_from_user : time = 20 msec 
+<4>[   49.590240] [VIBETONZ] ENABLE
+<4>[   49.612976] [VIBETONZ] DISABLE
+<4>[   49.613769] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   49.614135] [VIBETONZ] DISABLE
+<3>[   49.686096] [TouchKey] system calling LED Notification control
+<4>[   49.686553] write value 32 to address 32
+<7>[   50.850128] Power Key Press Code:116 
+<7>[   51.012512] Power Key Release Code:116 
+<4>[   51.014251] ld9040 brightness!!! bl_level=95, tune_level=8 curr=8
+<4>[   51.030761] ld9040 brightness!!! bl_level=88, tune_level=7 curr=8
+<4>[   51.032714] ld9040 ea8868_gamma_ctl 7 7
+<4>[   51.046295] ld9040 brightness!!! bl_level=81, tune_level=6 curr=7
+<4>[   51.048248] ld9040 ea8868_gamma_ctl 6 6
+<4>[   51.062774] ld9040 brightness!!! bl_level=74, tune_level=6 curr=6
+<4>[   51.078338] ld9040 brightness!!! bl_level=67, tune_level=5 curr=6
+<4>[   51.080322] ld9040 ea8868_gamma_ctl 5 5
+<4>[   51.094818] ld9040 brightness!!! bl_level=61, tune_level=4 curr=5
+<4>[   51.096862] ld9040 ea8868_gamma_ctl 4 4
+<4>[   51.111328] ld9040 brightness!!! bl_level=54, tune_level=4 curr=4
+<4>[   51.127716] ld9040 brightness!!! bl_level=47, tune_level=3 curr=4
+<4>[   51.129577] ld9040 ea8868_gamma_ctl 3 3
+<4>[   51.142974] ld9040 brightness!!! bl_level=40, tune_level=2 curr=3
+<4>[   51.144897] ld9040 ea8868_gamma_ctl 2 2
+<4>[   51.159301] ld9040 brightness!!! bl_level=33, tune_level=1 curr=2
+<4>[   51.159667] ld9040 ACL_cutoff_set Percentage : off!!
+<4>[   51.161285] ld9040 ea8868_gamma_ctl 1 1
+<4>[   51.175628] ld9040 brightness!!! bl_level=27, tune_level=0 curr=1
+<4>[   51.175903] ld9040 if bl_value is 0 or 1, acl_on skipped
+<4>[   51.177490] ld9040 ea8868_gamma_ctl 0 0
+<4>[   51.190917] ld9040 brightness!!! bl_level=20, tune_level=0 curr=0
+<4>[   51.207275] ld9040 brightness!!! bl_level=13, tune_level=0 curr=0
+<4>[   51.223693] ld9040 brightness!!! bl_level=6, tune_level=0 curr=0
+<4>[   51.239074] ld9040 brightness!!! bl_level=0, tune_level=0 curr=0
+<6>[   51.239288] request_suspend_state: sleep (0->3) at 51224718378 (2012-03-12 18:36:48.595780349 UTC)
+<6>[   51.239349] early_suspend: begin
+<6>[   51.239379] early_suspend: call handlers
+<6>[   51.239379] early_suspend: 0xc05131f4
+<6>[   51.239410] early_suspend: 0xc048a6e0
+<7>[   51.239440] melfas_touchkey_early_suspend
+<4>[   51.239440] [TKEY] tkey_vdd_enable: enter
+<4>[   51.247863] tkey_led_vdd_enable 0
+<6>[   51.248168] early_suspend: 0xc035b978
+<4>[   51.248168] ld9040 panel off at early_suspend (1,1,1)
+<4>[   51.303558] akm8975_ecs_set_mode: ak8975 set AK8975_MODE_POWER_DOWN
+<4>[   51.319122] [VIBETONZ] enable_vibetonz_from_user : time = 0 msec 
+<4>[   51.321899] [VIBETONZ] DISABLE
+<4>[   51.384643] ld9040 : lcdc_config_gpios [0]
+<4>[   51.384643] ld9040 start ld9040_disp_powerdown
+<6>[   51.384674] early_suspend: 0xc0488bc4
+<7>[   51.384674] [TouchKey] BLN suspend
+<6>[   51.384674] early_suspend: 0xc0132ad8
+<6>[   51.444946] early_suspend: 0xc03b3518
+<6>[   51.444946] early_suspend: 0xc03b3518
+<6>[   51.444976] early_suspend: 0xc03b3518
+<6>[   51.444976] early_suspend: 0xc03488f0
+<4>[   51.474639] ld9040 lcdc_ld9040_panel_off +  (0,0,0)
+<4>[   51.474639] ld9040 lcdc_ld9040_panel_off -
+<4>[   51.474670] lcdc_LD9040_panel_power:enable:0
+<6>[   51.504638] early_suspend: 0xc034cc40
+<6>[   51.504669] early_suspend: 0xc0521d04
+<6>[   51.504669] early_suspend: 0xc0521d04
+<6>[   51.504669] early_suspend: 0xc0521d04
+<6>[   51.504669] early_suspend: 0xc0521d04
+<6>[   51.504699] early_suspend: 0xc0521d04
+<6>[   51.504699] early_suspend: 0xc05119e8
+<6>[   51.504699] early_suspend: 0xc04f6b64
+<4>[   51.504699] sec_bat_early_suspend...
+<6>[   51.504699] early_suspend: 0xc048f4f8
+<4>[   51.504730] mxt224_power_off: enter
+<3>[   51.504974] [TSP POWER OFF	 L4 1.8 disable
+<3>[   51.505218] [TSP POWER OFF	 L1 3.3 disable
+<4>[   51.505340] mxt224_power_off is finished
+<3>[   51.505340] [TSP] mxt224_early_suspend 
+<6>[   51.505432] early_suspend: done
+<6>[   51.505462] PM: Syncing filesystems...
+<6>[   52.894439] binder: 262:300 transaction failed 29189, size 204-0
+<6>[   62.009887] sync done.
