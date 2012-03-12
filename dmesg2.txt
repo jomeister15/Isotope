@@ -1,0 +1,986 @@
+<6>[    0.000000] Initializing cgroup subsys cpu
+<5>[    0.000000] Linux version 2.6.35.11-dag0.43+ (gabe@damothership) (gcc version 4.4.1 (Sourcery G++ Lite 2010q1-188) ) #131 SMP PREEMPT Wed Dec 7 17:42:17 PST 2011
+<4>[    0.000000] CPU: ARMv7 Processor [510f02d2] revision 2 (ARMv7), cr=10c53c7d
+<4>[    0.000000] CPU: VIPT nonaliasing data cache, VIVT ASID tagged instruction cache
+<4>[    0.000000] Machine: SGH-I727
+<4>[    0.000000] Memory policy: ECC disabled, Data cache writealloc
+<7>[    0.000000] On node 0 totalpages: 240384
+<7>[    0.000000] free_area_init_node: node 0, pgdat c095b5e0, node_mem_map c10ee000
+<7>[    0.000000]   Normal zone: 992 pages used for memmap
+<7>[    0.000000]   Normal zone: 0 pages reserved
+<7>[    0.000000]   Normal zone: 105248 pages, LIFO batch:31
+<7>[    0.000000]   HighMem zone: 1048 pages used for memmap
+<7>[    0.000000]   HighMem zone: 133096 pages, LIFO batch:31
+<6>[    0.000000] allocating 15208448 bytes at c18f1000 (41cf1000 physical) for fb
+<6>[    0.000000] allocating 6291456 bytes at c7d00000 (48100000 physical) for kernel ebi1 pmem arena
+<6>[    0.000000] allocating 6291456 bytes at 38000000 physical for kernel smi pmem arena
+<6>[    0.000000] allocating 33554432 bytes at c8300000 (48700000 physical) for adsp pmem arena
+<6>[    0.000000] allocating 60817408 bytes at 38600000 physical for user smi  pmem arena
+<6>[    0.000000] allocating 2592768 bytes at ca300000 (4a700000 physical) for audio pmem arena
+<6>[    0.000000] allocating 67108864 bytes at ca579000 (4a979000 physical) for sf pmem arena
+<6>[    0.000000] sec_getlog_supply_meminfo: 40000000 40000000 0 0
+<6>[    0.000000] PERCPU: Embedded 8 pages/cpu @ce57e000 s10272 r8192 d14304 u65536
+<6>[    0.000000] pcpu-alloc: s10272 r8192 d14304 u65536 alloc=16*4096
+<6>[    0.000000] pcpu-alloc: [0] 0 [0] 1 
+<4>[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 238344
+<5>[    0.000000] Kernel command line: androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+<0>[    0.000000] (sec_dbg_setup)
+<0>[    0.000000] (sec_dbg_setup) sec_dbg_buf_base = 0x4020400c
+<0>[    0.000000] (sec_dbg_setup) sec_dbg_buf_size = 0x100000
+<4>[    0.000000] hw_rev_setup : HW rev value is intialized first
+<4>[    0.000000] HW rev value : 0xD
+<6>[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+<6>[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[    0.000000] Memory: 43MB 128MB 244MB 524MB = 939MB total
+<5>[    0.000000] Memory: 814560k/814560k available, 146976k reserved, 536576K highmem
+<5>[    0.000000] Virtual kernel memory layout:
+<5>[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[    0.000000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+<5>[    0.000000]     vmalloc : 0xdf800000 - 0xfa000000   ( 424 MB)
+<5>[    0.000000]     lowmem  : 0xc0000000 - 0xdf000000   ( 496 MB)
+<5>[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[    0.000000]       .init : 0xc0008000 - 0xc0042000   ( 232 kB)
+<5>[    0.000000]       .text : 0xc0042000 - 0xc082a000   (8096 kB)
+<5>[    0.000000]       .data : 0xc0856000 - 0xc095c0e0   (1049 kB)
+<6>[    0.000000] SLUB: Genslabs=11, HWalign=32, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+<6>[    0.000000] Preemptable hierarchical RCU implementation.
+<6>[    0.000000] 	RCU-based detection of stalled CPUs is disabled.
+<6>[    0.000000] 	Verbose stalled-CPUs detection is disabled.
+<6>[    0.000000] NR_IRQS:855
+<6>[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+<4>[    0.000000] Console: colour dummy device 80x30
+<6>[    0.150177] Calibrating delay using timer specific routine.. 13.53 BogoMIPS (lpj=67693)
+<6>[    0.150207] pid_max: default: 32768 minimum: 301
+<4>[    0.150329] Mount-cache hash table entries: 512
+<6>[    0.150817] Initializing cgroup subsys cpuacct
+<6>[    0.150848] Initializing cgroup subsys freezer
+<6>[    0.150878] Initializing cgroup subsys blkio
+<6>[    0.150909] Initializing cgroup subsys bfqio
+<6>[    0.150939] CPU: Testing write buffer coherency: ok
+<6>[    0.221008] Brought up 2 CPUs
+<6>[    0.221008] SMP: Total of 2 processors activated (27.07 BogoMIPS).
+<6>[    0.230377] wake_lock_init, 0xc0e1afd0, deleted_wake_locks
+<6>[    0.230377] wake_lock_init, 0xc0e1b068, main
+<6>[    0.230407] wake_lock_init, 0xc0e1b020, unknown_wakeups
+<6>[    0.230804] regulator: core version 0.5
+<6>[    0.231170] NET: Registered protocol family 16
+<3>[    0.231323] AXI: msm_bus_fabric_init_driver(): msm_bus_fabric_init_driver
+<6>[    0.232299] (sec_get_lpm_mode) 1a2b3c00
+<0>[    0.232330] (sec_get_lpm_mode) 0
+<0>[    0.232330] (sec_debug_init)
+<0>[    0.232360] (sec_debug_init) reset_reason : 0x1a2b3c00
+<6>[    0.232360] msm_rpm_init: RPM firmware 2.0.1115
+<6>[    0.232666] socinfo_init: v6, id=86, ver=2.0, raw_id=1697, raw_ver=1697, hw_plat=0,  hw_plat_ver=65536
+<6>[    0.232666]  accessory_chip=0 hw_plat_subtype=0
+<6>[    0.232910] saw_probe: id=0, rc=0
+<6>[    0.233123] saw_probe: id=1, rc=0
+<6>[    0.244323] CPU0: 10 scaling frequencies supported.
+<6>[    0.244354] CPU1: 10 scaling frequencies supported.
+<6>[    0.244720] bt_power_init 
+<6>[    0.244720] bt_gpio_init : low 
+<3>[    0.244750] bt_power_init: gpio_direction_output success (GPIO: 46 , 158)
+<3>[    0.244781] LTE_switch_init!
+<3>[    0.244812] LTE_switch_init end!
+<6>[    0.255920] ram_console: got buffer at 42e00000, size 1000
+<6>[    0.255981] ram_console: found existing buffer, size 3556, start 3188
+<6>[    0.267425] console [ram-1] enabled
+<7>[    0.267913] usb_device_init: default luns=1, system_rev=13
+<4>[    0.275878] [MAG] sensor_power_on_vdd: vdd_2p85=1, vdd_1p8=0, vdd_2p_4=0, vdd_2p85_mag=0
+<4>[    0.276153] [TKEY] tkey_device_init: 8901_lvs2 On 
+<4>[    0.276672] [TKEY] tkey_device_init: TKEY_L12 3.3 V Set 
+<4>[    0.276702] motor_power_on: enter
+<4>[    0.276733] motor_power_on: exit
+<6>[    0.276824] hw perfevents: enabled with ARMv7 Scorpion-MP PMU driver, 5 counters available
+<6>[    0.277984] Scorpion registered PMU device
+<5>[    0.278320] pm8058_init: i2c_add_driver: rc = 0
+<5>[    0.278350] pm8901_init: i2c_add_driver: rc = 0
+<6>[    0.279754] pm8058_probe: PMIC revision: E3
+<6>[    0.281494] pm8901_probe: PMIC revision: F4
+<4>[    0.284515] pmic gpio configuration for HW rev
+<6>[    0.284973] pm8058_gpio_probe: gpiochip_add(): rc=0
+<6>[    0.285400] pm8058_mpp_probe: gpiochip_add(): rc=0
+<4>[    0.289978] bio: create slab <bio-0> at 0
+<6>[    0.290496] pm8901_mpp_probe: gpiochip_add(): rc=0
+<5>[    0.291473] pmic8058_pwm_probe: OK
+<5>[    0.291656] SCSI subsystem initialized
+<6>[    0.291748] usbcore: registered new interface driver usbfs
+<6>[    0.291778] usbcore: registered new interface driver hub
+<6>[    0.291931] usbcore: registered new device driver usb
+<6>[    0.292266] i2c-gpio i2c-gpio.15: using pins 107 (SDA) and 101 (SCL)
+<6>[    0.292419] i2c-gpio i2c-gpio.10: using pins 138 (SDA) and 139 (SCL)
+<6>[    0.292541] i2c-gpio i2c-gpio.13: using pins 156 (SDA) and 157 (SCL)
+<6>[    0.292663] i2c-gpio i2c-gpio.11: using pins 38 (SDA) and 39 (SCL)
+<6>[    0.292785] i2c-gpio i2c-gpio.12: using pins 51 (SDA) and 52 (SCL)
+<6>[    0.292907] i2c-gpio i2c-gpio.17: using pins 70 (SDA) and 94 (SCL)
+<6>[    0.292999] i2c-gpio i2c-gpio.9: using pins 155 (SDA) and 154 (SCL)
+<6>[    0.293151] wake_lock_init, 0xc0e362b0, mmc_delayed_work
+<6>[    0.293365] Advanced Linux Sound Architecture Driver Version 1.0.23.
+<6>[    0.293640] Bluetooth: Core ver 2.15
+<6>[    0.293670] NET: Registered protocol family 31
+<6>[    0.293670] Bluetooth: HCI device and connection manager initialized
+<6>[    0.293701] Bluetooth: HCI socket layer initialized
+<6>[    0.293762] Switching to clocksource gp_timer
+<6>[    0.316406] NET: Registered protocol family 2
+<6>[    0.316467] IP route cache hash table entries: 16384 (order: 4, 65536 bytes)
+<6>[    0.316619] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.317199] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+<6>[    0.317749] TCP: Hash tables configured (established 65536 bind 65536)
+<6>[    0.317779] TCP reno registered
+<6>[    0.317779] UDP hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.317779] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+<6>[    0.317962] NET: Registered protocol family 1
+<6>[    0.336395] RPC: Registered udp transport module.
+<6>[    0.336395] RPC: Registered tcp transport module.
+<6>[    0.336425] RPC: Registered tcp NFSv4.1 backchannel transport module.
+<6>[    0.336547] Trying to unpack rootfs image as initramfs...
+<6>[    0.377746] Freeing initrd memory: 948K
+<6>[    0.378051] PMU: registered new PMU device of type 0
+<6>[    0.378204] sdio_al:SDIO-AL SW version 1.30
+<6>[    0.383819] msm_dsps driver version 1.03.
+<6>[    0.384399] wake_lock_init, 0xc0d69650, rpc_server
+<6>[    0.385131] wake_lock_init, 0xdee7dc20, rpc_read
+<6>[    0.385131] wake_lock_init, 0xdee7dcd0, rpc_reply
+<6>[    0.386535] wake_lock_init, 0xc0d69e80, snddev_tx_idle
+<6>[    0.386535] wake_lock_init, 0xc0d69e38, snddev_rx_idle
+<6>[    0.389068] wake_lock_init, 0xc0d7ae50, audio_mvs_suspend
+<6>[    0.389099] wake_lock_init, 0xc0d7ae98, audio_mvs_idle
+<6>[    0.389312] lpa_if_init: lpa_if_ptr 0xdee6d000   buf_vir 0xff000000   buf_phy 0x5f388000  buf_zise 24576
+<3>[    0.389587] sec_switch_probe enter sec_switch_probe
+<5>[    0.389923] cfg_gpio_low_power: failed to sleep gpio 230: -22
+<5>[    0.389923] cfg_gpio_low_power: failed to sleep gpio 236: -22
+<5>[    0.389923] cfg_gpio_low_power: failed to sleep gpio 237: -22
+<5>[    0.389923] cfg_gpio_low_power: failed to sleep gpio 240: -22
+<5>[    0.389953] cfg_gpio_low_power: failed to sleep gpio 244: -22
+<5>[    0.389953] cfg_gpio_low_power: failed to sleep gpio 245: -22
+<5>[    0.389953] cfg_gpio_low_power: failed to sleep gpio 258: -22
+<5>[    0.389953] cfg_gpio_low_power: failed to sleep gpio 282: -22
+<5>[    0.389953] cfg_gpio_low_power: failed to sleep gpio 291: -22
+<6>[    0.389984] Bluetooth: bluesleep_init:MSM Sleep Mode Driver Ver 1.1
+<6>[    0.390045] wake_lock_init, 0xdee61f70, bluesleep
+<6>[    0.390197] Bluetooth: bluesleep_init : check point 1 : retval - 0
+<6>[    0.390197] Bluetooth: bluesleep_init : check point 2
+<6>[    0.390197] Bluetooth: bluesleep_init : check point 3
+<6>[    0.390228] Bluetooth: bluesleep_init : check point 4
+<6>[    0.390228] Bluetooth: bluesleep_init : check point 5
+<6>[    0.390228] Bluetooth: bluesleep_init : check point 6
+<6>[    0.390258] Bluetooth: bluesleep_init : check point 7
+<6>[    0.390472] wake_lock_init, 0xc0d7f4d8, charm_wakelock
+<6>[    0.390502] charm_wakeup: charm got wakeup interrupt
+<6>[    0.390686] charm_modem_probe: Registering charm modem
+<6>[    0.390899] wake_lock_init, 0xdee6d0f8, rmt_storage
+<5>[    0.392913] msm_rpm_log_probe: OK
+<6>[    0.393249] sec_getlog_supply_kloginfo: 0xc0d87c08
+<4>[    0.402313] highmem bounce pool size: 64 pages
+<6>[    0.402465] ashmem: initialized
+<5>[    0.403015] Slow work thread pool: Starting up
+<5>[    0.403137] Slow work thread pool: Ready
+<6>[    0.403167] msgmni has been set to 544
+<6>[    0.405242] alg: No test for stdrng (krng)
+<6>[    0.405395] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+<6>[    0.405395] io scheduler noop registered (default)
+<6>[    0.405395] io scheduler deadline registered
+<6>[    0.405395] io scheduler cfq registered
+<6>[    0.405426] io scheduler bfq registered
+<4>[    0.413696] ld9040 start lcdc_ld9040_panel_init
+<4>[    0.413757] ld9040 start ld9040_probe: pdev->name:lcdc_ld9040_wvga
+<4>[    0.413757] ld9040 msm_fb_add_device START
+<6>[    0.413787] setting pdata->panel_info.fb_num to 3. type: 0
+<3>[    0.413787] msm_fb_add_device: msm_fb_device_alloc failed!
+<4>[    0.413848] ld9040 msm_fb_add_device end
+<4>[    0.414184] ld9040 platform_driver_register(&this_driver) is done 
+<4>[    0.414184] ld9040 LDI : EA8868, pixelclock 27400000
+<6>[    0.414459] setting pdata->panel_info.fb_num to 3. type: 3
+<6>[    0.417877] FrameBuffer[0] 480x800 size=4608000 bytes is registered successfully!
+<6>[    0.417877] is_lpcharging_state: is_lpm_boot:0
+<3>[    0.417907] pm_runtime: fail to wake up
+<6>[    0.453948] mdp4_overlay_pipe_alloc: pipe=c0915414 ndx=1 num=0
+<6>[    0.453979] mdp_lcdc_on: <ID=0 480x800 (40,2,40), (8,2,8) 27MHz>
+<6>[    0.455993] @LCDINIT@:DOTCLK clock enabled
+<4>[    0.456024] lcdc_LD9040_panel_power:enable:1
+<4>[    0.456970] ld9040 lcdc_ld9040_panel_on  +  (0,0,0)
+<4>[    0.456970] ld9040 : lcdc_config_gpios [1]
+<4>[    0.456970] ld9040 start spi_init
+<4>[    0.456970] ld9040 clk : 103, cs : 104, sdi : 106
+<4>[    0.457000] ld9040 start ld9040_disp_powerup
+<4>[    0.513977] ld9040 start ld9040_disp_on - HW Rev: 13
+<4>[    0.644744] ld9040 ld9040_read_lcd_id: 0 3 22
+<4>[    0.644744] ld9040 lcd EA8868 M3
+<4>[    0.648010] ld9040 ACL_cutoff_set Percentage : 50!!
+<4>[    0.649566] ld9040 ea8868_gamma_ctl 18 18
+<4>[    0.649658] ld9040 lcdc_ld9040_panel_on  -  (1,1,1)
+<4>[    0.649688] load_565rle_image: open OK! /initlogo.rle
+<4>[    0.649719] load_565rle_image: count 27728
+<4>[    0.649780] load_565rle_image: max 384000, n 65535 0xe0000000, w 480, h 800
+<7>[    0.653594] Registered led device: lcd-backlight
+<6>[    0.653656] sec_getlog_supply_fbinfo: 0x418f1000 480 800 32 2
+<4>[    0.653656] ld9040 platform_device_register(&this_device) is done 
+<6>[    0.654449] msm_vidc_dec: Inside vid_dec_init()
+<6>[    0.654571] msm_vidc_dec: Inside vid_dec_vcd_init()
+<6>[    0.654602] 
+<6>[    0.654602]  msm_vidc_enc: Inside vid_enc_init()
+<6>[    0.654663] 
+<6>[    0.654663]  msm_vidc_enc: Inside vid_enc_vcd_init()
+<6>[    0.717071] wake_lock_init, 0xc0920120, kgsl-3d0
+<6>[    0.718048] wake_lock_init, 0xc09205d0, kgsl-2d0
+<6>[    0.718597] wake_lock_init, 0xc0920910, kgsl-2d1
+<6>[    0.718933] wake_lock_init, 0xc0e2c630, msm_serial_hs_rx
+<6>[    0.718933] wake_lock_init, 0xc0e2c748, msm_serial_hs_dma
+<6>[    0.718994] msm_serial_hs.0: ttyHS0 at MMIO 0x16540000 (irq = 188) is a MSM HS UART
+<6>[    0.719573] msm_serial_hs module loaded
+<6>[    0.719665] msm_serial_hsl: detected port #1
+<6>[    0.719726] msm_serial_hsl.1: ttyHSL1 at MMIO 0x19940000 (irq = 221) is a MSM
+<6>[    0.720153] msm_serial_hsl: detected port #0
+<6>[    0.720184] msm_serial_hsl.0: ttyHSL0 at MMIO 0x19c40000 (irq = 227) is a MSM
+<6>[    0.720672] msm_serial_hsl: driver initialized
+<6>[    0.723358] brd: module loaded
+<6>[    0.724792] loop: module loaded
+<6>[    0.724914] pmem: Initializing pmem_kernel_ebi1 (in-kernel)
+<6>[    0.724975] pmem: Initializing pmem_kernel_smi (in-kernel)
+<6>[    0.725006] pmem: Initializing pmem (user-space) as cached
+<6>[    0.725341] pmem: Initializing pmem_adsp (user-space) as non-cached
+<6>[    0.725494] pmem: Initializing pmem_audio (user-space) as non-cached
+<6>[    0.725646] pmem: Initializing pmem_smipool (user-space) as non-cached
+<3>[    0.725769] pmem: Reserving virtual address range e1000000 - e4a00000 for pmem_smipool
+<6>[    0.726135] is_lpcharging_state: is_lpm_boot:0
+<4>[    0.726165] ak8975 probe start!
+<4>[    0.727020] ak8975 probe success!
+<6>[    0.727081] is_lpcharging_state: is_lpm_boot:0
+<4>[    0.727111] k3dh probe start!!
+<4>[    0.727416] k3dh probe success!!
+<6>[    0.727600] sec_jack:sec_jack_probe : Registering jack driver
+<6>[    0.727722] input: sec_jack as /devices/virtual/input/input0
+<6>[    0.727844] wake_lock_init, 0xdefe3608, sec_jack_det
+<5>[    0.728515] pmic8058_upl_probe: OK
+<6>[    0.728820] wake_lock_init, 0xdec14ae8, pmic8058_xoadc_wakelock
+<5>[    0.729095] pmic8058_misc_probe: OK
+<6>[    0.729431] Loading pn544 driver
+<6>[    0.729492] pn544_probe : IRQ num 628
+<6>[    0.729614] pn544_probe : requesting IRQ 628
+<6>[    0.729797] is_lpcharging_state: is_lpm_boot:0
+<6>[    0.729797] a2220_init
+<6>[    0.730163] wake_lock_init, 0xc0e2d788, sec_misc
+<4>[    0.730163] level device init
+<4>[    0.730285] marimba_probe
+<4>[    0.730285] msm_timpani_setup_power
+<4>[    0.734405] ret = 2 , rd_val = 0 
+<4>[    0.734558] cur_adie_type = TIMPANI_ID;
+<4>[    0.735382] audience_a2220a2220_ioctl : lsj:: a2220_firmware_buf = 78664
+<4>[    0.735382] audience_a2220a2220_ioctl: creating thread..
+<4>[    0.735504] init_a2220 - 
+<4>[    0.735534] audience_a2220a2220_init_thread
+<6>[    0.735565] adie_codec_register_codec_operations: codec type 1
+<6>[    0.754669] SCSI Media Changer driver v0.25 
+<6>[    0.755218] PPP generic driver version 2.4.2
+<6>[    0.755462] PPP Deflate Compression module registered
+<6>[    0.755462] PPP BSD Compression module registered
+<6>[    0.756072] PPP MPPE Compression module registered
+<6>[    0.756103] NET: Registered protocol family 24
+<6>[    0.756103] SLIP: version 0.8.4-NET3.019-NEWTTY (dynamic channels, max=256) (6 bit encapsulation enabled).
+<6>[    0.756103] CSLIP: code copyright 1989 Regents of the University of California.
+<6>[    0.756347] tun: Universal TUN/TAP device driver, 1.6
+<6>[    0.756347] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[    0.756622] rmnet_init: SMD devices[8]
+<6>[    0.756622] wake_lock_init, 0xdec54c48, DATA5
+<6>[    0.757141] wake_lock_init, 0xdec55448, DATA6
+<6>[    0.757537] wake_lock_init, 0xdec55c48, DATA7
+<6>[    0.757904] wake_lock_init, 0xdec56448, DATA8
+<6>[    0.758300] wake_lock_init, 0xdec56c48, DATA9
+<6>[    0.758666] wake_lock_init, 0xdec57448, DATA12
+<6>[    0.759063] wake_lock_init, 0xdec57c48, DATA13
+<6>[    0.759429] wake_lock_init, 0xde6b0448, DATA14
+<6>[    0.759826] rmnet_init: SDIO devices[8]
+<6>[    0.761871] wake_lock_init, 0xde6d78a8, msm_otg
+<6>[    0.763671] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[    0.763824] wake_lock_init, 0xde6d7eac, msm_hsusb_host.0
+<6>[    0.763824] host driver registered w/ tranceiver
+<6>[    0.764007] usbcore: registered new interface driver cdc_acm
+<6>[    0.764007] cdc_acm: v0.26:USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[    0.764007] Initializing USB Mass Storage driver...
+<6>[    0.764099] usbcore: registered new interface driver usb-storage
+<6>[    0.764099] USB Mass Storage support registered.
+<6>[    0.764221] wake_lock_init, 0xdec158d0, usb_bus_active
+<6>[    0.764282] peripheral driver registered w/ tranceiver
+<6>[    0.764678] android_usb gadget: android_usb ready
+<6>[    0.764862] f_acm init
+<6>[    0.764923] facm_probe:gport:tty_ports:1 sdio_ports:1 smd_ports:0 nr_ports:2
+<6>[    0.764923] android_register_function: acm1  0, 8
+<6>[    0.764953] android_register_function: acm2  1, 8
+<6>[    0.765106] android_register_function: adb  2, 8
+<6>[    0.765289] android_register_function: usb_mass_storage  3, 8
+<6>[    0.765502] android_register_function: rndis  4, 8
+<6>[    0.765563] android_register_function: diag  5, 8
+<6>[    0.765625] android_register_function: diag_mdm  6, 8
+<6>[    0.765747] android_register_function: rmnet  7, 8
+<6>[    0.765747] android_register_function: rmnet_sdio  7, 8
+<6>[    0.767333] DUN is registerd
+<4>[    0.767608] android_usb gadget: using random self ethernet address
+<4>[    0.767608] android_usb gadget: using random host ethernet address
+<6>[    0.767883] usb0: MAC a2:6c:33:ca:e9:10
+<6>[    0.767883] usb0: HOST MAC 9a:e5:db:ca:0e:ca
+<6>[    0.768188] set_product:  2, 1
+<6>[    0.768188] func->name=usb_mass_storage
+<6>[    0.768218] set_enable_functions: usb_mass_storage - usb_mass_storage 0, 2
+<6>[    0.768218] enable usb_mass_storage
+<6>[    0.768218] func->name=acm1
+<6>[    0.768218] set_enable_functions: acm1 - usb_mass_storage 0, 2
+<6>[    0.768249] set_enable_functions: acm1 - acm2 1, 2
+<6>[    0.768249] func->name=acm2
+<6>[    0.768249] set_enable_functions: acm2 - usb_mass_storage 0, 2
+<6>[    0.768249] set_enable_functions: acm2 - acm2 1, 2
+<6>[    0.768280] enable acm2
+<6>[    0.768280] func->name=adb
+<6>[    0.768280] set_enable_functions: adb - usb_mass_storage 0, 2
+<6>[    0.768280] set_enable_functions: adb - acm2 1, 2
+<6>[    0.768310] func->name=rndis
+<6>[    0.768310] set_enable_functions: rndis - usb_mass_storage 0, 2
+<6>[    0.768310] set_enable_functions: rndis - acm2 1, 2
+<6>[    0.768341] func->name=diag
+<6>[    0.768341] set_enable_functions: diag - usb_mass_storage 0, 2
+<6>[    0.768341] set_enable_functions: diag - acm2 1, 2
+<6>[    0.768341] func->name=diag_mdm
+<6>[    0.768371] set_enable_functions: diag_mdm - usb_mass_storage 0, 2
+<6>[    0.768371] set_enable_functions: diag_mdm - acm2 1, 2
+<6>[    0.768371] func->name=rmnet_sdio
+<6>[    0.768371] set_enable_functions: rmnet_sdio - usb_mass_storage 0, 2
+<6>[    0.768402] set_enable_functions: rmnet_sdio - acm2 1, 2
+<6>[    0.768402] Change Device Descriptor : DeviceClass(0xef),SubClass(0x2),Protocol(0x1)
+<6>[    0.768402] Change Label : [1]ACM + UMS (SAMSUNG KIES mode)
+<6>[    0.768402] set function num=2
+<6>[    0.768432] android_register_function: rmnet_smd_sdio  8, 8
+<6>[    0.768951] DIAG registered SDIO device
+<6>[    0.769500] diagchar initialized
+<6>[    0.770324] input: sec_key as /devices/i2c-6/6-0055/pm8058-keypad/input/input1
+<6>[    0.770935] is_lpcharging_state: is_lpm_boot:0
+<3>[    0.770965] [TSP] mxt224_probe   
+<6>[    0.771209] input: sec_touchscreen as /devices/virtual/input/input2
+<4>[    0.771392] mxt224_power_on: enter
+<3>[    0.771789] [TSP POWER ON	L1 3.3 enable
+<3>[    0.772216] [TSP POWER ON  L4 1.8 enable
+<4>[    0.772277] mxt224_power_on: exit
+<4>[    0.834106] mxt224_power_on is finished
+<4>[    0.835723] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init +
+<6>[    0.875335] qt602240_ts 0-004a: family = 0x81, variant = 0x1, version = 0x10, build = 170
+<3>[    0.875366] [TSP] family = 0x81, variant = 0x1, version = 0x10, build = 170
+<4>[    0.894104] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 1
+<4>[    0.894226] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 2
+<4>[    0.895324] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 3
+<4>[    0.895324] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 4
+<6>[    0.895324] a2220_bootup_init: starting to load image (2459 passes)...
+<3>[    0.899841] [TSP] TSP chip is MXT224-E
+<3>[    0.900482] [TSP]user_info_value is 0
+<3>[    0.994140] [TSP] ta_status is 0
+<3>[    0.994232] [TSP] mxt224_ta_probe 
+<3>[    0.997039] [TSP]TA_probe MXT224E T48 Byte2 is 64
+<3>[    1.004425] [TSP]TA_probe MXT224E T48 Byte2 is 96
+<3>[    1.007080] [TSP]calibration success!!!
+<3>[    1.007537] [TSP] mxt224_probe   e
+<6>[    1.008514] input: sec_power_key as /devices/i2c-6/6-0055/pm8058-pwrkey/input/input3
+<3>[    1.008789] [TSP] Calibration!!!!!!
+<6>[    1.009277] wake_lock_init, 0xc0e348a8, alarm_rtc
+<6>[    1.009582] wake_lock_init, 0xc0e349c8, alarm
+<3>[    1.010345] [TSP] Calibration End!!!!!!
+<6>[    1.010559] using rtc device, pm8058_rtc0, for alarms
+<6>[    1.010650] pm8058-rtc pm8058-rtc: rtc core: registered pm8058_rtc0 as rtc0
+<6>[    1.010955] i2c /dev entries driver
+<6>[    1.013610] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.013610] yda165:yda165_init
+<6>[    1.013671] yda165:yda165_probe
+<3>[    1.013671] yda165:yda165_probe
+<5>[    1.013824] yda165_probe: OK
+<3>[    1.013824] [TSP] Calibration!!!!!!
+<6>[    1.014007] yda165:load_ampgain completed
+<6>[    1.014221] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.014648] input: proximity_sensor as /devices/virtual/input/input4
+<6>[    1.014892] wake_lock_init, 0xc0e35050, prx_wake_lock
+<4>[    1.014953] opt_i2c_probe(769): 
+<3>[    1.014953] opt_i2c_probe, 770 : start!!!
+<4>[    1.015014] GP2A opt i2c attach success!!!
+<3>[    1.015014] GP2A opt i2c attach success!!!
+<3>[    1.015136] opt_i2c_probe, 789 : end!!!
+<4>[    1.015289] opt_i2c_client : (0xdedec600)
+<4>[    1.016143] opt_i2c_write(472): : 0x4, 0x2
+<4>[    1.016143] gp2a_opt_probe is OK!!
+<6>[    1.016632] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.017547] input: light_sensor as /devices/virtual/input/input5
+<6>[    1.018249] input: fsa9480 as /devices/i2c-5/5-0025/input/input6
+<6>[    1.020965] fsa9480 5-0025:  fsa9480_reg_init dev ID: 0x0
+<6>[    1.021209] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.021270] [GYRO] k3g_probe start!
+<6>[    1.021759] input: gyro_sensor as /devices/virtual/input/input7
+<6>[    1.023101] input: orientation_sensor as /devices/virtual/input/input8
+<6>[    1.023437] IR NEC protocol handler initialized
+<6>[    1.023468] IR RC5(x) protocol handler initialized
+<6>[    1.023468] IR RC6 protocol handler initialized
+<6>[    1.023468] IR JVC protocol handler initialized
+<6>[    1.023468] IR Sony protocol handler initialized
+<6>[    1.023468] Linux video capture interface: v2.00
+<6>[    1.023651] usbcore: registered new interface driver uvcvideo
+<6>[    1.023651] USB Video Class driver (v0.1.0)
+<6>[    1.024078] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.024169] ############# M5MO probe ##############
+<6>[    1.024200] wake_lock_init, 0xde6dd228, msm_camera
+<7>[    1.024627] [M5MO] m5mo_sensor_probe : E
+<7>[    1.024658] [M5MO] m5mo_i2c_init : E
+<7>[    1.024658] [M5MO] m5mo_i2c_probe : E
+<7>[    1.024688] [M5MO] m5mo_i2c_probe : m5mo_i2c_probe X
+<7>[    1.024688] 
+<6>[    1.025390] msm_otg_suspend: usb in low power mode
+<6>[    1.026000] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.026153] ############# S5K5BAFX probe ##############
+<6>[    1.026153] wake_lock_init, 0xde6dd628, msm_camera
+<3>[    1.026245] [TSP] Calibration End!!!!!!
+<7>[    1.026580] [5BAFX] s5k5bafx_sensor_probe : E
+<7>[    1.026641] [5BAFX] s5k5bafx_i2c_init : E
+<7>[    1.026672] [5BAFX] s5k5bafx_i2c_probe : E
+<7>[    1.026672] [5BAFX] s5k5bafx_i2c_probe : X
+<3>[    1.026763] [5BAFX] s5k5bafx_sensor_probe:1330:rc = 0
+<4>[    1.028625] max17040_probe: MAX17043 driver Loading! 
+<4>[    1.028656] max17040_get_version : 
+<6>[    1.029571] max17040 15-0036: MAX17040 Fuel-Gauge Ver 03
+<6>[    1.030487] max17040_get_rcomp : current rcomp = 0xc71f(199)
+<6>[    1.031860] max17040_get_rcomp : current rcomp = 0xc71f(199)
+<6>[    1.032867] wake_lock_init, 0xde74fc98, power-supply
+<6>[    1.032897] wake_lock_init, 0xde74fce8, fuelgague-lowbat
+<6>[    1.034210] smb328a_probe: SMB328A driver Loading! 
+<6>[    1.034210] is_lpcharging_state: is_lpm_boot:0
+<6>[    1.035675] wake_lock_init, 0xde754298, power-supply
+<6>[    1.036743] msm_adc successfully registered
+<6>[    1.037322] device-mapper: ioctl: 4.17.0-ioctl (2010-03-05) initialised: dm-devel@redhat.com
+<6>[    1.037353] Bluetooth: HCI UART driver ver 2.2
+<6>[    1.037353] Bluetooth: HCI H4 protocol initialized
+<6>[    1.037384] Bluetooth: HCI_IBS protocol initialized
+<6>[    1.037384] bluetooth_power_init 
+<4>[    1.037506] bt_power_probe
+<4>[    1.037506] bluetooth_power_rfkill_probe
+<4>[    1.037567] bluesleep_rfkill_alloc
+<6>[    1.037628] Bluetooth: bluesleep_rfkill_alloc : success! 
+<6>[    1.037658] 
+<6>[    1.086822] cpuidle: using governor ladder
+<6>[    1.086853] cpuidle: using governor menu
+<6>[    1.087280] wake_lock_init, 0xdee5c3f8, mmc0
+<3>[    1.087310] mmc0: No card detect facilities available
+<4>[    1.087677]  mmc0: initiated rescan function in mmc_detect_change 
+<6>[    1.087707] mmc0: Qualcomm MSM SDCC-core at 0x0000000012400000 irq 136,0 dma 18 dmacrcri 1
+<6>[    1.087707] mmc0: 8 bit data mode enabled
+<6>[    1.087707] mmc0: 4 bit data mode disabled
+<6>[    1.087707] mmc0: polling status mode disabled
+<6>[    1.087707] mmc0: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.087707] mmc0: Slot eject status = 0
+<6>[    1.087738] mmc0: Power save feature enable = 1
+<6>[    1.087738] mmc0: DM non-cached buffer at ff21e000, dma_addr 0x5f385000
+<6>[    1.087738] mmc0: DM cmd busaddr 0x5f385000, cmdptr busaddr 0x5f385c00
+<6>[    1.088043] wake_lock_init, 0xdee5cbb0, mmc1
+<6>[    1.088134] wake_lock_init, 0xdee5cbf8, mmc1
+<4>[    1.088500]  mmc1: initiated rescan function in mmc_detect_change 
+<6>[    1.088500] mmc1: Qualcomm MSM SDCC-core at 0x0000000012140000 irq 135,0 dma 19 dmacrcri 4
+<6>[    1.088500] mmc1: 8 bit data mode enabled
+<6>[    1.088500] mmc1: 4 bit data mode disabled
+<6>[    1.088500] mmc1: polling status mode disabled
+<6>[    1.088531] mmc1: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.088531] mmc1: Slot eject status = 0
+<6>[    1.088531] mmc1: Power save feature enable = 1
+<6>[    1.088531] mmc1: DM non-cached buffer at ff21f000, dma_addr 0x5f386000
+<6>[    1.088531] mmc1: DM cmd busaddr 0x5f386000, cmdptr busaddr 0x5f386c00
+<6>[    1.088928] wake_lock_init, 0xdee5d3f8, mmc2
+<4>[    1.089385]  mmc2: initiated rescan function in mmc_detect_change 
+<6>[    1.089385] mmc2: Qualcomm MSM SDCC-core at 0x0000000012180000 irq 134,642 dma 20 dmacrcri 2
+<6>[    1.089385] mmc2: 8 bit data mode disabled
+<6>[    1.089416] mmc2: 4 bit data mode enabled
+<6>[    1.089416] mmc2: polling status mode disabled
+<6>[    1.089416] mmc2: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.089416] mmc2: Slot eject status = 0
+<6>[    1.089416] mmc2: Power save feature enable = 1
+<6>[    1.089416] mmc2: DM non-cached buffer at ff220000, dma_addr 0x5f270000
+<6>[    1.089447] mmc2: DM cmd busaddr 0x5f270000, cmdptr busaddr 0x5f270c00
+<6>[    1.089782] wake_lock_init, 0xdee5dbb0, mmc3
+<6>[    1.089813] wake_lock_init, 0xdee5dbf8, mmc3
+<3>[    1.089813] mmc3: No card detect facilities available
+<4>[    1.090209]  mmc3: initiated rescan function in mmc_detect_change 
+<6>[    1.090209] mmc3: Qualcomm MSM SDCC-core at 0x00000000121c0000 irq 133,0 dma 21 dmacrcri 5
+<6>[    1.090209] mmc3: 8 bit data mode disabled
+<6>[    1.090209] mmc3: 4 bit data mode enabled
+<6>[    1.090240] mmc3: polling status mode disabled
+<6>[    1.090240] mmc3: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.090240] mmc3: Slot eject status = 0
+<6>[    1.090240] mmc3: Power save feature enable = 1
+<6>[    1.090240] mmc3: DM non-cached buffer at ff221000, dma_addr 0x5f271000
+<6>[    1.090240] mmc3: DM cmd busaddr 0x5f271000, cmdptr busaddr 0x5f271c00
+<6>[    1.090606] wake_lock_init, 0xdee5e3b0, mmc4
+<6>[    1.090637] wake_lock_init, 0xdee5e3f8, mmc4
+<4>[    1.090942]  mmc4: initiated rescan function in mmc_detect_change 
+<6>[    1.090942] mmc4: Qualcomm MSM SDCC-core at 0x0000000012200000 irq 220,0 dma 21 dmacrcri 14
+<6>[    1.090942] mmc4: 8 bit data mode disabled
+<6>[    1.090942] mmc4: 4 bit data mode enabled
+<6>[    1.090942] mmc4: polling status mode disabled
+<6>[    1.090972] mmc4: MMC clock 400000 -> 48000000 Hz, PCLK 0 Hz
+<6>[    1.090972] mmc4: Slot eject status = 0
+<6>[    1.090972] mmc4: Power save feature enable = 1
+<6>[    1.090972] mmc4: DM non-cached buffer at ff222000, dma_addr 0x5f272000
+<6>[    1.090972] mmc4: DM cmd busaddr 0x5f272000, cmdptr busaddr 0x5f272c00
+<4>[    1.091491] =============================================
+<4>[    1.091491] leds-gpio: probe of leds-gpio failed with error -22
+<4>[    1.091491] =============================================
+<7>[    1.091796] Registered led device: camera:flash0
+<7>[    1.091857] Registered led device: camera:flash1
+<6>[    1.092559] usbcore: registered new interface driver usbhid
+<6>[    1.092559] usbhid: USB HID core driver
+<6>[    1.093170] logger: created 512K log 'log_main'
+<6>[    1.093292] logger: created 256K log 'log_events'
+<6>[    1.093383] logger: created 512K log 'log_radio'
+<6>[    1.093505] logger: created 256K log 'log_system'
+<6>[    1.093505] sec_getlog_supply_loggerinfo: 0xc0e37158 0xc0eb7158 0xc0f37158 0xc0f77158
+<6>[    1.094207] usbcore: registered new interface driver snd-usb-audio
+<4>[    1.094512] No device for DAI CODEC_DAI
+<4>[    1.094512] No device for DAI CPU_DAI
+<3>[    1.094848] msm_soc: create pcms
+<6>[    1.095031] asoc: CODEC_DAI <-> CPU_DAI mapping ok
+<4>[    1.096252] No device for DAI MVS_CODEC_DAI
+<4>[    1.096282] No device for DAI MVS_CPU_DAI
+<6>[    1.096588] wake_lock_init, 0xc0fbabb0, audio_mvs_suspend
+<6>[    1.096588] wake_lock_init, 0xc0fbabf8, audio_mvs_idle
+<6>[    1.096740] asoc: MVS_CODEC_DAI <-> MVS_CPU_DAI mapping ok
+<6>[    1.098022] ALSA device list:
+<6>[    1.098022]   #0: msm-audio (MSM-CARD)
+<6>[    1.098022]   #1: msm-voip (MSM-MVS-CARD)
+<6>[    1.098083] u32 classifier
+<6>[    1.098083]     Actions configured
+<6>[    1.098083] Netfilter messages via NETLINK v0.30.
+<6>[    1.098144] nf_conntrack version 0.5.0 (12742 buckets, 50968 max)
+<6>[    1.098327] ctnetlink v0.93: registering with nfnetlink.
+<6>[    1.098419] xt_time: kernel timezone is -0000
+<6>[    1.098541] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.098632] arp_tables: (C) 2002 David S. Miller
+<6>[    1.098663] TCP cubic registered
+<6>[    1.098693] NET: Registered protocol family 10
+<6>[    1.098999] lo: Disabled Privacy Extensions
+<6>[    1.100494] Mobile IPv6
+<6>[    1.100555] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[    1.100616] IPv6 over IPv4 tunneling driver
+<6>[    1.100952] sit0: Disabled Privacy Extensions
+<6>[    1.101043] NET: Registered protocol family 17
+<6>[    1.101074] NET: Registered protocol family 15
+<6>[    1.101318] Bluetooth: L2CAP ver 2.15
+<6>[    1.101318] Bluetooth: L2CAP socket layer initialized
+<6>[    1.101348] Bluetooth: SCO (Voice Link) ver 0.6
+<6>[    1.101348] Bluetooth: SCO socket layer initialized
+<6>[    1.101440] Bluetooth: RFCOMM TTY layer initialized
+<6>[    1.101440] Bluetooth: RFCOMM socket layer initialized
+<6>[    1.101440] Bluetooth: RFCOMM ver 1.11
+<6>[    1.101470] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[    1.101470] Bluetooth: BNEP filters: protocol multicast
+<6>[    1.101470] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[    1.101562] ThumbEE CPU extension supported.
+<3>[    1.124542] mmc0: Command 52 timeout
+<3>[    1.128326] set_dload_mode <0> ( c0012aa8 )
+<3>[    1.130035] mmc0: Command 52 timeout
+<3>[    1.138763] mmc0: Command 8 timeout
+<6>[    1.144042] WDOG handled by TZ: dump @0xde72d000 PA:5eb2d000
+<6>[    1.144226] MSM Watchdog Initialized
+<3>[    1.144378] mmc0: Command 5 timeout
+<3>[    1.149780] mmc0: Command 5 timeout
+<6>[    1.155090] VFP support v0.3: implementor 51 architecture 64 part 2d variant 0 rev 0
+<3>[    1.155212] mmc0: Command 5 timeout
+<3>[    1.160614] mmc0: Command 5 timeout
+<3>[    1.166046] mmc0: Command 55 timeout
+<3>[    1.171600] mmc0: Command 55 timeout
+<3>[    1.177062] mmc0: Command 55 timeout
+<3>[    1.182525] mmc0: Command 55 timeout
+<6>[    1.194946] hdmi_msm hdmi_msm.0: probe
+<6>[    1.195678] hdmi_msm hdmi_msm.1: probe
+<6>[    1.195709] hdmi_msm hdmi_msm.1: Features <val:0x80004481, HDMI:ON, HDCP:ON>
+<6>[    1.195892] setting pdata->panel_info.fb_num to 2. type: 7
+<3>[    1.196533] error: no more framebuffer memory!
+<4>[    1.196624] =============================================
+<4>[    1.196624] msm_fb: probe of msm_fb.458753 failed with error -12
+<4>[    1.196624] =============================================
+<6>[    1.196716] hdmi_msm hdmi_msm.1: external_common_state_create: mfd->fbi->dev not found
+<6>[    1.196716] hdmi_msm hdmi_msm.1: Init FAILED: hdmi_msm_state_create, rc=-19
+<6>[    1.196746] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.197387] [ MHL_DRIVER (SII9234_i2c_probe,382) ] 
+<4>[    1.197387] SII9234 attach success!!!
+<4>[    1.197540] [MHL SII9234] add i2c driver
+<4>[    1.197570] [ MHL_DRIVER (SII9234A_i2c_probe,445) ] 
+<4>[    1.197570] SII9234A attach success!!!
+<4>[    1.197631] [MHL SII9234A] add i2c driver
+<4>[    1.197662] [ MHL_DRIVER (SII9234B_i2c_probe,486) ] 
+<4>[    1.197662] SII9234B attach success!!!
+<4>[    1.197723] [MHL SII9234B] add i2c driver
+<4>[    1.197753] [ MHL_DRIVER (SII9234C_i2c_probe,535) ] 
+<4>[    1.197753] SII9234C attach success!!!
+<6>[    1.197753] Board : get_mhl_int_irq, 13
+<4>[    1.198089] SII9234_i2c_client name = SII9234, device_id = 0x39
+<4>[    1.198120] SII9234A_i2c_client name = SII9234A, device_id = 0x3d
+<4>[    1.198120] SII9234B_i2c_client name = SII9234B, device_id = 0x49
+<4>[    1.198120] SII9234C_i2c_client name = SII9234C, device_id = 0x64
+<4>[    1.198181] [MHL SII9234C] add i2c driver
+<4>[    1.198333] [TKEY] touchkey_init START 
+<6>[    1.198364] is_lpcharging_state: is_lpm_boot:0
+<4>[    1.199462] [TKEY] touchkey_init F/W version: 0x12, Module version:0x22, HW_REV: 0xd
+<4>[    1.199554] [TKEY] melfas i2c_touchkey_probe
+<6>[    1.199676] input: sec_touchkey as /devices/virtual/input/input9
+<4>[    1.200164] [TKEY] enter touchkey_auto_calibration
+<4>[    1.201080] write value 80 to address 32
+<6>[    1.220397] mmc0: new high speed MMC card at address 0001
+<4>[    1.248687] after touchkey_auto_calibration result = 1 
+<6>[    1.249877] wake_lock_init, 0xc0e33fe8, bln_wake_lock
+<4>[    1.250122] [TKEY] touchkey_init END 
+<6>[    1.252868] mmcblk0: mmc0:0001 KYL00M 14.6 GiB 
+<6>[    1.253631] pm8058-rtc pm8058-rtc: setting system clock to 2012-03-12 23:20:57 UTC (1331594457)
+<6>[    1.253906] sec-battery sec-battery: sec_bat_probe: SEC Battery Driver Loading
+<6>[    1.253936] wake_lock_init, 0xde6b59e0, vbus_present
+<6>[    1.253967] wake_lock_init, 0xde6b5a28, sec-battery-monitor
+<6>[    1.253997] wake_lock_init, 0xde6b5a70, sec-battery-cable
+<6>[    1.253997] wake_lock_init, 0xde6b5ab8, bat_esus_test
+<6>[    1.254028] wake_lock_init, 0xde6b5b00, sec-battery-measure
+<6>[    1.254058] wake_lock_init, 0xde6b5b48, sec-battery-adc
+<6>[    1.255065] sec_bat_get_lpcharging_state: LP charging:0
+<6>[    1.255432] wake_lock_init, 0xde6b5868, power-supply
+<6>[    1.255676] wake_lock_init, 0xde6b5900, power-supply
+<6>[    1.255859] wake_lock_init, 0xde6b5998, power-supply
+<6>[    1.256530]  mmcblk0: p1 p2 p3
+<3>[    1.258117] sec_bat_polling_work: adc work already on a queue
+<4>[    1.258148]  p4 <
+<4>[    1.258636] Warning: unable to open an initial console.
+<3>[    1.258789] sec_bat_measure_work: adc work already on a queue
+<6>[    1.259735] sec_bat_get_lpcharging_state: LP charging:0
+<4>[    1.260192]  p5 p6 p7 p8 p9 p10 p11 p12 p13 p14 p15 p16 p17 p18 p19 p20 p21 p22 p23 p24 p25 p26 p27
+<3>[    1.261322] init: /init.rc: 358: ignored duplicate definition of service 'bluetoothd'
+<4>[    1.261535]  p28 >
+<4>[    1.262390] [fg] p:565, s1:5, s2:100, v:3553750, t:0
+<4>[    1.262969] mmcblk0: p28 size 23609344 extends beyond EOD, truncated
+<6>[    1.265045] sec_bat_get_lpcharging_state: LP charging:0
+<3>[    1.266540] init: /init.qcom.rc: 130: ignored duplicate definition of service 'secril-daemon'
+<6>[    1.267517] sec_bat_get_lpcharging_state: LP charging:0
+<3>[    1.267883] init: /init.target.rc: 176: ignored duplicate definition of service 'wpa_supplicant'
+<3>[    1.268066] init: /init.target.rc: 186: ignored duplicate definition of service 'iprenew_eth0'
+<3>[    1.268188] init: /init.target.rc: 189: ignored duplicate definition of service 'notified_event'
+<3>[    1.268341] init: /init.target.rc: 190: ignored duplicate definition of service 'macloader'
+<3>[    1.268493] init: [boot time] processing action 0x42130 (early-init)
+<3>[    1.268829] init: [boot time] processing action 0x55158 (property_init)
+<3>[    1.269500] init: [boot time] processing action 0x551a0 (keychord_init)
+<3>[    1.269622] init: [boot time] processing action 0x551e8 (set_init_properties)
+<3>[    1.269836] init: [boot time] processing action 0x42180 (init)
+<3>[    1.270050] init: SEC_DEVENC ***[none][0]
+<3>[    1.288543] init: SEC_DEVENC ***[tmpfs][0]
+<3>[    1.288970] init: SEC_DEVENC ***[tmpfs][0]
+<3>[    1.289642] init: SEC_DEVENC ***[tmpfs][0]
+<3>[    1.290893] init: SEC_DEVENC ***[none][0]
+<3>[    1.295166] mmc1: Command 52 timeout
+<6>[    1.296875] pmic8058_xoadc:The offset for AMUX calibrationwas -676
+<3>[    1.300689] mmc1: Command 52 timeout
+<3>[    1.309509] mmc1: Command 8 timeout
+<3>[    1.315246] mmc1: Command 5 timeout
+<4>[    1.319702] ######## bthid_init: ########
+<4>[    1.320037] ######## bthid_init: done ########
+<3>[    1.320098] init: [boot time] processing action 0x53240 (early-fs)
+<3>[    1.320220] init: SEC_DEVENC ***[/dev/block/mmcblk0p24][0]
+<3>[    1.320709] mmc1: Command 5 timeout
+<3>[    1.326141] mmc1: Command 5 timeout
+<3>[    1.331542] mmc1: Command 5 timeout
+<3>[    1.337280] mmc1: Command 55 timeout
+<3>[    1.342834] mmc1: Command 55 timeout
+<3>[    1.348449] mmc1: Command 55 timeout
+<3>[    1.354400] mmc1: Command 55 timeout
+<3>[    1.359954] mmc1: Command 1 timeout
+<6>[    1.384399] EXT4-fs (mmcblk0p24): mounted filesystem with ordered data mode. Opts: barrier=1
+<3>[    1.404724] mmc2: Command 52 timeout
+<3>[    1.410247] mmc2: Command 52 timeout
+<3>[    1.419525] mmc2: Command 5 timeout
+<3>[    1.424926] mmc2: Command 5 timeout
+<3>[    1.430358] mmc2: Command 5 timeout
+<3>[    1.435852] mmc2: Command 5 timeout
+<3>[    1.516296] sec_switch_init_work value = 1 
+<3>[    1.516510] sec_switch_set_vbus_status USB_VBUS_AP_ON 2
+<3>[    1.593902] init: SEC_DEVENC ***[/dev/block/mmcblk0p26][0]
+<3>[    1.595428] init: [boot time] finish coldboot
+<6>[    1.614196] EXT4-fs (mmcblk0p26): mounted filesystem with ordered data mode. Opts: barrier=1
+<3>[    1.635681] msm_sdc3_get_wpswitch:Failed to request GPIO 251
+<4>[    1.635833] mmc2: host does not support reading read-only switch. assuming write-enable.
+<6>[    1.635864] mmc2: new high speed SDHC card at address e624
+<6>[    1.636444] mmcblk1: mmc2:e624 SU08G 7.40 GiB 
+<6>[    1.636993]  mmcblk1: p1
+<3>[    1.644378] init: SEC_DEVENC ***[/dev/block/mmcblk0p21][0]
+<6>[    1.668670] EXT4-fs (mmcblk0p21): mounted filesystem with ordered data mode. Opts: barrier=1
+<3>[    1.672271] init: SEC_DEVENC ***[/dev/block/mmcblk0p13][0]
+<3>[    1.677459] mmc3: Command 52 timeout
+<3>[    1.683227] mmc3: Command 52 timeout
+<3>[    1.694732] mmc3: Command 8 timeout
+<3>[    1.700195] mmc3: Command 5 timeout
+<3>[    1.705596] mmc3: Command 5 timeout
+<3>[    1.711059] mmc3: Command 5 timeout
+<3>[    1.716461] mmc3: Command 5 timeout
+<3>[    1.721923] mmc3: Command 55 timeout
+<3>[    1.727478] mmc3: Command 55 timeout
+<3>[    1.732940] mmc3: Command 55 timeout
+<3>[    1.738433] mmc3: Command 55 timeout
+<3>[    1.743957] mmc3: Command 1 timeout
+<3>[    1.755279] init: SEC_DEVENC ***[/dev/block/mmcblk0p17][0]
+<3>[    1.785095] mmc4: Command 52 timeout
+<3>[    1.790802] mmc4: Command 52 timeout
+<3>[    1.800354] mmc4: Command 8 timeout
+<3>[    1.805816] mmc4: Command 5 timeout
+<3>[    1.811279] mmc4: Command 5 timeout
+<3>[    1.816680] mmc4: Command 5 timeout
+<3>[    1.822082] mmc4: Command 5 timeout
+<3>[    1.827606] mmc4: Command 55 timeout
+<3>[    1.833129] mmc4: Command 55 timeout
+<3>[    1.838623] mmc4: Command 55 timeout
+<3>[    1.844116] mmc4: Command 55 timeout
+<3>[    1.849700] mmc4: Command 1 timeout
+<3>[    1.860260] init: SEC_DEVENC ***[/dev/block/mmcblk0p24][0]
+<6>[    1.907501] EXT4-fs (mmcblk0p24): re-mounted. Opts: barrier=0
+<3>[    1.910949] init: SEC_DEVENC ***[/dev/block/mmcblk0p27][0]
+<3>[    1.911376] init: failed that mount s:'/dev/block/mmcblk0p27', t:'/tombstones', f:ext4 ,op :barrier=1 (No such file or directory)
+<3>[    1.913391] init: SEC_DEVENC use existing dm
+<3>[    1.913970] init: SEC_DEVENC ***[/dev/block/mmcblk0p25][3]
+<3>[    1.915496] init: fn_get_DMDevCryptName ret[/dev/mapper/data]
+<3>[    1.915985] init: failed dm mount s:'/dev/mapper/data', t:'/data', f:ext4 ,op :noauto_da_alloc (No such file or directory)
+<6>[    1.941040] EXT4-fs (mmcblk0p25): mounted filesystem with ordered data mode. Opts: noauto_da_alloc
+<3>[    1.956207] init: [boot time] processing action 0x42cc8 (emmc-fs)
+<3>[    1.956726] init: SEC_DEVENC ***[/dev/block/mmcblk0p24][0]
+<3>[    1.957458] init: failed that mount s:'/dev/block/mmcblk0p24', t:'/system', f:ext4 ,op :barrier=1 (Device or resource busy)
+<3>[    1.958190] init: [disk_config] :::: fsck -> /dev/block/mmcblk0p26 (ext4):::::
+<3>[    1.960723] init: [disk_config] DEVENC : not mormal [0]
+<3>[    1.961364] init: [disk_config] DEVENC : fs_check with original dev_path
+<3>[    1.964233] init: [disk_config] ext_check -> /system/bin/e2fsck -v -y /dev/block/mmcblk0p26 
+<3>[    1.978546] init: [disk_config] Error ::execute :: Error in (Status 8)
+<3>[    1.978729] init: [disk_config] Error ::* failed to check -1
+<3>[    1.978851] init: SEC_DEVENC ***[/dev/block/mmcblk0p26][0]
+<3>[    1.979156] init: failed that mount s:'/dev/block/mmcblk0p26', t:'/cache', f:ext4 ,op :barrier=1 (Device or resource busy)
+<3>[    1.979278] init: [disk_config] :::: fsck -> /dev/block/mmcblk0p21 (ext4):::::
+<3>[    1.979949] init: [disk_config] DEVENC : not mormal [0]
+<3>[    1.980133] init: [disk_config] DEVENC : fs_check with original dev_path
+<3>[    1.980285] init: [disk_config] ext_check -> /system/bin/e2fsck -v -y /dev/block/mmcblk0p21 
+<3>[    1.988983] init: [disk_config] Error ::execute :: Error in (Status 8)
+<3>[    1.989166] init: [disk_config] Error ::* failed to check -1
+<3>[    1.989318] init: SEC_DEVENC ***[/dev/block/mmcblk0p21][0]
+<3>[    1.989593] init: failed that mount s:'/dev/block/mmcblk0p21', t:'/efs', f:ext4 ,op :barrier=1 (Device or resource busy)
+<3>[    2.166748] init: [disk_config] :::: fsck -> /dev/block/mmcblk0p25 (ext4):::::
+<3>[    2.168914] init: [disk_config] DEVENC : not mormal [0]
+<3>[    2.169555] init: [disk_config] DEVENC : fs_check with original dev_path
+<3>[    2.170074] init: [disk_config] ext_check -> /system/bin/e2fsck -v -y /dev/block/mmcblk0p25 
+<3>[    2.193267] init: [disk_config] Error ::execute :: Error in (Status 8)
+<3>[    2.193847] init: [disk_config] Error ::* failed to check -1
+<3>[    2.194091] init: SEC_DEVENC check crypt status 
+<3>[    2.194793] init: SEC_DEVENC ***[/dev/block/mmcblk0p25][1]
+<3>[    2.195007] init: SEC_DEVENC checkCrypt main
+<3>[    2.293182] init: [boot time] processing action 0x42fc8 (post-fs)
+<3>[    2.294128] init: [disk_config] :::: /dev/block/mmcblk0p28 (vfat)(opt (null)):::::
+<3>[    2.297424] init: [disk_config] vfat_identify -> ok
+<3>[    2.297485] sec_bat_measure_work: adc work already on a queue
+<3>[    2.303985] init: [disk_config] vfat_identify -> ok
+<3>[    2.304321] init: SEC_DEVENC ***[rootfs][0]
+<3>[    2.398315] init: [boot time] processing action 0x53a80 (post-fs)
+<3>[    2.398803] init: SEC_DEVENC ***[rootfs][0]
+<3>[    2.409393] init: [boot time] processing action 0x54790 (post-fs)
+<3>[    2.419128] init: [boot time] processing action 0x55230 (wait_for_coldboot_done)
+<3>[    2.419464] init: [boot time] processing action 0x55278 (console_init)
+<3>[    2.419982] init: [boot time] processing action 0x552c0 (property_service_init)
+<3>[    2.433349] init: [boot time] processing action 0x55308 (signal_init)
+<3>[    2.433807] init: [boot time] processing action 0x55350 (check_startup)
+<3>[    2.434295] init: [boot time] processing action 0x43f90 (boot)
+<3>[    2.453430] init: cannot find '/system/bin/wiperiface', disabling 'wiperiface'
+<3>[    2.454284] init: [boot time] processing action 0x4ceb8 (boot)
+<3>[    2.511962] init: [boot time] processing action 0x530b0 (boot)
+<6>[    2.519317] tspdrv: init_module.
+<4>[    2.519866] [VIBETONZ:WJYOO] MISC_REGISTER nRet = 0
+<4>[    2.520294] THNAK YOU!!
+<6>[    2.520385] vibrator I2C attach success!!!
+<4>[    2.520507] [VIBETONZ] ImmVibeSPI_ForceOut_Initialize 
+<3>[    2.551513] init: [boot time] processing action 0x55398 (queue_propety_triggers)
+<3>[    2.551849] init: [boot time] processing action 0x45e48 (property:ro.secure=0)
+<3>[    2.551940] init: service 'console' requires console
+<3>[    2.552093] init: [boot time] processing action 0x45ff8 (property:persist.service.adb.enable=1)
+<3>[    2.552551] init: [boot time] processing action 0x4e9e8 (property:ro.emmc=1)
+<3>[    2.552978] init: [boot time] processing action 0x4fa90 (property:ro.hdmi.enable=true)
+<3>[    2.553436] init: [boot time] processing action 0x50090 (property:persist.timed.enable=true)
+<3>[    2.553710] init: cannot find '/system/bin/time_daemon', disabling 'time_daemon'
+<6>[    2.559387] charm_modem_ioctl: Entering ioctl cmd = 1
+<6>[    2.559387] charm_modem_ioctl: Powering on
+<6>[    2.563079] set_product:  3, 16
+<6>[    2.563079] func->name=usb_mass_storage
+<6>[    2.563110] set_enable_functions: usb_mass_storage - usb_mass_storage 0, 3
+<6>[    2.563415] enable usb_mass_storage
+<6>[    2.563415] func->name=acm1
+<6>[    2.563415] set_enable_functions: acm1 - usb_mass_storage 0, 3
+<6>[    2.563415] set_enable_functions: acm1 - acm2 1, 3
+<6>[    2.563446] set_enable_functions: acm1 - adb 2, 3
+<6>[    2.563476] func->name=acm2
+<6>[    2.563476] set_enable_functions: acm2 - usb_mass_storage 0, 3
+<6>[    2.563507] set_enable_functions: acm2 - acm2 1, 3
+<6>[    2.563568] enable acm2
+<6>[    2.563568] func->name=adb
+<6>[    2.563568] set_enable_functions: adb - usb_mass_storage 0, 3
+<6>[    2.563598] set_enable_functions: adb - acm2 1, 3
+<6>[    2.563598] set_enable_functions: adb - adb 2, 3
+<6>[    2.563629] enable adb
+<6>[    2.563629] func->name=rndis
+<6>[    2.563659] set_enable_functions: rndis - usb_mass_storage 0, 3
+<6>[    2.563659] set_enable_functions: rndis - acm2 1, 3
+<6>[    2.563659] set_enable_functions: rndis - adb 2, 3
+<6>[    2.563690] func->name=diag
+<6>[    2.563690] set_enable_functions: diag - usb_mass_storage 0, 3
+<6>[    2.563720] set_enable_functions: diag - acm2 1, 3
+<6>[    2.563720] set_enable_functions: diag - adb 2, 3
+<6>[    2.563751] func->name=diag_mdm
+<6>[    2.563751] set_enable_functions: diag_mdm - usb_mass_storage 0, 3
+<6>[    2.563781] set_enable_functions: diag_mdm - acm2 1, 3
+<6>[    2.563781] set_enable_functions: diag_mdm - adb 2, 3
+<6>[    2.563812] func->name=rmnet_sdio
+<6>[    2.563812] set_enable_functions: rmnet_sdio - usb_mass_storage 0, 3
+<6>[    2.563842] set_enable_functions: rmnet_sdio - acm2 1, 3
+<6>[    2.563842] set_enable_functions: rmnet_sdio - adb 2, 3
+<6>[    2.563873] Change Device Descriptor : DeviceClass(0xef),SubClass(0x2),Protocol(0x1)
+<6>[    2.563903] Change Label : [0]ACM + UMS + ADB (Debugging mode)
+<6>[    2.563903] set function num=3
+<6>[    2.727813] warning: `rild' uses 32-bit capabilities (legacy support in use)
+<6>[    2.734924] sec_jack:sec_jack_det_irq_handler : ready = 1.
+<6>[    2.734954] sec_jack: ear micbias off
+<3>[    3.157196] init: sys_prop: permission denied uid:1013  name:audioflinger.bootsnd
+<3>[    3.297424] sec_bat_measure_work: adc work already on a queue
+<6>[    3.444976] charm_modem_ioctl: Entering ioctl cmd = 2
+<6>[    3.445007] charm_modem_ioctl: reset charm start
+<4>[    3.852355] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 5
+<4>[    3.852630] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 6
+<4>[    3.852630] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 7
+<6>[    3.874969] a2220_bootup_init: firmware loaded successfully
+<4>[    4.089050] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 8
+<4>[    4.089080] audience_a2220a2220_bootup_init : get_hw_rev of Target = 13
+<4>[    4.089111] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 9
+<4>[    4.089324] audience_a2220execute_cmdmsg : ...go to suspend first
+<4>[    4.089355] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 10
+<4>[    4.227447] audience_a2220a2220_bootup_init : lsj::a2220_bootup_init 11
+<6>[    4.227508] a2220_bootup_init: initialized!
+<4>[    4.227539] audience_a2220a2220_bootup_init : a2220_bootup_init - finish
+<3>[    4.297607] sec_bat_measure_work: adc work already on a queue
+<6>[    7.045013] fsa9480 5-0025: fsa9480_init_detect 
+<6>[    7.045623] fsa9480 5-0025: dev1: 0x0, dev2: 0x0
+<6>[    7.447540] charm_modem_ioctl: reset charm ok
+<4>[    9.625061] smb328a_int_work_func
+<6>[    9.625762] smb328a_int_work_func : reg (0x37) = 0x0
+<6>[    9.626434] smb328a_int_work_func : reg (0x36) = 0x3
+<6>[    9.627105] sec_bat_set_property: 1
+<6>[    9.627136] sec_bat_set_property: charger inserted!!
+<6>[    9.670440] msm_otg_resume: usb exited from low power mode
+<6>[    9.671783] BSV set
+<7>[    9.671875] usb_do_work USB disconnected  USB_STATE_OFFLINE
+<6>[    9.761383] fsa9480 5-0025: fsa9480_Check_AVDock intr: 0x1
+<6>[    9.761413] fsa9480 5-0025: fsa9480_Check_AVDock enter Av charing 
+<6>[    9.762023] fsa9480 5-0025: dev1: 0x4, dev2: 0x0
+<6>[    9.762023] fsa9480 5-0025: usb connect
+<3>[    9.762054] fsa9480_usb_cb attached 1
+<3>[    9.762298] [TSP] mxt224_ta_probe 
+<3>[    9.764587] [TSP]TA_probe MXT224E T48 Byte2 is 80
+<3>[    9.772674] [TSP]TA_probe MXT224E T48 Byte2 is 112
+<6>[    9.773132] sec-battery sec-battery: sec_bat_set_property: cable was changed(3)
+<3>[    9.774780] [TSP] Calibration!!!!!!
+<3>[    9.784820] [TSP] Calibration End!!!!!!
+<7>[    9.895050] usb_reset USB disconnected
+<7>[    9.895263] [composite_disconnect]mute_switch= 0
+<7>[    9.895507] usb_do_work_check_vbus USB disconnected 2
+<6>[    9.904754] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   10.265014] smb328a 15-0034: smb328a_set_charging_current : 
+<6>[   10.265747] smb328a 15-0034: smb328a_set_command_reg : reg (0x31) = 0x0
+<6>[   10.266967] smb328a_set_command_reg : => reg (0x31) = 0xa9
+<6>[   10.268402] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x0) = 0x31
+<6>[   10.269805] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x0) = 0x17
+<6>[   10.270629] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x1) = 0x5
+<6>[   10.272064] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x1) = 0x10
+<6>[   10.272888] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x2) = 0xca
+<6>[   10.273712] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x3) = 0x1a
+<6>[   10.275268] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x3) = 0xda
+<6>[   10.276092] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x4) = 0x44
+<6>[   10.277526] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x4) = 0x4f
+<6>[   10.278350] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x5) = 0x8b
+<6>[   10.279785] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x5) = 0x0
+<6>[   10.280609] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x6) = 0x5c
+<6>[   10.282043] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x6) = 0x4d
+<6>[   10.282836] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x7) = 0x36
+<6>[   10.284271] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x7) = 0xf6
+<6>[   10.286804] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x8) = 0x0
+<6>[   10.287170] smb328a 15-0034: smb328a_charger_function_conrol : reg (0x9) = 0x0
+<6>[   10.287994] smb328a 15-0034: smb328a_charger_function_conrol : => reg (0x9) = 0x1
+<6>[   10.287994] smb328a 15-0034: smb328a_get_input_current_limit : 
+<6>[   10.288452] smb328a 15-0034: smb328a_get_input_current_limit : reg (0x1) = 0x10
+<6>[   10.288452] smb328a 15-0034: smb328a_get_input_current_limit : get icl = 450, data = 0
+<6>[   10.288940] smb328a 15-0034: smb328a_get_float_voltage : reg (0x2) = 0xca, float vol = 4200
+<6>[   10.289855] smb328a 15-0034: smb328a_set_top_off : reg (0x0) = 0x17
+<6>[   10.290649] smb328a 15-0034: smb328a_set_top_off : => reg (0x0) = 0x17
+<6>[   10.291107] smb328a 15-0034: smb328a_set_top_off : reg (0x7) = 0xf6
+<6>[   10.291931] smb328a 15-0034: smb328a_set_top_off : => reg (0x7) = 0xf6
+<6>[   10.292846] smb328a 15-0034: smb328a_enable_charging : 
+<6>[   10.293304] smb328a 15-0034: smb328a_enable_charging : reg (0x31) = 0xa9
+<6>[   10.294128] smb328a_enable_charging : => reg (0x31) = 0xa9
+<6>[   10.393707] android_usb gadget: high speed config #1: ACM + UMS + ADB (Debugging mode)
+<4>[   10.469757] smb328a_int_work_func
+<6>[   10.470245] smb328a_int_work_func : reg (0x37) = 0x0
+<6>[   10.470703] smb328a_int_work_func : reg (0x36) = 0x5
+<6>[   10.471160] sec_bat_set_property: 1
+<6>[   10.471191] sec_bat_set_property: charger inserted!!
+<4>[   11.785034] SDCC CH 0 : msmsdcc_runtime_suspend WLAN SKIP Suspend 
+<6>[   12.152465] request_suspend_state: wakeup (3->0) at 12137574664 (2012-03-12 23:21:08.391923339 UTC)
+<3>[   12.159637] init: untracked pid 148 exited
+<3>[   12.159820] init: untracked pid 154 exited
+<6>[   12.369567] charm_modem_ioctl: Entering ioctl cmd = 5
+<6>[   12.369567] charm_modem_ioctl: check if charm is booted up
+<6>[   12.369567] charm_modem_ioctl: Entering ioctl cmd = 7
+<6>[   12.369598] charm_modem_ioctl: wait for charm to need images reloaded
+<6>[   16.445800] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   18.811523] request_suspend_state: wakeup (0->0) at 18796632280 (2012-03-12 23:21:15.050980955 UTC)
+<3>[   18.813873] init: untracked pid 303 exited
+<3>[   18.815246] init: untracked pid 304 exited
+<6>[   23.085815] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   25.448486] request_suspend_state: wakeup (0->0) at 25433595171 (2012-03-12 23:21:21.687943846 UTC)
+<3>[   25.450714] init: untracked pid 357 exited
+<3>[   25.452850] init: untracked pid 358 exited
+<6>[   29.695800] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   32.084350] request_suspend_state: wakeup (0->0) at 32069489946 (2012-03-12 23:21:28.323838621 UTC)
+<3>[   32.087677] init: untracked pid 410 exited
+<3>[   32.087829] init: untracked pid 411 exited
+<6>[   36.365783] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   38.751495] request_suspend_state: wakeup (0->0) at 38736604204 (2012-03-12 23:21:34.990952879 UTC)
+<3>[   38.755157] init: untracked pid 469 exited
+<3>[   38.755310] init: untracked pid 470 exited
+<6>[   43.025787] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   45.404510] request_suspend_state: wakeup (0->0) at 45389619340 (2012-03-12 23:21:41.643968015 UTC)
+<3>[   45.406677] init: untracked pid 522 exited
+<3>[   45.412384] init: untracked pid 521 exited
+<6>[   49.816741] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   52.210723] request_suspend_state: wakeup (0->0) at 52195832719 (2012-03-12 23:21:48.450181394 UTC)
+<3>[   52.219421] init: untracked pid 574 exited
+<3>[   52.219696] init: untracked pid 575 exited
+<6>[   56.595794] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   58.994079] request_suspend_state: wakeup (0->0) at 58979188434 (2012-03-12 23:21:55.233537109 UTC)
+<3>[   58.996826] init: untracked pid 634 exited
+<3>[   58.997283] init: untracked pid 635 exited
+<6>[   63.355804] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   65.768310] request_suspend_state: wakeup (0->0) at 65753419390 (2012-03-12 23:22:02.007768065 UTC)
+<3>[   65.772064] init: untracked pid 686 exited
+<3>[   65.772338] init: untracked pid 687 exited
+<6>[   70.025787] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   72.423095] request_suspend_state: wakeup (0->0) at 72408204546 (2012-03-12 23:22:08.662553221 UTC)
+<3>[   72.425567] init: untracked pid 739 exited
+<3>[   72.426025] init: untracked pid 740 exited
+<6>[   76.705780] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   79.116729] request_suspend_state: wakeup (0->0) at 79101838580 (2012-03-12 23:22:15.356156737 UTC)
+<3>[   79.120605] init: untracked pid 798 exited
+<3>[   79.121032] init: untracked pid 799 exited
+<6>[   83.385803] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   85.789459] request_suspend_state: wakeup (0->0) at 85774568071 (2012-03-12 23:22:22.028916746 UTC)
+<3>[   85.794403] init: untracked pid 856 exited
+<3>[   85.796386] init: untracked pid 857 exited
+<6>[   90.055847] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   92.505371] request_suspend_state: wakeup (0->0) at 92490510455 (2012-03-12 23:22:28.744828612 UTC)
+<3>[   92.511810] init: untracked pid 910 exited
+<3>[   92.512481] init: untracked pid 909 exited
+<6>[   96.765808] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[   99.208129] request_suspend_state: wakeup (0->0) at 99193238725 (2012-03-12 23:22:35.447587400 UTC)
+<3>[   99.211914] init: untracked pid 972 exited
+<3>[   99.212188] init: untracked pid 973 exited
+<6>[  103.465789] kgsl: initialized dev=0 mmu=on per_process_pagetable=on
+<6>[  105.880615] request_suspend_state: wakeup (0->0) at 105865724077 (2012-03-12 23:22:42.120072752 UTC)
+<3>[  105.882781] init: untracked pid 1028 exited
+<3>[  105.884979] init: untracked pid 1029 exited
