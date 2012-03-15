@@ -1,0 +1,1094 @@
+E/RILD    (  150): **RIL Daemon Started**
+E/RILD    (  150): **RILd param count=1**
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  150): **dl open failed **
+E/RIL     (  151): loadOpnameStaticTable(): count(836)
+E/RIL     (  151): deactivate_virtual_inet()
+E/RIL     (  151): deactivate_pdp_network_interface +
+E/RIL     (  151): deactivate_pdp_network_interface: open error
+E/RIL     (  151): Net intf down result: -2
+E/RIL     (  151): deactivate_virtual_inet()
+E/RIL     (  151): deactivate_pdp_network_interface +
+E/RIL     (  151): deactivate_pdp_network_interface: open error
+E/RIL     (  151): Net intf down result: -2
+E/RIL     (  151): deactivate_virtual_inet()
+E/RIL     (  151): deactivate_pdp_network_interface +
+E/RIL     (  151): deactivate_pdp_network_interface: open error
+E/RIL     (  151): Net intf down result: -2
+E/RIL     (  151): OemInitGps
+E/RIL     (  151): No battery calibration data found.
+E/RIL     (  151): [*] RIL initialized: TID(151)
+E/RIL     (  151): isRildInit : 
+E/RIL     (  151): ipc_debug_init:
+E/RIL     (  151): ipc_debug_open_listen_sk:
+E/RIL     (  151): IPC debug port opened.
+E/RIL     (  151): StartMulticlient:
+E/RIL     (  151): StartMulticlient() START
+E/RIL     (  151): StartMulticlient() fd=13 END
+E/RIL     (  151): [*] BuildupReqHandlerHash()
+E/RIL     (  151): open_transport(), connect to qcril. Waiting...
+E/RIL     (  151): [TID] MulticlientLoop(229)
+E/RIL     (  151): MulticlientLoop start...
+E/RIL     (  151): set_multiclient_max_fd:
+E/RIL     (  151): set_multiclient_max_fd: maxfd=13
+E/RIL     (  151): set_multiclient_fd_set:
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  251): **RIL Daemon Started**
+E/RILD    (  251): **RILd param count=1**
+E/RILD    (  251): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  281): **RIL Daemon Started**
+E/RILD    (  281): **RILd param count=1**
+E/RILD    (  281): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  364): **RIL Daemon Started**
+E/RILD    (  364): **RILd param count=1**
+E/RILD    (  364): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  405): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  405): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  405): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  405): Network Mode set to 7
+D/RILB    (  405): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  405): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  405): Cdma Subscription set to 0
+D/RILJ    (  405): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  405): Starting RILReceiver
+D/RIL_UiccManager(  405): Creating UiccManager
+D/RILB    (  405): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  405): Creating CDMALTEPhone
+D/PHONE   (  405): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  405): mCallRingDelay=3000
+D/PHONE   (  405): mOosIsDisconnect=true
+D/CDMA    (  405): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  405): setPhoneType=2 old value=0
+D/CDMA    (  405): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  405): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  405): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  405): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e1608} w=262149
+D/CDMA    (  405): [CdmaDC-1] clearSettings
+D/CDMA    (  405): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  405): [CdmaDCT] Fully connected
+D/RIL_IMS (  405): getEncoding should never be called from here!
+D/SMS     (  405): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  405): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  405): CdmaSMSDispatcher created
+D/SMS     (  405): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  405): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  405): Creating
+D/RIL_IccCardProxy(  405): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  405): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  405): Updating quiet mode
+D/RIL_IccCardProxy(  405): Switching to QuietMode.
+D/RIL_IccCardProxy(  405): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  405): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  578): **RIL Daemon Started**
+E/RILD    (  578): **RILd param count=1**
+E/RILD    (  578): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  550): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  550): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  550): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  550): Network Mode set to 7
+D/RILB    (  550): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  550): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  550): Cdma Subscription set to 0
+D/RILJ    (  550): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  550): Starting RILReceiver
+D/RIL_UiccManager(  550): Creating UiccManager
+D/RILB    (  550): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  550): Creating CDMALTEPhone
+D/PHONE   (  550): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  550): mCallRingDelay=3000
+D/PHONE   (  550): mOosIsDisconnect=true
+D/CDMA    (  550): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  550): setPhoneType=2 old value=0
+D/CDMA    (  550): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  550): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  550): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  550): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e4950} w=262149
+D/CDMA    (  550): [CdmaDC-1] clearSettings
+D/CDMA    (  550): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  550): [CdmaDCT] Fully connected
+D/RIL_IMS (  550): getEncoding should never be called from here!
+D/SMS     (  550): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  550): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  550): CdmaSMSDispatcher created
+D/SMS     (  550): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  550): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  550): Creating
+D/RIL_IccCardProxy(  550): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  550): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  550): Updating quiet mode
+D/RIL_IccCardProxy(  550): Switching to QuietMode.
+D/RIL_IccCardProxy(  550): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  550): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+I/RILJ    (  550): Couldn't find 'rild' socket; retrying after timeout
+E/RILD    (  756): **RIL Daemon Started**
+E/RILD    (  756): **RILd param count=1**
+E/RILD    (  756): **dl open failed **
+D/RILB    (  743): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  743): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  743): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  743): Network Mode set to 7
+D/RILB    (  743): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  743): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  743): Cdma Subscription set to 0
+D/RILJ    (  743): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  743): Starting RILReceiver
+D/RIL_UiccManager(  743): Creating UiccManager
+D/RILB    (  743): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  743): Creating CDMALTEPhone
+D/PHONE   (  743): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  743): mCallRingDelay=3000
+D/PHONE   (  743): mOosIsDisconnect=true
+D/CDMA    (  743): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  743): setPhoneType=2 old value=0
+D/CDMA    (  743): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  743): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  743): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  743): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d4e38} w=262149
+D/CDMA    (  743): [CdmaDC-1] clearSettings
+D/CDMA    (  743): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  743): [CdmaDCT] Fully connected
+D/RIL_IMS (  743): getEncoding should never be called from here!
+D/SMS     (  743): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  743): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  743): CdmaSMSDispatcher created
+D/SMS     (  743): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  743): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  743): Creating
+D/RIL_IccCardProxy(  743): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  743): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  743): Updating quiet mode
+D/RIL_IccCardProxy(  743): Switching to QuietMode.
+D/RIL_IccCardProxy(  743): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  743): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+D/RILB    (  799): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  799): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  799): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  799): Network Mode set to 7
+D/RILB    (  799): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  799): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  799): Cdma Subscription set to 0
+D/RILJ    (  799): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  799): Starting RILReceiver
+D/RIL_UiccManager(  799): Creating UiccManager
+D/RILB    (  799): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  799): Creating CDMALTEPhone
+D/PHONE   (  799): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  799): mCallRingDelay=3000
+D/PHONE   (  799): mOosIsDisconnect=true
+D/CDMA    (  799): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  799): setPhoneType=2 old value=0
+D/CDMA    (  799): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  799): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  799): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  799): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d3a20} w=262149
+D/CDMA    (  799): [CdmaDC-1] clearSettings
+D/CDMA    (  799): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  799): [CdmaDCT] Fully connected
+D/RIL_IMS (  799): getEncoding should never be called from here!
+D/SMS     (  799): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  799): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  799): CdmaSMSDispatcher created
+D/SMS     (  799): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  799): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  799): Creating
+D/RIL_IccCardProxy(  799): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  799): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  799): Updating quiet mode
+D/RIL_IccCardProxy(  799): Switching to QuietMode.
+D/RIL_IccCardProxy(  799): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  799): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  839): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  839): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  839): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  839): Network Mode set to 7
+D/RILB    (  839): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  839): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  839): Cdma Subscription set to 0
+D/RILJ    (  839): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  839): Starting RILReceiver
+D/RIL_UiccManager(  839): Creating UiccManager
+D/RILB    (  839): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  839): Creating CDMALTEPhone
+D/PHONE   (  839): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  839): mCallRingDelay=3000
+D/PHONE   (  839): mOosIsDisconnect=true
+D/CDMA    (  839): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  839): setPhoneType=2 old value=0
+D/CDMA    (  839): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  839): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  839): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  839): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d8518} w=262149
+D/CDMA    (  839): [CdmaDC-1] clearSettings
+D/CDMA    (  839): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  839): [CdmaDCT] Fully connected
+D/RIL_IMS (  839): getEncoding should never be called from here!
+D/SMS     (  839): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  839): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  839): CdmaSMSDispatcher created
+D/SMS     (  839): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  839): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  839): Creating
+D/RIL_IccCardProxy(  839): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  839): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  839): Updating quiet mode
+D/RIL_IccCardProxy(  839): Switching to QuietMode.
+D/RIL_IccCardProxy(  839): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  839): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILD    (  860): **RIL Daemon Started**
+E/RILD    (  860): **RILd param count=1**
+E/RILD    (  860): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  863): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  863): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  863): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  863): Network Mode set to 7
+D/RILB    (  863): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  863): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  863): Cdma Subscription set to 0
+D/RILJ    (  863): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  863): Starting RILReceiver
+D/RIL_UiccManager(  863): Creating UiccManager
+D/RILB    (  863): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  863): Creating CDMALTEPhone
+D/PHONE   (  863): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  863): mCallRingDelay=3000
+D/PHONE   (  863): mOosIsDisconnect=true
+D/CDMA    (  863): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  863): setPhoneType=2 old value=0
+D/CDMA    (  863): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  863): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  863): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  863): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d7d08} w=262149
+D/CDMA    (  863): [CdmaDC-1] clearSettings
+D/CDMA    (  863): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  863): [CdmaDCT] Fully connected
+D/RIL_IMS (  863): getEncoding should never be called from here!
+D/SMS     (  863): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  863): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  863): CdmaSMSDispatcher created
+D/SMS     (  863): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  863): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  863): Creating
+D/RIL_IccCardProxy(  863): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  863): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  863): Updating quiet mode
+D/RIL_IccCardProxy(  863): Switching to QuietMode.
+D/RIL_IccCardProxy(  863): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  863): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  890): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  890): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  890): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  890): Network Mode set to 7
+D/RILB    (  890): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  890): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  890): Cdma Subscription set to 0
+D/RILJ    (  890): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  890): Starting RILReceiver
+D/RIL_UiccManager(  890): Creating UiccManager
+D/RILB    (  890): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  890): Creating CDMALTEPhone
+D/PHONE   (  890): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  890): mCallRingDelay=3000
+D/PHONE   (  890): mOosIsDisconnect=true
+D/CDMA    (  890): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  890): setPhoneType=2 old value=0
+D/CDMA    (  890): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  890): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  890): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  890): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412da1f0} w=262149
+D/CDMA    (  890): [CdmaDC-1] clearSettings
+D/CDMA    (  890): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  890): [CdmaDCT] Fully connected
+D/RIL_IMS (  890): getEncoding should never be called from here!
+D/SMS     (  890): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  890): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  890): CdmaSMSDispatcher created
+D/SMS     (  890): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  890): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  890): Creating
+D/RIL_IccCardProxy(  890): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  890): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  890): Updating quiet mode
+D/RIL_IccCardProxy(  890): Switching to QuietMode.
+D/RIL_IccCardProxy(  890): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  890): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  911): **RIL Daemon Started**
+E/RILD    (  911): **RILd param count=1**
+E/RILD    (  911): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  912): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  912): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  912): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  912): Network Mode set to 7
+D/RILB    (  912): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  912): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  912): Cdma Subscription set to 0
+D/RILJ    (  912): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  912): Starting RILReceiver
+D/RIL_UiccManager(  912): Creating UiccManager
+D/RILB    (  912): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  912): Creating CDMALTEPhone
+D/PHONE   (  912): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  912): mCallRingDelay=3000
+D/PHONE   (  912): mOosIsDisconnect=true
+D/CDMA    (  912): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  912): setPhoneType=2 old value=0
+D/CDMA    (  912): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  912): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  912): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  912): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d6868} w=262149
+D/CDMA    (  912): [CdmaDC-1] clearSettings
+D/CDMA    (  912): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  912): [CdmaDCT] Fully connected
+D/RIL_IMS (  912): getEncoding should never be called from here!
+D/SMS     (  912): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  912): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  912): CdmaSMSDispatcher created
+D/SMS     (  912): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  912): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  912): Creating
+D/RIL_IccCardProxy(  912): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  912): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  912): Updating quiet mode
+D/RIL_IccCardProxy(  912): Switching to QuietMode.
+D/RIL_IccCardProxy(  912): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  912): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  943): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  943): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  943): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  943): Network Mode set to 7
+D/RILB    (  943): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  943): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  943): Cdma Subscription set to 0
+D/RILJ    (  943): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  943): Starting RILReceiver
+D/RIL_UiccManager(  943): Creating UiccManager
+D/RILB    (  943): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  943): Creating CDMALTEPhone
+D/PHONE   (  943): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  943): mCallRingDelay=3000
+D/PHONE   (  943): mOosIsDisconnect=true
+D/CDMA    (  943): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  943): setPhoneType=2 old value=0
+D/CDMA    (  943): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  943): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  943): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  943): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412dd3b8} w=262149
+D/CDMA    (  943): [CdmaDC-1] clearSettings
+D/CDMA    (  943): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  943): [CdmaDCT] Fully connected
+D/RIL_IMS (  943): getEncoding should never be called from here!
+D/SMS     (  943): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  943): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  943): CdmaSMSDispatcher created
+E/RILD    (  962): **RIL Daemon Started**
+E/RILD    (  962): **RILd param count=1**
+E/RILD    (  962): **dl open failed **
+D/SMS     (  943): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  943): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  943): Creating
+D/RIL_IccCardProxy(  943): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  943): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  943): Updating quiet mode
+D/RIL_IccCardProxy(  943): Switching to QuietMode.
+D/RIL_IccCardProxy(  943): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  943): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  966): **RIL Daemon Started**
+E/RILD    (  966): **RILd param count=1**
+E/RILD    (  966): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    (  969): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  969): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  969): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  969): Network Mode set to 7
+D/RILB    (  969): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  969): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  969): Cdma Subscription set to 0
+D/RILJ    (  969): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  969): Starting RILReceiver
+D/RIL_UiccManager(  969): Creating UiccManager
+D/RILB    (  969): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  969): Creating CDMALTEPhone
+D/PHONE   (  969): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  969): mCallRingDelay=3000
+D/PHONE   (  969): mOosIsDisconnect=true
+D/CDMA    (  969): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  969): setPhoneType=2 old value=0
+D/CDMA    (  969): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  969): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  969): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  969): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d2940} w=262149
+D/CDMA    (  969): [CdmaDC-1] clearSettings
+D/CDMA    (  969): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  969): [CdmaDCT] Fully connected
+D/RIL_IMS (  969): getEncoding should never be called from here!
+D/SMS     (  969): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  969): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  969): CdmaSMSDispatcher created
+D/SMS     (  969): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  969): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  969): Creating
+D/RIL_IccCardProxy(  969): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  969): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  969): Updating quiet mode
+D/RIL_IccCardProxy(  969): Switching to QuietMode.
+D/RIL_IccCardProxy(  969): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  969): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    (  995): **RIL Daemon Started**
+E/RILD    (  995): **RILd param count=1**
+E/RILD    (  995): **dl open failed **
+D/RILB    (  996): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    (  996): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    (  996): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  996): Network Mode set to 7
+D/RILB    (  996): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  996): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   (  996): Cdma Subscription set to 0
+D/RILJ    (  996): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    (  996): Starting RILReceiver
+D/RIL_UiccManager(  996): Creating UiccManager
+D/RILB    (  996): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   (  996): Creating CDMALTEPhone
+D/PHONE   (  996): mDoesRilSendMultipleCallRing=false
+D/PHONE   (  996): mCallRingDelay=3000
+D/PHONE   (  996): mOosIsDisconnect=true
+D/CDMA    (  996): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    (  996): setPhoneType=2 old value=0
+D/CDMA    (  996): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    (  996): [CdmaDC-1] DataConnection constructor E
+D/CDMA    (  996): [CdmaDC-1] DataConnection constructor X
+D/RILB    (  996): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e0540} w=262149
+D/CDMA    (  996): [CdmaDC-1] clearSettings
+D/CDMA    (  996): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    (  996): [CdmaDCT] Fully connected
+D/RIL_IMS (  996): getEncoding should never be called from here!
+D/SMS     (  996): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     (  996): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    (  996): CdmaSMSDispatcher created
+D/SMS     (  996): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     (  996): GsmSMSDispatcher created
+D/RIL_IccCardProxy(  996): Creating
+D/RIL_IccCardProxy(  996): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy(  996): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy(  996): Updating quiet mode
+D/RIL_IccCardProxy(  996): Switching to QuietMode.
+D/RIL_IccCardProxy(  996): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy(  996): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1017): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1017): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1017): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1017): Network Mode set to 7
+D/RILB    ( 1017): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1017): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1017): Cdma Subscription set to 0
+D/RILJ    ( 1017): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1017): Starting RILReceiver
+D/RIL_UiccManager( 1017): Creating UiccManager
+D/RILB    ( 1017): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1017): Creating CDMALTEPhone
+D/PHONE   ( 1017): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1017): mCallRingDelay=3000
+D/PHONE   ( 1017): mOosIsDisconnect=true
+D/CDMA    ( 1017): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1017): setPhoneType=2 old value=0
+D/CDMA    ( 1017): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1017): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1017): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1017): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e9938} w=262149
+D/CDMA    ( 1017): [CdmaDC-1] clearSettings
+D/CDMA    ( 1017): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1017): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1017): getEncoding should never be called from here!
+D/SMS     ( 1017): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1017): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1017): CdmaSMSDispatcher created
+D/SMS     ( 1017): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1017): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1017): Creating
+D/RIL_IccCardProxy( 1017): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1017): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1017): Updating quiet mode
+D/RIL_IccCardProxy( 1017): Switching to QuietMode.
+D/RIL_IccCardProxy( 1017): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1017): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    ( 1043): **RIL Daemon Started**
+E/RILD    ( 1043): **RILd param count=1**
+E/RILD    ( 1043): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1044): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1044): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1044): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1044): Network Mode set to 7
+D/RILB    ( 1044): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1044): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1044): Cdma Subscription set to 0
+D/RILJ    ( 1044): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1044): Starting RILReceiver
+D/RIL_UiccManager( 1044): Creating UiccManager
+D/RILB    ( 1044): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1044): Creating CDMALTEPhone
+D/PHONE   ( 1044): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1044): mCallRingDelay=3000
+D/PHONE   ( 1044): mOosIsDisconnect=true
+D/CDMA    ( 1044): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1044): setPhoneType=2 old value=0
+D/CDMA    ( 1044): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1044): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1044): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1044): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412eb090} w=262149
+D/CDMA    ( 1044): [CdmaDC-1] clearSettings
+D/CDMA    ( 1044): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1044): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1044): getEncoding should never be called from here!
+D/SMS     ( 1044): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1044): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1044): CdmaSMSDispatcher created
+D/SMS     ( 1044): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1044): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1044): Creating
+D/RIL_IccCardProxy( 1044): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1044): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1044): Updating quiet mode
+D/RIL_IccCardProxy( 1044): Switching to QuietMode.
+D/RIL_IccCardProxy( 1044): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1044): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1070): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1070): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1070): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1070): Network Mode set to 7
+D/RILB    ( 1070): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1070): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1070): Cdma Subscription set to 0
+D/RILJ    ( 1070): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1070): Starting RILReceiver
+D/RIL_UiccManager( 1070): Creating UiccManager
+D/RILB    ( 1070): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1070): Creating CDMALTEPhone
+D/PHONE   ( 1070): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1070): mCallRingDelay=3000
+D/PHONE   ( 1070): mOosIsDisconnect=true
+D/CDMA    ( 1070): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1070): setPhoneType=2 old value=0
+D/CDMA    ( 1070): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1070): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1070): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1070): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {41288710} w=262149
+D/CDMA    ( 1070): [CdmaDC-1] clearSettings
+D/CDMA    ( 1070): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1070): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1070): getEncoding should never be called from here!
+D/SMS     ( 1070): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1070): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1070): CdmaSMSDispatcher created
+D/SMS     ( 1070): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1070): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1070): Creating
+D/RIL_IccCardProxy( 1070): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1070): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1070): Updating quiet mode
+D/RIL_IccCardProxy( 1070): Switching to QuietMode.
+D/RIL_IccCardProxy( 1070): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1070): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    ( 1091): **RIL Daemon Started**
+E/RILD    ( 1091): **RILd param count=1**
+E/RILD    ( 1091): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1092): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1092): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1092): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1092): Network Mode set to 7
+D/RILB    ( 1092): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1092): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1092): Cdma Subscription set to 0
+D/RILJ    ( 1092): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1092): Starting RILReceiver
+D/RIL_UiccManager( 1092): Creating UiccManager
+D/RILB    ( 1092): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1092): Creating CDMALTEPhone
+D/PHONE   ( 1092): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1092): mCallRingDelay=3000
+D/PHONE   ( 1092): mOosIsDisconnect=true
+D/CDMA    ( 1092): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1092): setPhoneType=2 old value=0
+D/CDMA    ( 1092): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1092): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1092): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1092): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412dbe28} w=262149
+D/CDMA    ( 1092): [CdmaDC-1] clearSettings
+D/CDMA    ( 1092): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1092): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1092): getEncoding should never be called from here!
+D/SMS     ( 1092): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1092): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1092): CdmaSMSDispatcher created
+D/SMS     ( 1092): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1092): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1092): Creating
+D/RIL_IccCardProxy( 1092): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1092): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1092): Updating quiet mode
+D/RIL_IccCardProxy( 1092): Switching to QuietMode.
+D/RIL_IccCardProxy( 1092): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1092): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1118): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1118): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1118): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1118): Network Mode set to 7
+D/RILB    ( 1118): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1118): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1118): Cdma Subscription set to 0
+D/RILJ    ( 1118): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1118): Starting RILReceiver
+D/RIL_UiccManager( 1118): Creating UiccManager
+D/RILB    ( 1118): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1118): Creating CDMALTEPhone
+D/PHONE   ( 1118): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1118): mCallRingDelay=3000
+D/PHONE   ( 1118): mOosIsDisconnect=true
+D/CDMA    ( 1118): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1118): setPhoneType=2 old value=0
+D/CDMA    ( 1118): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1118): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1118): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1118): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d88d0} w=262149
+D/CDMA    ( 1118): [CdmaDC-1] clearSettings
+D/CDMA    ( 1118): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1118): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1118): getEncoding should never be called from here!
+D/SMS     ( 1118): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1118): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1118): CdmaSMSDispatcher created
+D/SMS     ( 1118): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1118): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1118): Creating
+D/RIL_IccCardProxy( 1118): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1118): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1118): Updating quiet mode
+D/RIL_IccCardProxy( 1118): Switching to QuietMode.
+D/RIL_IccCardProxy( 1118): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1118): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    ( 1139): **RIL Daemon Started**
+E/RILD    ( 1139): **RILd param count=1**
+E/RILD    ( 1139): **dl open failed **
+D/RILB    ( 1140): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1140): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1140): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1140): Network Mode set to 7
+D/RILB    ( 1140): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1140): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1140): Cdma Subscription set to 0
+D/RILJ    ( 1140): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1140): Starting RILReceiver
+D/RIL_UiccManager( 1140): Creating UiccManager
+D/RILB    ( 1140): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1140): Creating CDMALTEPhone
+D/PHONE   ( 1140): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1140): mCallRingDelay=3000
+D/PHONE   ( 1140): mOosIsDisconnect=true
+D/CDMA    ( 1140): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1140): setPhoneType=2 old value=0
+D/CDMA    ( 1140): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1140): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1140): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1140): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412d1160} w=262149
+D/CDMA    ( 1140): [CdmaDC-1] clearSettings
+D/CDMA    ( 1140): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1140): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1140): getEncoding should never be called from here!
+D/SMS     ( 1140): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1140): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1140): CdmaSMSDispatcher created
+D/SMS     ( 1140): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1140): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1140): Creating
+D/RIL_IccCardProxy( 1140): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1140): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1140): Updating quiet mode
+D/RIL_IccCardProxy( 1140): Switching to QuietMode.
+D/RIL_IccCardProxy( 1140): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1140): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1168): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1168): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1168): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1168): Network Mode set to 7
+D/RILB    ( 1168): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1168): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1168): Cdma Subscription set to 0
+D/RILJ    ( 1168): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1168): Starting RILReceiver
+D/RIL_UiccManager( 1168): Creating UiccManager
+D/RILB    ( 1168): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1168): Creating CDMALTEPhone
+D/PHONE   ( 1168): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1168): mCallRingDelay=3000
+D/PHONE   ( 1168): mOosIsDisconnect=true
+D/CDMA    ( 1168): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1168): setPhoneType=2 old value=0
+D/CDMA    ( 1168): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1168): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1168): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1168): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e2b70} w=262149
+D/CDMA    ( 1168): [CdmaDC-1] clearSettings
+D/CDMA    ( 1168): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1168): [CdmaDCT] Fully connected
+E/RILD    ( 1187): **RIL Daemon Started**
+E/RILD    ( 1187): **RILd param count=1**
+E/RILD    ( 1187): **dl open failed **
+D/RIL_IMS ( 1168): getEncoding should never be called from here!
+D/SMS     ( 1168): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1168): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1168): CdmaSMSDispatcher created
+D/SMS     ( 1168): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1168): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1168): Creating
+D/RIL_IccCardProxy( 1168): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1168): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1168): Updating quiet mode
+D/RIL_IccCardProxy( 1168): Switching to QuietMode.
+D/RIL_IccCardProxy( 1168): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1168): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1190): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1190): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1190): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1190): Network Mode set to 7
+D/RILB    ( 1190): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1190): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1190): Cdma Subscription set to 0
+D/RILJ    ( 1190): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1190): Starting RILReceiver
+D/RIL_UiccManager( 1190): Creating UiccManager
+D/RILB    ( 1190): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1190): Creating CDMALTEPhone
+D/PHONE   ( 1190): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1190): mCallRingDelay=3000
+D/PHONE   ( 1190): mOosIsDisconnect=true
+D/CDMA    ( 1190): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1190): setPhoneType=2 old value=0
+D/CDMA    ( 1190): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1190): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1190): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1190): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e2e68} w=262149
+D/CDMA    ( 1190): [CdmaDC-1] clearSettings
+D/CDMA    ( 1190): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1190): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1190): getEncoding should never be called from here!
+D/SMS     ( 1190): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1190): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1190): CdmaSMSDispatcher created
+D/SMS     ( 1190): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1190): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1190): Creating
+D/RIL_IccCardProxy( 1190): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1190): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1190): Updating quiet mode
+D/RIL_IccCardProxy( 1190): Switching to QuietMode.
+D/RIL_IccCardProxy( 1190): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1190): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    ( 1216): **RIL Daemon Started**
+E/RILD    ( 1216): **RILd param count=1**
+E/RILD    ( 1216): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1218): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1218): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1218): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1218): Network Mode set to 7
+D/RILB    ( 1218): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1218): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1218): Cdma Subscription set to 0
+D/RILJ    ( 1218): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1218): Starting RILReceiver
+D/RIL_UiccManager( 1218): Creating UiccManager
+D/RILB    ( 1218): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1218): Creating CDMALTEPhone
+D/PHONE   ( 1218): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1218): mCallRingDelay=3000
+D/PHONE   ( 1218): mOosIsDisconnect=true
+D/CDMA    ( 1218): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1218): setPhoneType=2 old value=0
+D/CDMA    ( 1218): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1218): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1218): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1218): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e4aa8} w=262149
+D/CDMA    ( 1218): [CdmaDC-1] clearSettings
+D/CDMA    ( 1218): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1218): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1218): getEncoding should never be called from here!
+D/SMS     ( 1218): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1218): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1218): CdmaSMSDispatcher created
+D/SMS     ( 1218): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1218): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1218): Creating
+D/RIL_IccCardProxy( 1218): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1218): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1218): Updating quiet mode
+D/RIL_IccCardProxy( 1218): Switching to QuietMode.
+D/RIL_IccCardProxy( 1218): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1218): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1244): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1244): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1244): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1244): Network Mode set to 7
+D/RILB    ( 1244): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1244): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1244): Cdma Subscription set to 0
+D/RILJ    ( 1244): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1244): Starting RILReceiver
+D/RIL_UiccManager( 1244): Creating UiccManager
+D/RILB    ( 1244): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1244): Creating CDMALTEPhone
+D/PHONE   ( 1244): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1244): mCallRingDelay=3000
+D/PHONE   ( 1244): mOosIsDisconnect=true
+D/CDMA    ( 1244): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1244): setPhoneType=2 old value=0
+D/CDMA    ( 1244): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1244): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1244): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1244): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e6e70} w=262149
+D/CDMA    ( 1244): [CdmaDC-1] clearSettings
+D/CDMA    ( 1244): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1244): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1244): getEncoding should never be called from here!
+D/SMS     ( 1244): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1244): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1244): CdmaSMSDispatcher created
+D/SMS     ( 1244): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1244): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1244): Creating
+D/RIL_IccCardProxy( 1244): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1244): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1244): Updating quiet mode
+D/RIL_IccCardProxy( 1244): Switching to QuietMode.
+D/RIL_IccCardProxy( 1244): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1244): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILD    ( 1265): **RIL Daemon Started**
+E/RILD    ( 1265): **RILd param count=1**
+E/RILD    ( 1265): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1267): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1267): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1267): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1267): Network Mode set to 7
+D/RILB    ( 1267): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1267): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1267): Cdma Subscription set to 0
+D/RILJ    ( 1267): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1267): Starting RILReceiver
+D/RIL_UiccManager( 1267): Creating UiccManager
+D/RILB    ( 1267): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1267): Creating CDMALTEPhone
+D/PHONE   ( 1267): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1267): mCallRingDelay=3000
+D/PHONE   ( 1267): mOosIsDisconnect=true
+D/CDMA    ( 1267): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1267): setPhoneType=2 old value=0
+D/CDMA    ( 1267): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1267): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1267): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1267): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e8510} w=262149
+D/CDMA    ( 1267): [CdmaDC-1] clearSettings
+D/CDMA    ( 1267): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1267): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1267): getEncoding should never be called from here!
+D/SMS     ( 1267): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1267): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1267): CdmaSMSDispatcher created
+D/SMS     ( 1267): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1267): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1267): Creating
+D/RIL_IccCardProxy( 1267): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1267): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1267): Updating quiet mode
+D/RIL_IccCardProxy( 1267): Switching to QuietMode.
+D/RIL_IccCardProxy( 1267): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1267): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1294): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1294): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1294): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1294): Network Mode set to 7
+D/RILB    ( 1294): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1294): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1294): Cdma Subscription set to 0
+D/RILJ    ( 1294): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1294): Starting RILReceiver
+D/RIL_UiccManager( 1294): Creating UiccManager
+D/RILB    ( 1294): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1294): Creating CDMALTEPhone
+D/PHONE   ( 1294): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1294): mCallRingDelay=3000
+D/PHONE   ( 1294): mOosIsDisconnect=true
+D/CDMA    ( 1294): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1294): setPhoneType=2 old value=0
+D/CDMA    ( 1294): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1294): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1294): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1294): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412ea048} w=262149
+D/CDMA    ( 1294): [CdmaDC-1] clearSettings
+D/CDMA    ( 1294): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1294): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1294): getEncoding should never be called from here!
+D/SMS     ( 1294): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1294): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1294): CdmaSMSDispatcher created
+D/SMS     ( 1294): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1294): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1294): Creating
+D/RIL_IccCardProxy( 1294): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1294): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1294): Updating quiet mode
+D/RIL_IccCardProxy( 1294): Switching to QuietMode.
+D/RIL_IccCardProxy( 1294): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1294): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILD    ( 1315): **RIL Daemon Started**
+E/RILD    ( 1315): **RILd param count=1**
+E/RILD    ( 1315): **dl open failed **
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1316): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1316): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1316): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1316): Network Mode set to 7
+D/RILB    ( 1316): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1316): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1316): Cdma Subscription set to 0
+D/RILJ    ( 1316): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1316): Starting RILReceiver
+D/RIL_UiccManager( 1316): Creating UiccManager
+D/RILB    ( 1316): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1316): Creating CDMALTEPhone
+D/PHONE   ( 1316): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1316): mCallRingDelay=3000
+D/PHONE   ( 1316): mOosIsDisconnect=true
+D/CDMA    ( 1316): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1316): setPhoneType=2 old value=0
+D/CDMA    ( 1316): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1316): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1316): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1316): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e2ce8} w=262149
+D/CDMA    ( 1316): [CdmaDC-1] clearSettings
+D/CDMA    ( 1316): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1316): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1316): getEncoding should never be called from here!
+D/SMS     ( 1316): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1316): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1316): CdmaSMSDispatcher created
+D/SMS     ( 1316): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1316): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1316): Creating
+D/RIL_IccCardProxy( 1316): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1316): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1316): Updating quiet mode
+D/RIL_IccCardProxy( 1316): Switching to QuietMode.
+D/RIL_IccCardProxy( 1316): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1316): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1343): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1343): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1343): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1343): Network Mode set to 7
+D/RILB    ( 1343): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1343): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1343): Cdma Subscription set to 0
+D/RILJ    ( 1343): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1343): Starting RILReceiver
+D/RIL_UiccManager( 1343): Creating UiccManager
+D/RILB    ( 1343): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1343): Creating CDMALTEPhone
+D/PHONE   ( 1343): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1343): mCallRingDelay=3000
+D/PHONE   ( 1343): mOosIsDisconnect=true
+D/CDMA    ( 1343): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1343): setPhoneType=2 old value=0
+D/CDMA    ( 1343): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1343): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1343): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1343): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {412e3a68} w=262149
+D/CDMA    ( 1343): [CdmaDC-1] clearSettings
+D/CDMA    ( 1343): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1343): [CdmaDCT] Fully connected
+E/RILD    ( 1362): **RIL Daemon Started**
+E/RILD    ( 1362): **RILd param count=1**
+E/RILD    ( 1362): **dl open failed **
+D/RIL_IMS ( 1343): getEncoding should never be called from here!
+D/SMS     ( 1343): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1343): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1343): CdmaSMSDispatcher created
+D/SMS     ( 1343): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1343): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1343): Creating
+D/RIL_IccCardProxy( 1343): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1343): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1343): Updating quiet mode
+D/RIL_IccCardProxy( 1343): Switching to QuietMode.
+D/RIL_IccCardProxy( 1343): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1343): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
+D/RILB    ( 1365): /proc/cmdline=androidboot.hardware=qcom msm_watchdog.appsbark=0 msm_watchdog.enable=1 loglevel=4 sec_log=0x80000@0x40184008 sec_dbg=0x100000@0x4020400c sec_debug.reset_reason=0x1a2b3c00 console=null sec_debug.enable=0 sec_debug.enable_user=0 vmalloc=432m hw_rev=13 androidboot.emmc=true androidboot.serialno=34de036a androidboot.baseband=csfb
+D/RILB    ( 1365): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+D/RILB    ( 1365): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1365): Network Mode set to 7
+D/RILB    ( 1365): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1365): lteOnCdma is 1 use SUBSCRIPTION_FROM_RUIM
+I/PHONE   ( 1365): Cdma Subscription set to 0
+D/RILJ    ( 1365): RIL(context, preferredNetworkType=7 cdmaSubscription=0)
+D/RILJ    ( 1365): Starting RILReceiver
+D/RIL_UiccManager( 1365): Creating UiccManager
+D/RILB    ( 1365): getLteOnCdmaMode=1 curVal=-1 product_type='' lteOnCdmaProductType=''
+I/PHONE   ( 1365): Creating CDMALTEPhone
+D/PHONE   ( 1365): mDoesRilSendMultipleCallRing=false
+D/PHONE   ( 1365): mCallRingDelay=3000
+D/PHONE   ( 1365): mOosIsDisconnect=true
+D/CDMA    ( 1365): [CdmaLteSST] CdmaLteServiceStateTracker Constructors
+D/RILJ    ( 1365): setPhoneType=2 old value=0
+D/CDMA    ( 1365): [CdmaDataProfileTracker] SUPPORT_OMH: false
+D/CDMA    ( 1365): [CdmaDC-1] DataConnection constructor E
+D/CDMA    ( 1365): [CdmaDC-1] DataConnection constructor X
+D/RILB    ( 1365): registerForRilConnected h=Handler (com.android.internal.util.StateMachine$SmHandler) {41285bc8} w=262149
+D/CDMA    ( 1365): [CdmaDC-1] clearSettings
+D/CDMA    ( 1365): [CdmaDC-1] Made CdmaDC-1
+D/CDMA    ( 1365): [CdmaDCT] Fully connected
+D/RIL_IMS ( 1365): getEncoding should never be called from here!
+D/SMS     ( 1365): SMSDispatcher: ctor mSmsCapable=true format=null mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/SMS     ( 1365): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/CDMA    ( 1365): CdmaSMSDispatcher created
+D/SMS     ( 1365): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsReceiveDisabled=false mSmsSendDisabled=false
+D/GSM     ( 1365): GsmSMSDispatcher created
+D/RIL_IccCardProxy( 1365): Creating
+D/RIL_IccCardProxy( 1365): Broadcasting intent ACTION_SIM_STATE_CHANGED NOT_READY reason null
+D/RIL_IccCardProxy( 1365): Setting radio tech RADIO_TECH_1xRTT
+D/RIL_IccCardProxy( 1365): Updating quiet mode
+D/RIL_IccCardProxy( 1365): Switching to QuietMode.
+D/RIL_IccCardProxy( 1365): Broadcasting intent ACTION_SIM_STATE_CHANGED READY reason null
+D/RIL_IccCardProxy( 1365): QuietMode is true (app_type: APP_FAM_3GPP2 nv: true multimode: false)
+E/RILClient(  163): Connect_RILD: Connecting failed. Connection refused(111)
