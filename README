@@ -26,10 +26,10 @@ Current things that I'm working on fixing + possible solutions:
 /system/lib/libsecril-client.so
 /system/lib/libhardware_legacy.so
 
-Copying over libhardware_legacy.so breaks the build at the moment.
+I did all this, but it's still not working. Unfortunate.
 
 
 2) Sdcard: Maybe try following the instructions here -----> http://forum.xda-developers.com/showthread.php?t=1545801
    and here -------> http://forum.xda-developers.com/showpost.php?p=23191224&postcount=263
 
-3) Sound: If someone can find me a 'libasound.so' file that'd be sweet.
+3) Sound: Topprospect is working on this I believe.
