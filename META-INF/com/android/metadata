@@ -1,3 +1,3 @@
-post-build=qcom/msm8660_surf/msm8660_surf:4.0.3/IML74K/eng.joey.20120210.232528:eng/test-keys
-post-timestamp=1328934829
+post-build=qcom/msm8660_surf/msm8660_surf:4.0.3/IML74K/eng.joey.20120218.175239:eng/test-keys
+post-timestamp=1329605711
 pre-device=msm8660_surf
