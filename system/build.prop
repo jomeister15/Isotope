@@ -158,3 +158,4 @@ dalvik.vm.heapsize=256m
 ro.kernel.android.checkjni=1
 net.bt.name=Android
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
+persist.sys.usb.config=mass_storage
