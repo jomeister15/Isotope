@@ -7,29 +7,12 @@ Please feel free to add yourself as a contributor... I'll take all the help I ca
 
 Current things that I'm working on fixing + possible solutions:
 
-1) Wifi: Here's a list of files topprospect added to his GB AOSP build in order to get wifi working
-
-/system/etc/wifi/bcm4330_aps.bin
-/system/etc/wifi/bcm4330_mfg.bin
-/system/etc/wifi/bcm4330_sta.bin
-/system/etc/wifi/default_ap.conf
-/system/etc/wifi/default_ap_delete
-/system/etc/wifi/nvram_mfg.txt
-/system/etc/wifi/nvram_mfg.txt_murata
-/system/etc/wifi/nvram_net.txt
-/system/etc/wifi/nvram_net.txt_murata
-/system/etc/wifi/wifi.conf
-/system/etc/wifi/wl
-/system/etc/wifi/wpa_supplicant.conf
-/system/bin/BCM4330B1_002.001.003.0419.0450.hcd
-/system/bin/wpa_supplicant
-/system/lib/libsecril-client.so
-/system/lib/libhardware_legacy.so
-
-I did all this, but it's still not working. Unfortunate.
+1) Wifi: Fixed
 
 
-2) Sdcard: Maybe try following the instructions here -----> http://forum.xda-developers.com/showthread.php?t=1545801
+2) Internal_Sdcard: Maybe try following the instructions here -----> http://forum.xda-developers.com/showthread.php?t=1545801
    and here -------> http://forum.xda-developers.com/showpost.php?p=23191224&postcount=263
 
-3) Sound: Topprospect is working on this I believe.
+3) Sound: Working on it.
+
+4) Data: Framework.jar edits perhaps?
